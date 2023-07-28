@@ -1,9 +1,9 @@
-export const extractCookie = (response: Response): string | null => {
+export const extractCookie = (response: Response): string | undefined => {
   const cookies = response.headers.get('set-cookie')
 
   const sessionCookie = cookies
     ?.split(';')
     .find((cookie) => cookie.includes('JSESSIONID='))
 
-  return sessionCookie ?? null
+  return sessionCookie
 }
