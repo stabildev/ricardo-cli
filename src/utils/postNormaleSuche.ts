@@ -56,7 +56,7 @@ export const postNormaleSuche = async ({
       method: 'POST',
       headers: headers,
       body: urlencodedData.toString(),
-      redirect: 'manual',
+      redirect: 'follow',
     }
   )
 }

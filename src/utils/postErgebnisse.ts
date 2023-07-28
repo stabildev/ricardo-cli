@@ -1,5 +1,3 @@
-import { exit } from 'process'
-
 export const postErgebnisse = async ({
   viewState,
   cookie,

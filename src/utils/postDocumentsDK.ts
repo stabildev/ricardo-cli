@@ -1,4 +1,3 @@
-// Action is either 'select' or 'submit'
 export const postDocumentsDK = async ({
   viewState,
   cookie,
