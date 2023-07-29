@@ -1,40 +1,25 @@
 import fs from 'fs'
 
-import { RegistryDocument, RegistryType } from '../types'
+import { CompanySearchResult, RegistryDocument, RegistryType } from '../types'
 import { postChargeInfo, postDocumentsDK, postErgebnisse } from './requests'
 import { searchCompany } from './searchCompany'
 
-export const fetchDocuments = async ({
+export const fetchDocumentsWithViewState = async ({
   documents,
   dkDocumentSelections,
-  cookie: originalCookie,
-  companyName,
-  registryNumber,
-  registryType,
+  company,
+  viewState,
+  cookie,
   asZip = false,
 }: {
   documents: RegistryDocument[]
   dkDocumentSelections?: string[]
-  cookie?: string
-  companyName: string
-  registryNumber: string
-  registryType: RegistryType
+  company: CompanySearchResult
+  viewState: string
+  cookie: string
   asZip?: boolean
-}): Promise<number> => {
-  const { results, cookie, viewState } = await searchCompany({
-    queryString: companyName,
-    registryNumber,
-    registryType,
-    cookie: originalCookie,
-  })
-
-  let company = results[0]
-
-  if (!company) {
-    throw new Error('No company found!')
-  }
-
-  let counter = 0
+}): Promise<string[]> => {
+  let fileNames: string[] = []
 
   for (const documentType of documents ?? []) {
     for (const selection of documentType === 'DK' &&
@@ -99,9 +84,47 @@ export const fetchDocuments = async ({
 
       const buffer = await response.arrayBuffer()
       fs.writeFileSync(`documents/${fileName}`, Buffer.from(buffer))
-      counter++
+      fileNames.push(fileName)
     }
   }
 
-  return counter
+  return fileNames
+}
+
+export const fetchDocuments = async ({
+  documents,
+  dkDocumentSelections,
+  cookie: originalCookie,
+  companyName,
+  registryNumber,
+  registryType,
+  asZip = false,
+}: {
+  documents: RegistryDocument[]
+  dkDocumentSelections?: string[]
+  cookie?: string
+  companyName: string
+  registryNumber: string
+  registryType: RegistryType
+  asZip?: boolean
+}): Promise<string[]> => {
+  const { results, cookie, viewState } = await searchCompany({
+    queryString: companyName,
+    registryNumber,
+    registryType,
+    cookie: originalCookie,
+  })
+  let company = results[0]
+  if (!company) {
+    throw new Error('No company found!')
+  }
+
+  return await fetchDocumentsWithViewState({
+    documents,
+    dkDocumentSelections,
+    company,
+    viewState,
+    cookie,
+    asZip,
+  })
 }
