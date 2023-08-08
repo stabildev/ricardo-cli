@@ -1,13 +1,16 @@
 import { RegistryDocument } from './types'
-import { fetchDocuments } from './utils/fetchDocuments'
+import {
+  fetchDocuments,
+  fetchDocumentsWithViewState,
+} from './utils/fetchDocuments'
 import { searchCompany } from './utils/searchCompany'
 
 const main = async () => {
   // Search for company
-  const query = 'cargokite'
+  const query = 'apple'
   console.log(`Searching for ${query}...`)
   let startTime = Date.now()
-  const { results, cookie } = await searchCompany({
+  const { results, cookie, viewState } = await searchCompany({
     queryString: query,
   })
   let endTime = Date.now()
@@ -24,18 +27,20 @@ const main = async () => {
   // Select first company and download documents
   const company = results[0]
   const { companyName, registryNumber, registryType } = company
-  const documents: RegistryDocument[] = ['SI', 'AD', 'DK'] // Strukturierter Inhalt, Aktueller Abdruck, DK-Dokumente
-  const dkDocuments = ['0_0_0_0', '0_0_1_0'] // i.d.R. Gesellschaftsvertrag, Gesellschafterliste
+  const documents: RegistryDocument[] = ['SI'] // ['SI', 'AD', 'DK'] // Strukturierter Inhalt, Aktueller Abdruck, DK-Dokumente
+  // const dkDocuments = ['0_0_0_0', '0_0_1_0'] // i.d.R. Gesellschaftsvertrag, Gesellschafterliste
 
   console.log(`Downloading documents for ${companyName}...`)
   startTime = Date.now()
-  const numberOfDocuments = await fetchDocuments({
+  const numberOfDocuments = await fetchDocumentsWithViewState({
     documents,
-    dkDocumentSelections: dkDocuments,
+    // dkDocumentSelections: dkDocuments,
     cookie,
-    companyName: companyName!,
-    registryNumber: registryNumber!,
-    registryType: registryType!,
+    viewState,
+    company,
+    // companyName: companyName!,
+    // registryNumber: registryNumber!,
+    // registryType: registryType!,
   })
   endTime = Date.now()
 
