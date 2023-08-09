@@ -35,8 +35,8 @@ export const searchCompany = async ({
 
   response = await getErgebnisse({ cookie })
   const text = await response.text()
-  let dom = new JSDOM(text)
-  let document = dom.window.document
+  const dom = new JSDOM(text)
+  const document = dom.window.document
 
   const results = parseSearchResults({ document, includeHistory })
   const viewState = extractViewState(document)

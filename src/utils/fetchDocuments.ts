@@ -1,5 +1,4 @@
 import fs from 'fs'
-
 import { CompanySearchResult, RegistryDocument, RegistryType } from '../types'
 import { postChargeInfo, postDocumentsDK, postErgebnisse } from './requests'
 import { searchCompany } from './searchCompany'
