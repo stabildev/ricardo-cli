@@ -1,13 +1,11 @@
-import { RegistryDocument } from './types'
-import {
-  fetchDocuments,
-  fetchDocumentsWithViewState,
-} from './utils/fetchDocuments'
-import { searchCompany } from './utils/searchCompany'
+import { RegistryDocument } from '../types'
+import { fetchDocuments, fetchDocumentsWithViewState } from '../fetchDocuments'
+import { searchCompany } from '../searchCompany'
+
+const query = 'apple'
 
 const main = async () => {
   // Search for company
-  const query = 'apple'
   console.log(`Searching for ${query}...`)
   let startTime = Date.now()
   const { results, cookie, viewState } = await searchCompany({

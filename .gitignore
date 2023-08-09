@@ -3,3 +3,7 @@
 documents/*
 node_modules/*
 .DS_Store
+
+cookie
+viewState
+results.json

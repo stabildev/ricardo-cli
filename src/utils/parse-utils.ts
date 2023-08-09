@@ -1,12 +1,16 @@
+import { JSDOM } from 'jsdom'
 import { CompanySearchResult, RegistryType } from '../types'
 
 export const parseSearchResults = ({
-  document,
+  html,
   includeHistory = false,
 }: {
-  document: Document
+  html: string
   includeHistory?: boolean
-}): CompanySearchResult[] => {
+}) => {
+  const dom = new JSDOM(html)
+  const document = dom.window.document
+
   let results: CompanySearchResult[] = []
 
   const companyRows = document.querySelectorAll(
@@ -88,7 +92,10 @@ export const parseSearchResults = ({
 
     results.push(company)
   }
-  return results
+
+  const viewState = extractViewState(document)
+
+  return { results, viewState }
 }
 
 export const extractUrlPathWithSecIp = (document: Document): string => {

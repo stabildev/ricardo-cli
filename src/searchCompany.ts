@@ -1,8 +1,7 @@
-import { JSDOM } from 'jsdom'
-import { CompanySearchResult, RegistryType } from '../types'
-import { extractCookie } from './cookies'
-import { getErgebnisse, postNormaleSuche } from './requests'
-import { extractViewState, parseSearchResults } from './parse-utils'
+import { CompanySearchResult, RegistryType } from './types'
+import { extractCookie } from './utils/extractCookie'
+import { getErgebnisse, postNormaleSuche } from './utils/requests'
+import { parseSearchResults } from './utils/parse-utils'
 
 export const searchCompany = async ({
   queryString,
@@ -34,12 +33,8 @@ export const searchCompany = async ({
   }
 
   response = await getErgebnisse({ cookie })
-  const text = await response.text()
-  const dom = new JSDOM(text)
-  const document = dom.window.document
-
-  const results = parseSearchResults({ document, includeHistory })
-  const viewState = extractViewState(document)
+  const html = await response.text()
+  const { results, viewState } = parseSearchResults({ html, includeHistory })
 
   return {
     results,

@@ -1,5 +1,7 @@
-import { searchCompany } from './utils/searchCompany'
-import { fetchDocumentsWithViewState } from './utils/fetchDocuments'
+import { searchCompany } from '../searchCompany'
+import { fetchDocumentsWithViewState } from '../fetchDocuments'
+
+// Search for company 'apple' and download 'SI' document
 
 // Wrapped in async function to use await
 const main = async () => {
@@ -12,7 +14,7 @@ const main = async () => {
     documents: ['SI'],
     cookie,
     viewState,
-    company: results[0],
+    company: results[0], // select first result
   })
 }
 

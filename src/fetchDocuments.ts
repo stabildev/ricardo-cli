@@ -1,8 +1,13 @@
-import fs from 'fs'
-import { CompanySearchResult, RegistryDocument, RegistryType } from '../types'
-import { postChargeInfo, postDocumentsDK, postErgebnisse } from './requests'
+import { CompanySearchResult, RegistryDocument, RegistryType } from './types'
+import {
+  postChargeInfo,
+  postDocumentsDK,
+  postErgebnisse,
+} from './utils/requests'
 import { searchCompany } from './searchCompany'
+import { downloadDocument } from './utils/downloadDocument'
 
+// Uses viewState, cookie and documentLink to download documents
 export const fetchDocumentsWithViewState = async ({
   documents,
   dkDocumentSelections,
@@ -54,27 +59,15 @@ export const fetchDocumentsWithViewState = async ({
 
       // Download document
       const response = await postChargeInfo({ viewState, cookie })
-      let fileName = `document-${Date.now()}`
-
-      const contentDisposition = response.headers.get('Content-Disposition')
-      if (contentDisposition) {
-        const filenameRegex = /filename[^;=\n]*=((['"]).*?\2|[^;\n]*)/
-        const matches = filenameRegex.exec(contentDisposition)
-        fileName =
-          matches && matches[1]
-            ? matches[1].replace(/['"]/g, '')
-            : `document-${Date.now()}}`
-      }
-
-      const buffer = await response.arrayBuffer()
-      fs.writeFileSync(`documents/${fileName}`, Buffer.from(buffer))
-      fileNames.push(fileName)
+      fileNames.push(await downloadDocument(response))
     }
   }
 
   return fileNames
 }
 
+// Performs a new search and calls fetchDocumentsWithViewState internally
+// Useful if you want to delegate a request to a proxy
 export const fetchDocuments = async ({
   documents,
   dkDocumentSelections,
