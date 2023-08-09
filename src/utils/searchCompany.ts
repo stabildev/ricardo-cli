@@ -28,26 +28,17 @@ export const searchCompany = async ({
     cookie,
   })
 
-  if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`)
-  }
-
   cookie = cookie ?? extractCookie(response)
   if (!cookie) {
     throw new Error('No cookie found!')
   }
 
   response = await getErgebnisse({ cookie })
-  if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`)
-  }
-
   const text = await response.text()
   let dom = new JSDOM(text)
   let document = dom.window.document
 
   const results = parseSearchResults({ document, includeHistory })
-
   const viewState = extractViewState(document)
 
   return {

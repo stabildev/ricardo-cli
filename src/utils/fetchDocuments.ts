@@ -29,47 +29,32 @@ export const fetchDocumentsWithViewState = async ({
       const documentLink = company.documentLinks[documentType]
       if (!documentLink) continue
 
-      let response = await postErgebnisse({
+      await postErgebnisse({
         cookie,
         viewState,
         documentLink,
       })
 
-      // Should return 302 Found
-      if (response.status !== 302) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-
       if (documentType === 'DK') {
         // Select document to download
-        response = await postDocumentsDK({
+        await postDocumentsDK({
           viewState,
           cookie,
           selection,
           action: 'select',
         })
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`)
-        }
 
-        response = await postDocumentsDK({
+        await postDocumentsDK({
           viewState,
           cookie,
           action: 'submit',
           selection,
           asZip,
         })
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`)
-        }
       }
 
       // Download document
-      response = await postChargeInfo({ viewState, cookie })
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`)
-      }
-
+      const response = await postChargeInfo({ viewState, cookie })
       let fileName = `document-${Date.now()}`
 
       const contentDisposition = response.headers.get('Content-Disposition')

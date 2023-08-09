@@ -53,7 +53,7 @@ export const postNormaleSuche = async ({
     'form:ergebnisseProSeite_input': '10',
   })
 
-  return await fetch(
+  const response = await fetch(
     'https://www.handelsregister.de/rp_web/normalesuche.xhtml',
     {
       method: 'POST',
@@ -62,6 +62,11 @@ export const postNormaleSuche = async ({
       redirect: 'follow',
     }
   )
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }
 
 export const getErgebnisse = async ({ cookie }: { cookie: string }) => {
@@ -84,11 +89,20 @@ export const getErgebnisse = async ({ cookie }: { cookie: string }) => {
     'Cookie': cookie,
   })
 
-  return await fetch('https://www.handelsregister.de/rp_web/ergebnisse.xhtml', {
-    method: 'GET',
-    headers: headers,
-    redirect: 'follow',
-  })
+  const response = await fetch(
+    'https://www.handelsregister.de/rp_web/ergebnisse.xhtml',
+    {
+      method: 'GET',
+      headers: headers,
+      redirect: 'follow',
+    }
+  )
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }
 
 export const postErgebnisse = async ({
@@ -129,14 +143,25 @@ export const postErgebnisse = async ({
     [documentLink]: documentLink,
   })
 
-  return await fetch('https://www.handelsregister.de/rp_web/ergebnisse.xhtml', {
-    method: 'POST',
-    headers: headers,
-    body: urlencodedData,
-    redirect: 'manual',
-  })
+  const response = await fetch(
+    'https://www.handelsregister.de/rp_web/ergebnisse.xhtml',
+    {
+      method: 'POST',
+      headers: headers,
+      body: urlencodedData,
+      redirect: 'manual',
+    }
+  )
+
+  // Should return 302 Found
+  if (response.status !== 302) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }
 
+// Not needed
 export const getDocumentsDK = async ({
   cookie,
 }: {
@@ -164,7 +189,7 @@ export const getDocumentsDK = async ({
     'sec-ch-ua-platform': '"macOS"',
   })
 
-  return await fetch(
+  const response = await fetch(
     'https://www.handelsregister.de/rp_web/documents-dk.xhtml',
     {
       method: 'GET',
@@ -172,6 +197,12 @@ export const getDocumentsDK = async ({
       redirect: 'follow',
     }
   )
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }
 
 export const postDocumentsDK = async ({
@@ -241,7 +272,7 @@ export const postDocumentsDK = async ({
           'dk_form:radio_dkbuttons': asZip.toString(),
         })
 
-  return await fetch(
+  const response = await fetch(
     'https://www.handelsregister.de/rp_web/documents-dk.xhtml',
     {
       method: 'POST',
@@ -249,8 +280,15 @@ export const postDocumentsDK = async ({
       body: urlencodedData.toString(),
     }
   )
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }
 
+// Not needed
 export const getChargeInfo = async ({
   cookie,
 }: {
@@ -276,11 +314,20 @@ export const getChargeInfo = async ({
     'Cookie': cookie,
   })
 
-  return await fetch('https://www.handelsregister.de/rp_web/chargeinfo.xhtml', {
-    method: 'GET',
-    headers,
-    redirect: 'follow',
-  })
+  const response = await fetch(
+    'https://www.handelsregister.de/rp_web/chargeinfo.xhtml',
+    {
+      method: 'GET',
+      headers,
+      redirect: 'follow',
+    }
+  )
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }
 
 export const postChargeInfo = async ({
@@ -320,10 +367,19 @@ export const postChargeInfo = async ({
     'form:kostenpflichtigabrufen': '',
   })
 
-  return await fetch('https://www.handelsregister.de/rp_web/chargeinfo.xhtml', {
-    method: 'POST',
-    headers,
-    body: urlencodedData,
-    redirect: 'follow',
-  })
+  const response = await fetch(
+    'https://www.handelsregister.de/rp_web/chargeinfo.xhtml',
+    {
+      method: 'POST',
+      headers,
+      body: urlencodedData,
+      redirect: 'follow',
+    }
+  )
+
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
+
+  return response
 }

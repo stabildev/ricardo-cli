@@ -1,13 +1,19 @@
-import express from 'express'
-import 'dotenv/config'
+import { searchCompany } from './utils/searchCompany'
+import { fetchDocumentsWithViewState } from './utils/fetchDocuments'
 
-const app = express()
-const port = process.env.PORT || 3000
+// Wrapped in async function to use await
+const main = async () => {
+  const { results, cookie, viewState } = await searchCompany({
+    queryString: 'apple',
+  })
 
-app.get('/', (req, res) => {
-  res.send('My API is alive! 😍')
-})
+  // Documents will be saved to documents folder
+  fetchDocumentsWithViewState({
+    documents: ['SI'],
+    cookie,
+    viewState,
+    company: results[0],
+  })
+}
 
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`)
-})
+main()
