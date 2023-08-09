@@ -49,10 +49,10 @@ export const parseSearchResults = ({
     // Use spans instead of links because not all links are available
     const documentLinks = [...secondRowCells[3].querySelectorAll('span')].map(
       (span) => [
-        span.textContent,
-        (span.parentNode as HTMLElement).tagName === 'A'
-          ? (span.parentNode as HTMLElement).id
-          : undefined,
+        span.textContent, // e.g. "AD", "SI", "DK"
+        (span.parentNode as HTMLElement).tagName === 'A' // is the parent node a link?
+          ? (span.parentNode as HTMLElement).id // if so, get the "documentLink" value (the link's id)
+          : undefined, // otherwise, the document is not available and thus the link is undefined
       ]
     )
 
