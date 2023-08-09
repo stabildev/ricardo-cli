@@ -11,7 +11,7 @@ export const searchCompany = async ({
   cookie,
   includeHistory = false,
 }: {
-  queryString?: string
+  queryString: string
   registryType?: RegistryType
   registryNumber?: string
   cookie?: string
