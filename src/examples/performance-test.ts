@@ -1,5 +1,5 @@
 import { RegistryDocument } from '../types'
-import { fetchDocuments, fetchDocumentsWithViewState } from '../fetchDocuments'
+import { fetchDocumentsWithViewState } from '../fetchDocuments'
 import { searchCompany } from '../searchCompany'
 
 const query = 'apple'

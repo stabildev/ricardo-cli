@@ -9,7 +9,7 @@ function withRetry<T>(fetchFn: () => Promise<T>): () => Promise<T> {
       try {
         const result = await fetchFn()
         return result
-      } catch (error) {
+      } catch (error: any) {
         console.error(`Fetch failed: ${error.message}`)
         retries++
         await new Promise((resolve) => setTimeout(resolve, RETRY_DELAY_MS))

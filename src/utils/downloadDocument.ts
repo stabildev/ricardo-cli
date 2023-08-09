@@ -1,4 +1,4 @@
-import fs from 'fs'
+import * as fs from 'fs'
 
 export const downloadDocument = async (response: Response) => {
   // Download document

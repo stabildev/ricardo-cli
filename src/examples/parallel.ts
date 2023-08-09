@@ -2,7 +2,7 @@ import { searchCompany } from '../searchCompany'
 import { downloadDocument } from '../utils/downloadDocument'
 import { postChargeInfo, postErgebnisse } from '../utils/requests'
 
-const sendToProxy = async (fn: (any) => Promise<any>): Promise<any> => {
+const sendToProxy = async (fn: (arg0: any) => Promise<any>): Promise<any> => {
   // todo: route through proxy server
   throw new Error('Not implemented')
   return fn
@@ -21,7 +21,7 @@ const main = async () => {
         await postErgebnisse({
           cookie,
           viewState,
-          documentLink: result.documentLinks.SI,
+          documentLink: result.documentLinks.SI!,
         })
         return await postChargeInfo({
           cookie,

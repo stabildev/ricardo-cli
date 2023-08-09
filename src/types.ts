@@ -8,7 +8,7 @@ export interface CompanySearchResult {
   status?: string
   history?: string[][]
   documentLinks: {
-    [key in RegistryDocument]: string
+    [key in RegistryDocument]: string | undefined
   }
 }
 
