@@ -10,7 +10,7 @@ const sendToProxy = async (fn: (arg0: any) => Promise<any>): Promise<any> => {
 
 const main = async () => {
   const { results, cookie, viewState } = await searchCompany({
-    queryString: 'Anna Zimmermann GmbH',
+    queryString: 'apple',
   })
 
   console.log(`From ${results.length} results:`)
