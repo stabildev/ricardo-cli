@@ -5,7 +5,6 @@ import { postChargeInfo, postErgebnisse } from '../utils/requests'
 const sendToProxy = async (fn: (arg0: any) => Promise<any>): Promise<any> => {
   // todo: route through proxy server
   throw new Error('Not implemented')
-  return fn
 }
 
 const main = async () => {
