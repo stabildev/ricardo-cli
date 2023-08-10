@@ -13,19 +13,19 @@ const parseAddress = () => {
     normalizeWhitespace: true,
   })
 
-  const rechtstraegerRolle = $('Rolle').filter(function (
+  const rechtstraegerRolle = $('rolle').filter(function (
     this: cheerio.Element
   ) {
-    return $(this).find('Rollennummer').text() === '1'
+    return $(this).find('rollennummer').text() === '1'
   })
   const beteiligung = rechtstraegerRolle.parent()
-  const anschrift = beteiligung.find('Anschrift')
+  const anschrift = beteiligung.find('anschrift')
   // console.log(anschrift.html())
   const street =
-    anschrift.find('Strasse').text() + ' ' + anschrift.find('Hausnummer').text()
-  const zipCode = anschrift.find('Postleitzahl').text()
-  const city = anschrift.find('Ort').text()
-  const country = anschrift.find('Staat').text()
+    anschrift.find('strasse').text() + ' ' + anschrift.find('hausnummer').text()
+  const zipCode = anschrift.find('postleitzahl').text()
+  const city = anschrift.find('ort').text()
+  const country = anschrift.find('staat').text()
 
   console.log({ street, zipCode, city, country })
 }
