@@ -1,9 +1,13 @@
 import * as fs from 'fs'
 import * as cheerio from 'cheerio'
 
-const xml = fs.readFileSync('./documents/SI.xml')
-const parseAddress = (xml: Buffer) => {
-  const $ = cheerio.load(xml, { xmlMode: true })
+const parseAddress = () => {
+  const xml = fs.readFileSync('./documents/SI.xml')
+  const $ = cheerio.load(xml, {
+    xmlMode: true,
+    lowerCaseTags: true,
+    normalizeWhitespace: true,
+  })
 
   const rechtstraegerRolle = $('Rolle').filter(function (
     this: cheerio.Element
@@ -21,4 +25,4 @@ const parseAddress = (xml: Buffer) => {
 
   console.log({ street, zipCode, city, country })
 }
-parseAddress(xml)
+parseAddress()
