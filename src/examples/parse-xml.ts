@@ -1,14 +1,24 @@
 import * as fs from 'fs'
 import * as cheerio from 'cheerio'
 
-const getThirdRoll = () => {
-  const xml = fs.readFileSync('./documents/SI.xml', 'utf8')
+const xml = fs.readFileSync('./documents/SI.xml')
+const parseAddress = (xml: Buffer) => {
   const $ = cheerio.load(xml, { xmlMode: true })
 
-  const thirdRoll = $('Rolle').filter(function (this: cheerio.Element) {
-    return $(this).find('Rollennummer').text() === '3'
+  const rechtstraegerRolle = $('Rolle').filter(function (
+    this: cheerio.Element
+  ) {
+    return $(this).find('Rollennummer').text() === '1'
   })
+  const beteiligung = rechtstraegerRolle.parent()
+  const anschrift = beteiligung.find('Anschrift')
+  // console.log(anschrift.html())
+  const street =
+    anschrift.find('Strasse').text() + ' ' + anschrift.find('Hausnummer').text()
+  const zipCode = anschrift.find('Postleitzahl').text()
+  const city = anschrift.find('Ort').text()
+  const country = anschrift.find('Staat').text()
 
-  console.log(thirdRoll.html())
+  console.log({ street, zipCode, city, country })
 }
-getThirdRoll()
+parseAddress(xml)
