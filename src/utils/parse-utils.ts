@@ -1,5 +1,5 @@
-import { JSDOM } from 'jsdom'
 import { CompanySearchResult, RegistryType } from '../types'
+import * as cheerio from 'cheerio'
 
 export const parseSearchResults = ({
   html,
@@ -8,117 +8,109 @@ export const parseSearchResults = ({
   html: string
   includeHistory?: boolean
 }) => {
-  const dom = new JSDOM(html)
-  const document = dom.window.document
-
+  const $ = cheerio.load(html)
   let results: CompanySearchResult[] = []
 
-  const companyRows = document.querySelectorAll(
-    'tbody#ergebnissForm\\:selectedSuchErgebnisFormTable_data > tr'
-  )
+  $('tbody#ergebnissForm\\:selectedSuchErgebnisFormTable_data > tr').each(
+    function (this: cheerio.Element) {
+      const companyRow = $(this)
+      const tbody = companyRow.find('tbody').first()
 
-  for (const companyRow of companyRows) {
-    // Get inner tbody
-    const tbody = companyRow.querySelector('tbody')
+      if (!tbody.length) return
 
-    if (!tbody) continue
+      // Every inner tbody has three rows
+      const trs = tbody.children()
 
-    // Every inner tbody has three rows
-    const trs = [...tbody.children]
+      // The first row contains the state and the Amtsgericht in a single cell
+      const firstRow = trs.eq(0)
+      const tdContents = firstRow.find('td').contents()
+      const state = tdContents.eq(0).text().trim()
+      const registryCourtAndNumber = tdContents.eq(1).text().trim()
 
-    // The first row contains the state and the Amtsgericht in a single cell
-    const firstRow = trs[0]
-    const [state, registryCourtAndNumber] = [
-      ...firstRow.querySelector('td')!.childNodes,
-    ].map((node) => node.textContent?.trim())
+      const { registryNumber, registryType } = extractRegistryNumberAndType(
+        registryCourtAndNumber
+      )
 
-    const { registryNumber, registryType } = extractRegistryNumberAndType(
-      registryCourtAndNumber
-    )
+      // The second row contains the company name and the city and the status,
+      // each in a separate cell
+      const secondRow = trs.eq(1)
+      const secondRowCells = secondRow.find('td')
 
-    // The second row contains the company name and the city and the status,
-    // each in a separate cell
-    const secondRow = trs[1]
-    const secondRowCells = [...secondRow.querySelectorAll('td')]
-    const [companyName, city, status] = secondRowCells.map((node) =>
-      node.textContent?.trim()
-    )
-
-    // The fourth cell of the second row contains the document links with the idt value
-    // The children of the cell are either links with nested spans or just spans if no link is available
-    // Use spans instead of links because not all links are available
-    const documentLinks = [...secondRowCells[3].querySelectorAll('span')].map(
-      (span) => [
-        span.textContent, // e.g. "AD", "SI", "DK"
-        (span.parentNode as HTMLElement).tagName === 'A' // is the parent node a link?
-          ? (span.parentNode as HTMLElement).id // if so, get the "documentLink" value (the link's id)
-          : undefined, // otherwise, the document is not available and thus the link is undefined
+      const [companyName, city, status] = [
+        secondRowCells.eq(0).text().trim(),
+        secondRowCells.eq(1).text().trim(),
+        secondRowCells.eq(2).text().trim(),
       ]
-    )
 
-    // The third row is optional and contains historic company names and cities
-    let history: CompanySearchResult['history'] = undefined
+      // The fourth cell of the second row contains the document links with the idt value
+      // The children of the cell are either links with nested spans or just spans if no link is available
+      // Use spans instead of links because not all links are available
+      const documentLinks: [string, string | undefined][] = []
+      secondRowCells
+        .eq(3)
+        .find('span')
+        .each((_, el) => {
+          const span = $(el)
+          documentLinks.push([
+            span.text().trim(),
+            span.parent().is('a') ? span.parent().attr('id') : undefined,
+          ])
+        })
 
-    if (includeHistory) {
-      const thirdRow = trs[2]
-      if (thirdRow) {
-        // The first "table" is the header. The second table is the actual table
-        const historyTable = thirdRow.querySelector(
-          'table:nth-child(2) > tbody'
-        )
-        const historyRows = historyTable ? [...historyTable.children] : null
-        history = historyRows?.map((historyRow, i) =>
-          [...historyRow.querySelectorAll('td')]
-            .slice(0, 2)
-            .map(
-              (node) =>
-                node.textContent?.trim().replace(`${i + 1}.) `, '') ?? ''
-            )
-        )
+      let history: CompanySearchResult['history'] = undefined
+      if (includeHistory) {
+        const thirdRow = trs.eq(2)
+        if (thirdRow.length) {
+          // The first "table" is the header. The second table is the actual table
+          const historyRows = thirdRow
+            .find('table:nth-child(2) > tbody')
+            .children()
+            .toArray()
+          history = historyRows.map((historyRow, i) => {
+            const texts: string[] = []
+            $(historyRow)
+              .find('td')
+              .slice(0, 2)
+              .each((_, cell) => {
+                texts.push(
+                  $(cell)
+                    .text()
+                    .trim()
+                    .replace(`${i + 1}.) `, '')
+                )
+              })
+            return texts
+          })
+        }
       }
+
+      results.push({
+        companyName,
+        city,
+        state,
+        registryCourtAndNumber,
+        registryNumber,
+        registryType,
+        status,
+        ...(history ? { history } : {}),
+        documentLinks: Object.fromEntries(
+          documentLinks
+        ) as CompanySearchResult['documentLinks'],
+      })
     }
-
-    const company = {
-      companyName,
-      city,
-      state,
-      registryCourtAndNumber,
-      registryNumber,
-      registryType,
-      status,
-      ...(history ? { history } : {}),
-      documentLinks: Object.fromEntries(documentLinks),
-    }
-
-    results.push(company)
-  }
-
-  const viewState = extractViewState(document)
-
+  )
+  const viewState = extractViewState($)
   return { results, viewState }
 }
 
-export const extractUrlPathWithSecIp = (document: Document): string => {
-  const formElement: HTMLFormElement | null =
-    document.querySelector('form#ergebnissForm')
-  const action = formElement?.action
-
-  if (!action) {
-    throw new Error('Failed to extract url path with sec ip')
-  }
-  return action
-}
-
-export const extractViewState = (document: Document): string => {
-  const inputElement: HTMLInputElement | null = document.querySelector(
-    'input[name="javax.faces.ViewState"]'
-  )
-  const value = inputElement?.value
+export const extractViewState = ($: cheerio.Root): string => {
+  const inputElement = $('input[name="javax.faces.ViewState"]')
+  const value = inputElement.val()
 
   if (!value) {
     throw new Error('Failed to extract view state')
   }
-  return value
+  return value as string
 }
 
 export const extractRegistryNumberAndType = (

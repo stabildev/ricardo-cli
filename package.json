@@ -10,9 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsdom": "^22.1.0"
+    "cheerio": "^1.0.0-rc.12"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.31",
     "@types/jsdom": "^21.1.1",
     "@types/node": "^20.4.5",
     "ts-node": "^10.9.1",
