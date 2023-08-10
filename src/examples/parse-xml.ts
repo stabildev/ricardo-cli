@@ -22,35 +22,35 @@ const downloadXml = async (queryString: string) => {
     .then((buffer) => Buffer.from(buffer).toString())
 
   fs.writeFileSync(`documents/SI.xml`, xml)
-
-  return xml
 }
 
 function preprocessXML(xml: string): string {
-  // 1. Remove namespaces
+  // Remove namespaces
   xml = xml.replace(/<(\w+:)/g, '<').replace(/<\/(\w+:)/g, '</')
-
-  // 2. Convert all tags to lowercase
-  xml = xml.replace(/<\/?(\w+)/g, (tag) => tag.toLowerCase())
-
   return xml
 }
 
-const parseXml = (xml: string) => {
+const parseAddress = async () => {
+  if (!fs.existsSync('./documents/SI.xml')) {
+    console.info('SI.xml not found. Downloading...')
+    await downloadXml('cargokite')
+  }
+  const xml = fs.readFileSync('./documents/SI.xml', 'utf-8')
   const cleanXml = preprocessXML(xml)
-  fs.writeFileSync('documents/clean.xml', cleanXml)
-  const $ = cheerio.load(cleanXml, { xmlMode: true, lowerCaseTags: true })
-
-  // Extract <Rolle> with Rollennummer 3
+  fs.writeFileSync('./documents/SI_clean.xml', cleanXml)
+  const $ = cheerio.load(cleanXml, {
+    xmlMode: true,
+    lowerCaseTags: true,
+    normalizeWhitespace: true,
+  })
 
   const rechtstraegerRolle = $('rolle').filter(function (
     this: cheerio.Element
   ) {
     return $(this).find('rollennummer').text() === '1'
   })
-
   const beteiligung = rechtstraegerRolle.parent()
-  const anschrift = beteiligung.find('Anschrift')
+  const anschrift = beteiligung.find('anschrift')
   // console.log(anschrift.html())
   const street =
     anschrift.find('strasse').text() + ' ' + anschrift.find('hausnummer').text()
@@ -60,13 +60,4 @@ const parseXml = (xml: string) => {
 
   console.log({ street, zipCode, city, country })
 }
-
-// Download XML from search results
-downloadXml('cargokite').then((xml) => {
-  parseXml(xml)
-})
-
-// Alternatively, you can use the XML file from the documents folder
-fs.readFile('documents/SI.xml', 'utf8', (err, xml) => {
-  parseXml(xml)
-})
+parseAddress()
