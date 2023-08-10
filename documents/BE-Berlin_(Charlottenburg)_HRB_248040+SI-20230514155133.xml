@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdo="http://www.xdomea.de" xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd"><!-- AUREG Version 5.4.5 -->
+   <Grunddaten XJustizVersion="1.18.1">
+      <Verfahrensdaten>
+         <Verfahrensnummer>0</Verfahrensnummer>
+         <Instanzdaten>
+            <Instanznummer>1</Instanznummer>
+            <Sachgebiet xsi:type="WL_Sachgebiet" wl_version="1.6">
+               <content>Handelsregister</content>
+            </Sachgebiet>
+            <Instanzbehoerde>
+               <Gericht xsi:type="WL_Gerichte" wl_version="1.19">
+                  <content>F1103R</content>
+               </Gericht>
+            </Instanzbehoerde>
+            <Abteilung/>
+            <Aktenzeichen>HRB 248040 B</Aktenzeichen>
+            <Kurzrubrum/>
+            <Verfahrensgegenstand>
+               <Gegenstand>
+                  <content>Handelsregister Amtsgericht Charlottenburg</content>
+               </Gegenstand>
+            </Verfahrensgegenstand>
+         </Instanzdaten>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>1</Rollennummer>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Rechtsträger</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>1</Beteiligtennummer>
+               <Organisation>
+                  <Bezeichnung>
+                     <Bezeichnung_Aktuell>24/7 Music GmbH</Bezeichnung_Aktuell>
+                  </Bezeichnung>
+                  <Kurzbezeichnung>24/7 Music GmbH</Kurzbezeichnung>
+                  <Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4">
+                     <content>Gesellschaft mit beschränkter Haftung</content>
+                  </Rechtsform>
+                  <Sitz>
+                     <Ort>Berlin</Ort>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Sitz>
+                  <Registereintragung>
+                     <Gericht xsi:type="WL_Gerichte" wl_version="1.19">
+                        <content>F1103R</content>
+                     </Gericht>
+                     <Registernummer>HRB 248040 B</Registernummer>
+                     <EUID>DEF1103R.HRB248040B</EUID>
+                  </Registereintragung>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Anschriftenzusatz/>
+                     <Strasse>Flurweg</Strasse>
+                     <Hausnummer>58</Hausnummer>
+                     <Postfachnummer/>
+                     <Postleitzahl>12357</Postleitzahl>
+                     <Ort>Berlin</Ort>
+                     <Ortsteil/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+               </Organisation>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>2</Rollennummer>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Registergericht</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>2</Beteiligtennummer>
+               <Organisation>
+                  <Bezeichnung>
+                     <Bezeichnung_Aktuell>Amtsgericht Charlottenburg</Bezeichnung_Aktuell>
+                  </Bezeichnung>
+                  <Kurzbezeichnung>Amtsgericht Charlottenburg</Kurzbezeichnung>
+                  <Rechtsform xsi:nil="true"/>
+                  <Sitz>
+                     <Ort/>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Sitz>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Anschriftenzusatz>Dienstgebäude Hardenbergstraße</Anschriftenzusatz>
+                     <Strasse>Hardenbergstraße</Strasse>
+                     <Hausnummer>31</Hausnummer>
+                     <Postfachnummer/>
+                     <Postleitzahl>10623</Postleitzahl>
+                     <Ort>Berlin</Ort>
+                     <Ortsteil>Charlottenburg</Ortsteil>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Anschrift>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>Telefon</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>+49 (0)30 90149 80</Verbindung>
+                  </Telekommunikation>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>Fax</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>+49 (0)30 9028 3298</Verbindung>
+                  </Telekommunikation>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>E-Mail</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung/>
+                  </Telekommunikation>
+               </Organisation>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>3</Rollennummer>
+               <Rollen_ID>
+                  <ID>1</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Herr</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>3</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Marco</Vorname>
+                     <Titel/>
+                     <Nachname>Jelicic</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1996-12-11</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>männlich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Berlin</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Herstellerinformation>
+            <Name_des_Produkts>Aureg</Name_des_Produkts>
+            <Hersteller_des_Produkts>Datagroup Consulting Services GmbH</Hersteller_des_Produkts>
+            <Version>5.4.5</Version>
+         </Herstellerinformation>
+      </Verfahrensdaten>
+      <Sendungsdaten>
+         <Absenderkennung/>
+         <Empfaengerkennung/>
+         <Papiervorgang>false</Papiervorgang>
+      </Sendungsdaten>
+   </Grunddaten>
+   <Fachdaten_Register Fachdaten_Register_Version="1.2">
+      <Mitteilungsart xsi:type="WL_Mitteilungsart" wl_version="1.6">
+         <content>Sonstige Anmeldung/Mitteilung</content>
+      </Mitteilungsart>
+      <Betroffener_Rechtstraeger>
+         <Ref_Rollennummer>1</Ref_Rollennummer>
+      </Betroffener_Rechtstraeger>
+      <Auszug>
+         <Abrufuhrzeit>15:51:33</Abrufuhrzeit>
+         <Abrufdatum>2023-05-14</Abrufdatum>
+         <letzte_Eintragung>2023-05-03</letzte_Eintragung>
+         <Anzahl_Eintragungen>2</Anzahl_Eintragungen>
+         <letzte_Aenderung>2023-04-17</letzte_Aenderung>
+      </Auszug>
+      <Basisdaten_Register>
+         <Gruendungsmetadaten>
+            <Gruendungsdatum>2022-12-08</Gruendungsdatum>
+         </Gruendungsmetadaten>
+         <Aktuelles_Satzungsdatum>2023-04-17</Aktuelles_Satzungsdatum>
+         <Vertretung>
+            <Vertretungsberechtigte>
+               <Ref_Rollennummer>3</Ref_Rollennummer>
+               <Besondere_Vertretungsregelung>
+                  <Vertretungsbefugnis>
+                     <content>mit der Befugnis die Gesellschaft allein zu vertreten
+mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen</content>
+                  </Vertretungsbefugnis>
+               </Besondere_Vertretungsregelung>
+            </Vertretungsberechtigte>
+            <Allgemeine_Vertretungsregelung>
+               <Vertretungsbefugnis>
+                  <content>Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.</content>
+               </Vertretungsbefugnis>
+            </Allgemeine_Vertretungsregelung>
+         </Vertretung>
+         <Gegenstand_oder_Geschaeftszweck>Produktion, Vervielfältigung und Verbreitung von Tonträgern, Bildaufnahmen und Druckschriften sowie Erwerb und Vergabe von Auswertungsrechten hinsichtlich Ton- und Bildaufnahmen und Druckschriften, Betreiben eines Musikverlages und Merchandise Geschäftes sowie weitere Geschäfte im Medienbereich, Künstlermanagement im In- und Ausland, insbesondere für ausübende Künstler und Komponisten (sämtliche Tätigkeiten, soweit diese keiner behördlichen Zulassung oder Genehmigung bedürfen und ohne Arbeitsvermittlung), Vermittlung von Werbeverträgen, Auftrittsverträgen, Lizenz-, Künstlerexklusiv- und Vertriebsverträgen, Konzert- und Tourneevermittlung sowie -organisation für ausübende Künstler, der Betrieb eines Tonstudios, Vermittlung und Durchführung von Markenkooperationen im eigenen Namen und für Dritte.</Gegenstand_oder_Geschaeftszweck>
+         <Status_Rechtstraeger wl_version="1.1">
+            <content>aktiv</content>
+         </Status_Rechtstraeger>
+      </Basisdaten_Register>
+      <Zusatzangaben>
+         <Kapitalgesellschaft>
+            <Zusatz_GmbH>
+               <Stammkapital>
+                  <Zahl>25200.00</Zahl>
+                  <Waehrung>EUR</Waehrung>
+               </Stammkapital>
+            </Zusatz_GmbH>
+            <Dauer_der_Gesellschaft>unbestimmt</Dauer_der_Gesellschaft>
+         </Kapitalgesellschaft>
+      </Zusatzangaben>
+   </Fachdaten_Register>
+</XJustiz_Daten>
