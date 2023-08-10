@@ -2,6 +2,10 @@ import * as fs from 'fs'
 import * as cheerio from 'cheerio'
 
 const parseAddress = () => {
+  if (!fs.existsSync('./documents/SI.xml')) {
+    console.error('SI.xml does not exist')
+    throw new Error('./documents/SI.xml does not exist, make sure to add it')
+  }
   const xml = fs.readFileSync('./documents/SI.xml')
   const $ = cheerio.load(xml, {
     xmlMode: true,
