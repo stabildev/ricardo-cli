@@ -26,6 +26,6 @@ export type DocumentLink = string & { _documentLinkBrand: never }
 
 export type DocumentNode = {
   name: string
-  parent: DocumentNode
+  parent: DocumentNode | undefined
   content: DocumentNode[] | DocumentLink
 }
