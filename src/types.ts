@@ -21,3 +21,11 @@ export enum RegistryType {
 }
 
 export type RegistryDocument = 'AD' | 'CD' | 'HD' | 'DK' | 'UT' | 'VÖ' | 'SI'
+
+export type DocumentLink = string & { _documentLinkBrand: never }
+
+export type DocumentNode = {
+  name: string
+  parent: DocumentNode
+  content: DocumentNode[] | DocumentLink
+}

@@ -224,20 +224,22 @@ export const postDocumentsDK = async ({
 
   const headers = new Headers({
     'Accept': 'application/xml, text/xml, */*; q=0.01',
-    'Accept-Language': 'de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Accept-Encoding': 'gzip, deflate, br',
+    'Connection': 'keep-alive',
+    'Accept-Language': 'de-DE,de;q=0.9',
+    // Content-Length: 436
     'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
     'Cookie': cookie,
     'Faces-Request': 'partial/ajax',
+    'Host': 'www.handelsregister.de',
     'Origin': 'https://www.handelsregister.de',
     'Referer': 'https://www.handelsregister.de/',
     'Sec-Fetch-Dest': 'empty',
     'Sec-Fetch-Mode': 'cors',
     'Sec-Fetch-Site': 'same-origin',
-
     'User-Agent':
       'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
     'X-Requested-With': 'XMLHttpRequest',
-
     'sec-ch-ua':
       '"Not.A/Brand";v="8", "Chromium";v="114", "Google Chrome";v="114"',
     'sec-ch-ua-mobile': '?0',
