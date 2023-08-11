@@ -33,6 +33,7 @@ export const getSelectionCodes = async ({
   let html = await response.text()
   let $ = cheerio.load(html)
   viewState = extractViewState($) // update viewState
+  const buttonId = $('button').attr('id')!
 
   const clickedNodes: string[] = [] // keep track of already clicked tree nodes
   let newParentNodes: string[] = []
@@ -51,7 +52,7 @@ export const getSelectionCodes = async ({
       const response = await postDocumentsDK({
         cookie,
         viewState,
-        selection: rowkey,
+        selectionCode: rowkey,
         action: 'select',
       })
 
@@ -87,5 +88,5 @@ export const getSelectionCodes = async ({
       })
     result.set(groupName, docs)
   }
-  return { selectionCodes: result, cookie, viewState }
+  return { selectionCodes: result, cookie, viewState, buttonId }
 }

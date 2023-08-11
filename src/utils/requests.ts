@@ -208,18 +208,20 @@ export const getDocumentsDK = async ({
 export const postDocumentsDK = async ({
   viewState,
   cookie,
-  action = 'submit',
+  action,
   asZip = false,
-  selection = '0_0_0_0',
+  selectionCode,
+  buttonId,
 }: {
   viewState: string
   cookie: string
-  action?: 'select' | 'submit'
+  action: 'select' | 'submit'
   asZip?: boolean
-  selection?: string
+  selectionCode: string
+  buttonId?: string
 }): Promise<Response> => {
-  if (action !== 'select' && action !== 'submit') {
-    throw new Error('Invalid action!')
+  if (action === 'submit' && !buttonId) {
+    throw new Error('No buttonId provided!')
   }
 
   const headers = new Headers({
@@ -252,7 +254,7 @@ export const postDocumentsDK = async ({
           'javax.faces.partial.ajax': 'true',
           'dk_form': 'dk_form',
           'javax.faces.ViewState': viewState,
-          'dk_form:dktree_selection': selection,
+          'dk_form:dktree_selection': selectionCode,
           'dk_form:dktree_scrollState': '0,0',
           'javax.faces.source': 'dk_form:dktree',
           'javax.faces.partial.execute': 'dk_form:dktree',
@@ -260,19 +262,23 @@ export const postDocumentsDK = async ({
             'dk_form:detailsNodePanelGrid dk_form:dktree',
           'javax.faces.behavior.event': 'select',
           'javax.faces.partial.event': 'select',
-          'dk_form:dktree_instantSelection': selection,
+          'dk_form:dktree_instantSelection': selectionCode,
         })
       : new URLSearchParams({
           'javax.faces.partial.ajax': 'true',
+          'javax.faces.source': buttonId!, // Submit Button
+          'javax.faces.partial.execute': '@all',
+          [buttonId!]: buttonId!, // Submit Button
           'dk_form': 'dk_form',
           'javax.faces.ViewState': viewState,
-          'dk_form:dktree_selection': selection,
+          'dk_form:dktree_selection': selectionCode,
           'dk_form:dktree_scrollState': '0,0',
-          'javax.faces.source': 'dk_form:j_idt154', // Submit Button
-          'javax.faces.partial.execute': '@all',
-          'dk_form:j_idt154': 'dk_form:j_idt154', // Submit Button
           'dk_form:radio_dkbuttons': asZip.toString(),
         })
+
+  if (action === 'submit') {
+    console.log(urlencodedData.toString())
+  }
 
   const response = await fetch(
     'https://www.handelsregister.de/rp_web/documents-dk.xhtml',
@@ -379,12 +385,14 @@ export const postChargeInfo = async ({
       method: 'POST',
       headers,
       body: urlencodedData.toString(),
+      redirect: 'manual',
     }
   )
 
-  if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`)
-  }
+  // if (!response.ok) {
+  //   throw new Error(`HTTP error! status: ${response.status}`)
+  // }
+  console.log(response.status)
 
   return response
 }

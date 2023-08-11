@@ -26,7 +26,7 @@ export const fetchDocumentsWithViewState = async ({
   let fileNames: string[] = []
 
   for (const documentType of documents ?? []) {
-    for (const selection of documentType === 'DK' &&
+    for (const selectionCode of documentType === 'DK' &&
     !!dkDocumentSelections?.length
       ? dkDocumentSelections
       : '1') {
@@ -44,15 +44,18 @@ export const fetchDocumentsWithViewState = async ({
         await postDocumentsDK({
           viewState,
           cookie,
-          selection,
+          selectionCode,
           action: 'select',
         })
+
+        // Attention: need to extract and supply buttonId!
+        // GET request required
 
         await postDocumentsDK({
           viewState,
           cookie,
           action: 'submit',
-          selection,
+          selectionCode,
           asZip,
         })
       }
