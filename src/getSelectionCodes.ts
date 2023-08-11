@@ -4,6 +4,102 @@ import { getDocumentsDK, postDocumentsDK } from './utils/requests'
 import * as cheerio from 'cheerio'
 import { extractViewState } from './utils/parse-utils'
 
+// This function looks only in the top level for a document with the specified name
+// and returns the first document node under it. Otherwise returns null
+
+export const getSelectionCodes = async (
+  documentNames: string[],
+  {
+    cookie,
+    viewState,
+  }: {
+    cookie: string
+    viewState: string
+  }
+) => {
+  const result = new Map<string, string>() // e.g. 'Liste der Gesellschafter' => '0_0_1_0'
+
+  // 1) Go to DK document selectino page
+  let response = await getDocumentsDK({ cookie })
+  let $ = cheerio.load(await response.text())
+
+  // 2) Update view state and extract button ID
+  viewState = $('input[name="javax.faces.ViewState"]').val()
+  const buttonId = $('button').attr('id')!
+
+  // 3) Expand the top level...
+  response = await postDocumentsDK({
+    cookie,
+    viewState,
+    selectionCode: '0_0',
+    action: 'select',
+  })
+  // 4) Retrieve partial ajax response
+  $ = cheerio.load(await response.text())
+
+  // 5) Extract tree nodes of top level document names, e. g. 'Liste der Gesellschafter'
+  const topLevelCodes = $('#dk_form\\:dktree\\:0_0 > ul > li')
+    // 6) Filter by those requested
+    .filter((_, node) => documentNames.includes($(node).text()))
+    .toArray()
+
+    // 7) Map document name to 3-digit top level selection code, e. g. ['Liste der Gesellschafter', '0_0_1']
+    .map((el) => [$(el).text(), $(el).attr('data-rowkey')])
+
+  // 8) Repeat this for all found top-level document codes
+  for (const [documentName, rowkey] of topLevelCodes) {
+    if (!rowkey || !documentName) {
+      console.error('rowkey or documentName not found!')
+      continue
+    }
+
+    // We will keep a reference to the current node key for navigation
+    let currentNodeKey = rowkey
+
+    do {
+      // 9) Click on the current node
+      response = await postDocumentsDK({
+        cookie,
+        viewState,
+        selectionCode: currentNodeKey,
+        action: 'select',
+      })
+      // 10) Retrieve partial ajax response
+      $ = cheerio.load(await response.text())
+
+      // 11) Find first child node of the current node
+      const childNode = $(
+        `#dk_form\\:dktree\\:${currentNodeKey} li.ui-treenode`
+      ).first()
+
+      // 12) There should always be a child node after expansion
+      // So this should never be executed
+      if (!childNode.length) {
+        console.error('No document node found for ' + documentName)
+        break
+      }
+
+      // 13) We're going one level deeper. Set child node to be new current node
+      currentNodeKey = $(childNode).attr('data-rowkey')!
+
+      // 14) If node is a leaf it contains our selection code
+      // Extract rowkey / node key / selection code and add to map
+      // Break out of the do...while loop and continue with for loop
+      if ($(childNode).hasClass('ui-treenode-leaf')) {
+        const selectionCode = currentNodeKey
+        result.set(documentName, selectionCode)
+        console.log(
+          `Found selection code for "${documentName}": ${selectionCode}`
+        )
+        break // break out of the loop
+      }
+
+      // 15) Otherwise the node is a parent and we will click on it in the next iteration
+    } while (true) // The do...while loop will be repeated until manually broken out of
+  }
+  return { result, cookie, viewState, buttonId }
+}
+
 // Iteratively expand all tree nodes to get a list of all available documents
 // li.ui-treenode-parent s müssen expandiert werden
 // li.ui-treenode-parent s enthalten [data-rowkey] attribute with selection code
@@ -22,7 +118,7 @@ import { extractViewState } from './utils/parse-utils'
 // 5) Extract info from all child nodes
 // Let's go!
 
-export const getSelectionCodes = async ({
+export const getAllSelectionCodes = async ({
   cookie,
   viewState,
 }: {

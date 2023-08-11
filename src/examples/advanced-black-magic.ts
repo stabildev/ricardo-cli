@@ -13,17 +13,23 @@ import {
 } from '../utils/requests'
 
 const main = async () => {
+  const query = 'zimmermann'
+
+  console.log(`Searching for company "${query}"...`)
   let { results, cookie, viewState } = await searchCompany({
-    queryString: 'apple',
+    queryString: query,
   })
 
   if (!results.length) throw new Error('No results found')
 
+  console.log(`Found ${results.length} results`)
+
   const company = results[0]
 
-  console.log(company.companyName)
+  console.log('Company name: ' + company.companyName)
 
   // Download SI document
+  console.log('Downloading SI document...')
   await postErgebnisse({
     cookie,
     viewState,
@@ -31,26 +37,27 @@ const main = async () => {
   })
 
   downloadDocument(await postChargeInfo({ cookie, viewState }))
+  console.log('Done!')
 
   // Download 'Liste der Gesellschafter' document
+  console.log('Downloading "Liste der Gesellschafter" document...')
   await postErgebnisse({
     cookie,
     viewState,
     documentLink: results[0].documentLinks.DK!,
   })
 
-  const res = await getSelectionCodes({ cookie, viewState })
+  const res = await getSelectionCodes(['Liste der Gesellschafter'], {
+    cookie,
+    viewState,
+  })
   cookie = res.cookie
   viewState = res.viewState
   const buttonId = res.buttonId
-  console.log('buttonId', buttonId)
 
-  // Select most recent document [0] of type 'Liste der Gesellschafter'
-  // First element is document name, second element [1] is selection code
-  const selectionCode = res.selectionCodes.get(
-    'Liste der Gesellschafter'
-  )![0][1]
-  console.log('selectionCode', selectionCode)
+  const selectionCode = res.result.get('Liste der Gesellschafter')
+
+  if (!selectionCode) throw new Error('No selection code found')
 
   // Perform two-step document selection
   await postDocumentsDK({
@@ -70,9 +77,9 @@ const main = async () => {
   // Ohne neuen viewState funktioniert das nicht
   const res2 = await getChargeInfo({ cookie })
   viewState = extractViewState(cheerio.load(await res2.text()))
-  console.log('viewState', viewState)
 
   // Download document
   downloadDocument(await postChargeInfo({ cookie, viewState }))
+  console.log('Done!')
 }
 main()

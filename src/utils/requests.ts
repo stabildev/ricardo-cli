@@ -276,10 +276,6 @@ export const postDocumentsDK = async ({
           'dk_form:radio_dkbuttons': asZip.toString(),
         })
 
-  if (action === 'submit') {
-    console.log(urlencodedData.toString())
-  }
-
   const response = await fetch(
     'https://www.handelsregister.de/rp_web/documents-dk.xhtml',
     {
@@ -389,10 +385,9 @@ export const postChargeInfo = async ({
     }
   )
 
-  // if (!response.ok) {
-  //   throw new Error(`HTTP error! status: ${response.status}`)
-  // }
-  console.log(response.status)
+  if (!response.ok && response.status !== 302) {
+    throw new Error(`HTTP error! status: ${response.status}`)
+  }
 
   return response
 }

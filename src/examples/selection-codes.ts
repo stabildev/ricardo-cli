@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 import { searchCompany } from '../searchCompany'
-import { getSelectionCodes } from '../getSelectionCodes'
+import { getAllSelectionCodes } from '../getSelectionCodes'
 import { postErgebnisse } from '../utils/requests'
 
 const main = async () => {
@@ -10,7 +10,7 @@ const main = async () => {
   console.log(`Found ${results.length} results`)
 
   let allSelectionCodes: Awaited<
-    ReturnType<typeof getSelectionCodes>
+    ReturnType<typeof getAllSelectionCodes>
   >['selectionCodes'][] = []
 
   for (const result of results) {
@@ -23,17 +23,14 @@ const main = async () => {
     })
 
     // get selection codes map
-    const res = await getSelectionCodes({
+    const res = await getAllSelectionCodes({
       cookie,
       viewState,
     })
 
     const selectionCodes = res.selectionCodes
-    console.log('selectionCodes', selectionCodes)
     viewState = res.viewState // update viewState
-    console.log('viewState', viewState)
     cookie = res.cookie // update cookie
-    console.log('cookie', cookie)
 
     allSelectionCodes.push(selectionCodes)
   }
