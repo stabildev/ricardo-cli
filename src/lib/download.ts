@@ -135,7 +135,7 @@ export const download = async ({
   return {
     fileName: fileName[0],
     fileExtension: fileName[1] || 'unknown',
-    content: Buffer.from(await response.arrayBuffer()).toString(),
+    content: Buffer.from(await response.arrayBuffer()),
     viewState,
   }
 }

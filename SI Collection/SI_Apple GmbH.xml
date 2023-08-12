@@ -4,7 +4,7 @@
     xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd">
     <tns:nachrichtenkopf xjustizVersion="3.3.1">
         <tns:aktenzeichen.absender />
-        <tns:erstellungszeitpunkt>2023-08-12T21:45:40Z</tns:erstellungszeitpunkt>
+        <tns:erstellungszeitpunkt>2023-08-12T21:46:18Z</tns:erstellungszeitpunkt>
         <tns:auswahl_absender>
             <tns:absender.gericht listVersionID="3.5"
                 listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
@@ -15,7 +15,7 @@
         <tns:auswahl_empfaenger>
             <tns:empfaenger.sonstige />
         </tns:auswahl_empfaenger>
-        <tns:eigeneNachrichtenID>9a6c794b-31af-4b71-b12a-9e0f1e9217ab</tns:eigeneNachrichtenID>
+        <tns:eigeneNachrichtenID>aef1f850-ce97-459e-82b8-97c0e20951b6</tns:eigeneNachrichtenID>
         <tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
             <code>002</code>
         </tns:ereignis>
@@ -48,7 +48,7 @@
                                 (Kapitalgesellschaften) (AG)-->
                                 <code>HRB</code>
                             </tns:register>
-                            <tns:laufendeNummer>273489</tns:laufendeNummer>
+                            <tns:laufendeNummer>66158</tns:laufendeNummer>
                             <tns:jahr />
                         </tns:aktenzeichen.strukturiert>
                     </tns:auswahl_aktenzeichen>
@@ -61,7 +61,7 @@
                 <tns:rolle>
                     <tns:rollennummer>1</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21797738</tns:id>
+                        <tns:id>20020291</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -74,7 +74,7 @@
                     <tns:auswahl_beteiligter>
                         <tns:organisation>
                             <tns:bezeichnung>
-                                <tns:bezeichnung.aktuell>CargoKite GmbH</tns:bezeichnung.aktuell>
+                                <tns:bezeichnung.aktuell>Apple GmbH</tns:bezeichnung.aktuell>
                             </tns:bezeichnung>
                             <tns:angabenZurRechtsform>
                                 <tns:rechtsform listVersionID="3.4"
@@ -99,9 +99,9 @@
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:strasse>Liebherrstraße</tns:strasse>
-                                <tns:hausnummer>20</tns:hausnummer>
-                                <tns:postleitzahl>80538</tns:postleitzahl>
+                                <tns:strasse>Katharina-von-Bora-Str.</tns:strasse>
+                                <tns:hausnummer>3</tns:hausnummer>
+                                <tns:postleitzahl>80333</tns:postleitzahl>
                                 <tns:ort>München</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
@@ -181,12 +181,12 @@
                 <tns:rolle>
                     <tns:rollennummer>4</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21797739</tns:id>
+                        <tns:id>20947197</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
-                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)-->
-                        <code>086</code>
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
                     </tns:rollenbezeichnung>
                 </tns:rolle>
                 <tns:beteiligter>
@@ -194,11 +194,11 @@
                     <tns:auswahl_beteiligter>
                         <tns:natuerlichePerson>
                             <tns:vollerName>
-                                <tns:vorname>Amelie</tns:vorname>
-                                <tns:nachname>Binder</tns:nachname>
+                                <tns:vorname>Nicola</tns:vorname>
+                                <tns:nachname>Rossmeier</tns:nachname>
                             </tns:vollerName>
                             <tns:geburt>
-                                <tns:geburtsdatum>1999-02-16</tns:geburtsdatum>
+                                <tns:geburtsdatum>1972-06-18</tns:geburtsdatum>
                             </tns:geburt>
                             <tns:geschlecht listVersionID="2.1"
                                 listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--weiblich-->
@@ -227,12 +227,12 @@
                 <tns:rolle>
                     <tns:rollennummer>5</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21797740</tns:id>
+                        <tns:id>20936633</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
-                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)-->
-                        <code>086</code>
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
                     </tns:rollenbezeichnung>
                 </tns:rolle>
                 <tns:beteiligter>
@@ -240,15 +240,15 @@
                     <tns:auswahl_beteiligter>
                         <tns:natuerlichePerson>
                             <tns:vollerName>
-                                <tns:vorname>Tim Jörg</tns:vorname>
-                                <tns:nachname>Linnenweber</tns:nachname>
+                                <tns:vorname>Julia</tns:vorname>
+                                <tns:nachname>Gildemeister</tns:nachname>
                             </tns:vollerName>
                             <tns:geburt>
-                                <tns:geburtsdatum>1992-11-12</tns:geburtsdatum>
+                                <tns:geburtsdatum>1975-06-16</tns:geburtsdatum>
                             </tns:geburt>
                             <tns:geschlecht listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
-                                <code>1</code>
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--weiblich-->
+                                <code>2</code>
                             </tns:geschlecht>
                             <tns:anschrift>
                                 <tns:anschriftstyp listVersionID="3.0"
@@ -273,7 +273,7 @@
                 <tns:rolle>
                     <tns:rollennummer>6</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21806609</tns:id>
+                        <tns:id>21655296</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -286,11 +286,11 @@
                     <tns:auswahl_beteiligter>
                         <tns:natuerlichePerson>
                             <tns:vollerName>
-                                <tns:vorname>Marcus</tns:vorname>
-                                <tns:nachname>Bischoff</tns:nachname>
+                                <tns:vorname>Peter Ronald</tns:vorname>
+                                <tns:nachname>Denwood</tns:nachname>
                             </tns:vollerName>
                             <tns:geburt>
-                                <tns:geburtsdatum>1991-03-07</tns:geburtsdatum>
+                                <tns:geburtsdatum>1963-03-04</tns:geburtsdatum>
                             </tns:geburt>
                             <tns:geschlecht listVersionID="2.1"
                                 listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--unbekannt-->
@@ -301,12 +301,13 @@
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:ort>München</tns:ort>
+                                <tns:ort>Lafayette, Kalifornien</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
-                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
-                                            <code>DE</code>
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Vereinigte
+                                            Staaten-->
+                                            <code>US</code>
                                         </tns:staat>
                                     </tns:auswahl_staat>
                                 </tns:staat>
@@ -319,53 +320,46 @@
                 <tns:rolle>
                     <tns:rollennummer>7</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21834982</tns:id>
+                        <tns:id>21840847</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
-                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Zweigniederlassung-->
-                        <code>295</code>
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)-->
+                        <code>086</code>
                     </tns:rollenbezeichnung>
                 </tns:rolle>
                 <tns:beteiligter>
                     <tns:beteiligtennummer>7</tns:beteiligtennummer>
                     <tns:auswahl_beteiligter>
-                        <tns:organisation>
-                            <tns:bezeichnung>
-                                <tns:bezeichnung.aktuell>CargoKite GmbH</tns:bezeichnung.aktuell>
-                            </tns:bezeichnung>
-                            <tns:sitz>
-                                <tns:ort>Neubiberg</tns:ort>
-                                <tns:staat>
-                                    <tns:auswahl_staat>
-                                        <tns:staat listVersionID="6"
-                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
-                                            <code>DE</code>
-                                        </tns:staat>
-                                    </tns:auswahl_staat>
-                                </tns:staat>
-                            </tns:sitz>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Tejas Kirit</tns:vorname>
+                                <tns:nachname>Gala</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1988-04-27</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
                             <tns:anschrift>
                                 <tns:anschriftstyp listVersionID="3.0"
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:strasse>Werner-Heisenberg-Weg 39, c/o Universität der
-                                    Bundeswehr München, FOUNDERS - CargoKite, Fakultät für
-                                    Betriebswirtschaft Gebäude 36 Dekanat ZE</tns:strasse>
-                                <tns:hausnummer>BW</tns:hausnummer>
-                                <tns:postleitzahl>85577</tns:postleitzahl>
-                                <tns:ort>Neubiberg</tns:ort>
+                                <tns:ort>San Francisco, Kalifornien</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
-                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
-                                            <code>DE</code>
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Vereinigte
+                                            Staaten-->
+                                            <code>US</code>
                                         </tns:staat>
                                     </tns:auswahl_staat>
                                 </tns:staat>
                             </tns:anschrift>
-                        </tns:organisation>
+                        </tns:natuerlichePerson>
                     </tns:auswahl_beteiligter>
                 </tns:beteiligter>
             </tns:beteiligung>
@@ -388,20 +382,153 @@
                     listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
                     <code>009</code>
                 </tns:eintragungsart>
-                <tns:text>Gesellschaftsvertrag vom 10.01.2022.</tns:text>
+                <tns:text>Gesellschaftsvertrag vom 26.03.1980 zuletzt geändert am 03.06.1998</tns:text>
             </tns:eintragungstext>
-            <tns:abrufuhrzeit>21:45:41</tns:abrufuhrzeit>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Dieses Blatt ist zur Fortführung auf EDV umgeschrieben worden und dabei an
+                    die Stelle des bisherigen Registerblattes getreten. Satzung Bl. 116 So.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 23.12.2005 hat die Umstellung auf Euro
+                    und die Erhöhung des Stammkapitals um 10,89 EUR auf 3.834.700,00 EUR, sowie eine
+                    weitere Erhöhung um 1.165.300,00 EUR auf 5.000.000,00 EUR und die Änderung der
+                    §§ 1 (Sitz), 3 (Stammkapital), 8 (Stimmrecht) und 11 (Bekanntmachungen) der
+                    Satzung beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Beschluss Bl. 165 SB; neuer Gesellschaftsvertrag Bl. 162 SB;</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Beschlüsse Bl. 165 SB; Verschmelzungsvertrag Bl. 165 SB;</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die EMAGIC Soft- und Hardware GmbH mit dem Sitz in Rellingen (Amtsgericht
+                    Pinneberg HRB 3362 PI) ist auf Grund des Verschmelzungsvertrages vom 23.12.2005
+                    und der Beschlüsse der Gesellschafterversammlungen vom selben Tag mit der
+                    Gesellschaft verschmolzen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Berichtigung der Eintragung Nr. 10 vom 24.05.2006</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 10.01.2007 hat die Änderung des § 1
+                    (Firma) der Satzung beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 08.07.2010 hat die Änderung des § 2
+                    (Gegenstand des Unternehmens) des Gesellschaftsvertrages beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die ZideOne GmbH mit dem Sitz in Magdeburg (Amtsgericht Magdeburg HRB
+                    8541) ist auf Grund des Verschmelzungsvertrages vom 22.09.2010 und der
+                    Beschlüsse der Gesellschafterversammlungen vom selben Tag mit der Gesellschaft
+                    verschmolzen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat im Wege der Ausgliederung gemäß Ausgliederungsvertrag
+                    vom 30.06.2018 sowie der Beschlüsse der Gesellschafterversammlungen vom selben
+                    Tag Teile des Vermögens (Forschungs- und Entwicklungsgeschäft) auf die Apple
+                    Technology Services B.V. &amp; Co. KG mit dem Sitz in München (Amtsgericht
+                    München HRA 108914) übertragen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 08.06.2022 hat die Satzung neu gefasst.</tns:text>
+            </tns:eintragungstext>
+            <tns:abrufuhrzeit>21:46:18</tns:abrufuhrzeit>
             <tns:abrufdatum>2023-08-12</tns:abrufdatum>
-            <tns:letzteEintragung>2023-01-27</tns:letzteEintragung>
-            <tns:anzahlEintragungen>4</tns:anzahlEintragungen>
+            <tns:letzteEintragung>2023-02-07</tns:letzteEintragung>
+            <tns:anzahlEintragungen>32</tns:anzahlEintragungen>
+            <tns:letzteAenderung>
+                <tns:aenderungsdatum>2022-06-08</tns:aenderungsdatum>
+            </tns:letzteAenderung>
         </tns:auszug>
         <tns:basisdatenRegister>
             <tns:satzungsdatum>
-                <tns:aktuellesSatzungsdatum>2022-01-10</tns:aktuellesSatzungsdatum>
+                <tns:aktuellesSatzungsdatum>1980-03-26</tns:aktuellesSatzungsdatum>
             </tns:satzungsdatum>
             <tns:rechtstraeger>
                 <tns:bezeichnung>
-                    <tns:bezeichnung.aktuell>CargoKite GmbH</tns:bezeichnung.aktuell>
+                    <tns:bezeichnung.aktuell>Apple GmbH</tns:bezeichnung.aktuell>
                 </tns:bezeichnung>
                 <tns:angabenZurRechtsform>
                     <tns:rechtsform listVersionID="3.4"
@@ -418,9 +545,9 @@
                         listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                         <code>003</code>
                     </tns:anschriftstyp>
-                    <tns:strasse>Liebherrstraße</tns:strasse>
-                    <tns:hausnummer>20</tns:hausnummer>
-                    <tns:postleitzahl>80538</tns:postleitzahl>
+                    <tns:strasse>Katharina-von-Bora-Str.</tns:strasse>
+                    <tns:hausnummer>3</tns:hausnummer>
+                    <tns:postleitzahl>80333</tns:postleitzahl>
                     <tns:ort>München</tns:ort>
                     <tns:staat>
                         <tns:auswahl_staat>
@@ -449,19 +576,9 @@
                     <tns:ref.rollennummer>4</tns:ref.rollennummer>
                     <tns:besondereVertretungsregelung>
                         <tns:auswahl_vertretungsbefugnis>
-                            <tns:vertretungsbefugnis listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
-                                <code>003</code>
-                            </tns:vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext>Gesamtprokura gemeinsam mit einem
+                                Geschäftsführer oder einem anderen Prokuristen</tns:vertretungsbefugnisFreitext>
                         </tns:auswahl_vertretungsbefugnis>
-                        <tns:auswahl_befreiungVon181BGB>
-                            <tns:befreiungVon181BGB listVersionID="2.0"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
-                                der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines
-                                Dritten Rechtsgeschäfte abzuschließen-->
-                                <code>010</code>
-                            </tns:befreiungVon181BGB>
-                        </tns:auswahl_befreiungVon181BGB>
                     </tns:besondereVertretungsregelung>
                 </tns:vertretungsberechtigte>
                 <tns:vertretungsberechtigte>
@@ -469,18 +586,10 @@
                     <tns:besondereVertretungsregelung>
                         <tns:auswahl_vertretungsbefugnis>
                             <tns:vertretungsbefugnis listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
-                                <code>003</code>
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Einzelprokura-->
+                                <code>002</code>
                             </tns:vertretungsbefugnis>
                         </tns:auswahl_vertretungsbefugnis>
-                        <tns:auswahl_befreiungVon181BGB>
-                            <tns:befreiungVon181BGB listVersionID="2.0"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
-                                der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines
-                                Dritten Rechtsgeschäfte abzuschließen-->
-                                <code>010</code>
-                            </tns:befreiungVon181BGB>
-                        </tns:auswahl_befreiungVon181BGB>
                     </tns:besondereVertretungsregelung>
                 </tns:vertretungsberechtigte>
                 <tns:vertretungsberechtigte>
@@ -502,20 +611,38 @@
                         </tns:auswahl_befreiungVon181BGB>
                     </tns:besondereVertretungsregelung>
                 </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>7</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
+                                <code>003</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                        <tns:auswahl_befreiungVon181BGB>
+                            <tns:befreiungVon181BGB listVersionID="2.0"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
+                                der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines
+                                Dritten Rechtsgeschäfte abzuschließen-->
+                                <code>010</code>
+                            </tns:befreiungVon181BGB>
+                        </tns:auswahl_befreiungVon181BGB>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
             </tns:vertretung>
-            <tns:gegenstand>Die Forschung, Entwicklung, Herstellung und der Vertrieb von Produkten
-                und Dienstleistungen im Bereich maritimer Logistik, insbesondere
-                schiffbautechnischen Systemintegration, und alle damit im Zusammenhang stehenden
-                Dienstleistungen, die Erbringung von Webdienstleistungen und alle damit im
-                Zusammenhang stehenden Dienstleistungen und Beratungsleistungen sowie alle damit im
-                Zusammenhang stehenden Geschäfte und soweit keine gesetzlich vorgeschriebenen
-                Genehmigungen erforderlich sind.</tns:gegenstand>
+            <tns:gegenstand>Erbringen von Dienstleistungen gegenüber Apple Inc., Apple Sales
+                International und anderen verbundenen Gesellschaften innerhalb des Apple-Konzerns.
+                Diese Dienstleistungen umfassen Verkaufsunterstützung, Marketing, technische
+                Unterstützung und vertraglich festgelegte Forschungs- und Entwicklungstätigkeiten
+                zur Entwicklung von Computer-Programmen und Forschung im Bereich Medien und
+                Kommunikation.</tns:gegenstand>
         </tns:basisdatenRegister>
         <tns:auswahl_zusatzangaben>
             <tns:kapitalgesellschaft>
                 <tns:zusatzGmbH>
                     <tns:stammkapital>
-                        <tns:zahl>25000.00</tns:zahl>
+                        <tns:zahl>5000000.00</tns:zahl>
                         <tns:waehrung listVersionID="1.0"
                             listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro-->
                             <code>EUR</code>

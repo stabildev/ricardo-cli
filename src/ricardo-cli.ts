@@ -43,7 +43,7 @@ const displayDetails = async (
           result!.content,
           `SI_${selectedResult.name}.${result!.fileExtension}`
         )
-        const { name, hq, address } = parseSI(result!.content)
+        const { name, hq, address } = parseSI(result!.content.toString())
         console.log({ name, hq, address })
         displayDetails(selectedResult, {
           cookie,
@@ -123,8 +123,10 @@ const displaySearchResults = async (
 
   const selectedResult = results[selectedResultOrAction]
 
+  // filter out documentLinks
+  const { documentLinks, ...rest } = selectedResult
   // Display more details for the selected search result
-  console.dir(selectedResult, { depth: null })
+  console.dir(rest, { depth: null })
 
   // Provide more options to the user
   displayDetails(selectedResult, {

@@ -1,15 +1,19 @@
+import { RegisterType } from './types'
+
 export const postNormaleSuche = async ({
   queryString,
-  registryType,
-  registryNumber,
+  registerType: registryType,
+  registerNumber,
   cookie,
+  exactMatch = false,
 }: {
   queryString?: string
-  registryType?: 'HRA' | 'HRB' | 'PR' | 'VR' | 'GnR'
-  registryNumber?: string
+  registerType?: RegisterType
+  registerNumber?: string
   cookie?: string
+  exactMatch?: boolean
 }) => {
-  if (!queryString && !(!!registryType && !!registryNumber)) {
+  if (!queryString && !(!!registryType && !!registerNumber)) {
     throw new Error('No search string or no register type and number provided!')
   }
   const headers = new Headers({
@@ -42,11 +46,11 @@ export const postNormaleSuche = async ({
     'javax.faces.ViewState': 'stateless',
     'suchTyp': 'n',
     'form:schlagwoerter': queryString ?? '',
-    'form:schlagwortOptionen': '2',
+    'form:schlagwortOptionen': exactMatch ? '3' : '1', // default is '2' which means only one word has to match. Useless!
     'form:NiederlassungSitz': '',
     'form:registerArt_focus': registryType ?? '',
     'form:registerArt_input': '',
-    'form:registerNummer': registryNumber ?? '',
+    'form:registerNummer': registerNumber ?? '',
     'form:registergericht_focus': '',
     'form:registergericht_input': '',
     'form:ergebnisseProSeite_focus': '',

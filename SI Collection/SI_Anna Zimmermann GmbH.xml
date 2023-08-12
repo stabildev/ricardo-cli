@@ -4,18 +4,18 @@
     xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd">
     <tns:nachrichtenkopf xjustizVersion="3.3.1">
         <tns:aktenzeichen.absender />
-        <tns:erstellungszeitpunkt>2023-08-12T21:45:40Z</tns:erstellungszeitpunkt>
+        <tns:erstellungszeitpunkt>2023-08-12T22:17:25Z</tns:erstellungszeitpunkt>
         <tns:auswahl_absender>
             <tns:absender.gericht listVersionID="3.5"
-                listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
-                Amtsgericht München-->
-                <code>D2601V</code>
+                listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                Hannover-->
+                <code>P2305</code>
             </tns:absender.gericht>
         </tns:auswahl_absender>
         <tns:auswahl_empfaenger>
             <tns:empfaenger.sonstige />
         </tns:auswahl_empfaenger>
-        <tns:eigeneNachrichtenID>9a6c794b-31af-4b71-b12a-9e0f1e9217ab</tns:eigeneNachrichtenID>
+        <tns:eigeneNachrichtenID>17475e71-28da-4039-9bfd-14bb82c57f1e</tns:eigeneNachrichtenID>
         <tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
             <code>002</code>
         </tns:ereignis>
@@ -35,9 +35,9 @@
                 </tns:sachgebiet>
                 <tns:auswahl_instanzbehoerde>
                     <tns:gericht listVersionID="3.5"
-                        listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
-                        Amtsgericht München-->
-                        <code>D2601V</code>
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                        Hannover-->
+                        <code>P2305</code>
                     </tns:gericht>
                 </tns:auswahl_instanzbehoerde>
                 <tns:aktenzeichen>
@@ -48,7 +48,7 @@
                                 (Kapitalgesellschaften) (AG)-->
                                 <code>HRB</code>
                             </tns:register>
-                            <tns:laufendeNummer>273489</tns:laufendeNummer>
+                            <tns:laufendeNummer>100164</tns:laufendeNummer>
                             <tns:jahr />
                         </tns:aktenzeichen.strukturiert>
                     </tns:auswahl_aktenzeichen>
@@ -61,7 +61,7 @@
                 <tns:rolle>
                     <tns:rollennummer>1</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21797738</tns:id>
+                        <tns:id>837104829</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -74,7 +74,7 @@
                     <tns:auswahl_beteiligter>
                         <tns:organisation>
                             <tns:bezeichnung>
-                                <tns:bezeichnung.aktuell>CargoKite GmbH</tns:bezeichnung.aktuell>
+                                <tns:bezeichnung.aktuell>Anna Zimmermann GmbH</tns:bezeichnung.aktuell>
                             </tns:bezeichnung>
                             <tns:angabenZurRechtsform>
                                 <tns:rechtsform listVersionID="3.4"
@@ -84,7 +84,7 @@
                                 </tns:rechtsform>
                             </tns:angabenZurRechtsform>
                             <tns:sitz>
-                                <tns:ort>München</tns:ort>
+                                <tns:ort>Hannover</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -99,10 +99,10 @@
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:strasse>Liebherrstraße</tns:strasse>
-                                <tns:hausnummer>20</tns:hausnummer>
-                                <tns:postleitzahl>80538</tns:postleitzahl>
-                                <tns:ort>München</tns:ort>
+                                <tns:strasse>Seelhorststraße</tns:strasse>
+                                <tns:hausnummer>60</tns:hausnummer>
+                                <tns:postleitzahl>30175</tns:postleitzahl>
+                                <tns:ort>Hannover</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -120,7 +120,7 @@
                 <tns:rolle>
                     <tns:rollennummer>2</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>20000000</tns:id>
+                        <tns:id>837000000</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -132,8 +132,8 @@
                 <tns:rolle>
                     <tns:rollennummer>3</tns:rollennummer>
                     <tns:rollenbezeichnung listVersionID="3.3"
-                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Einreicher(in)-->
-                        <code>215</code>
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Notar(in)-->
+                        <code>208</code>
                     </tns:rollenbezeichnung>
                     <tns:geschaeftszeichen />
                 </tns:rolle>
@@ -142,10 +142,10 @@
                     <tns:auswahl_beteiligter>
                         <tns:organisation>
                             <tns:bezeichnung>
-                                <tns:bezeichnung.aktuell>Amtsgericht München - Registergericht -</tns:bezeichnung.aktuell>
+                                <tns:bezeichnung.aktuell>Amtsgericht Hannover</tns:bezeichnung.aktuell>
                             </tns:bezeichnung>
                             <tns:sitz>
-                                <tns:ort>München</tns:ort>
+                                <tns:ort>Hannover</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -160,10 +160,10 @@
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:strasse>Infanteriestr.</tns:strasse>
-                                <tns:hausnummer>5</tns:hausnummer>
-                                <tns:postleitzahl>80325</tns:postleitzahl>
-                                <tns:ort>München</tns:ort>
+                                <tns:strasse>Volgersweg</tns:strasse>
+                                <tns:hausnummer>1</tns:hausnummer>
+                                <tns:postleitzahl>30175</tns:postleitzahl>
+                                <tns:ort>Hannover</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -173,6 +173,27 @@
                                     </tns:auswahl_staat>
                                 </tns:staat>
                             </tns:anschrift>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Telefon-->
+                                    <code>007</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>0511/347-2253</tns:verbindung>
+                            </tns:telekommunikation>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Fax-->
+                                    <code>002</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>0511/347-272</tns:verbindung>
+                            </tns:telekommunikation>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--E-Mail-->
+                                    <code>001</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>Poststelle@ag-ha.niedersachsen.de</tns:verbindung>
+                            </tns:telekommunikation>
                         </tns:organisation>
                     </tns:auswahl_beteiligter>
                 </tns:beteiligter>
@@ -181,7 +202,7 @@
                 <tns:rolle>
                     <tns:rollennummer>4</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21797739</tns:id>
+                        <tns:id>837165536</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -194,22 +215,22 @@
                     <tns:auswahl_beteiligter>
                         <tns:natuerlichePerson>
                             <tns:vollerName>
-                                <tns:vorname>Amelie</tns:vorname>
-                                <tns:nachname>Binder</tns:nachname>
+                                <tns:vorname>Henning</tns:vorname>
+                                <tns:nachname>Rodekohr</tns:nachname>
                             </tns:vollerName>
                             <tns:geburt>
-                                <tns:geburtsdatum>1999-02-16</tns:geburtsdatum>
+                                <tns:geburtsdatum>1972-01-18</tns:geburtsdatum>
                             </tns:geburt>
                             <tns:geschlecht listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--weiblich-->
-                                <code>2</code>
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
                             </tns:geschlecht>
                             <tns:anschrift>
                                 <tns:anschriftstyp listVersionID="3.0"
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:ort>München</tns:ort>
+                                <tns:ort>Bruchhausen-Vilsen</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -227,7 +248,7 @@
                 <tns:rolle>
                     <tns:rollennummer>5</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21797740</tns:id>
+                        <tns:id>837194696</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -240,11 +261,11 @@
                     <tns:auswahl_beteiligter>
                         <tns:natuerlichePerson>
                             <tns:vollerName>
-                                <tns:vorname>Tim Jörg</tns:vorname>
-                                <tns:nachname>Linnenweber</tns:nachname>
+                                <tns:vorname>Michael</tns:vorname>
+                                <tns:nachname>Reinhardt</tns:nachname>
                             </tns:vollerName>
                             <tns:geburt>
-                                <tns:geburtsdatum>1992-11-12</tns:geburtsdatum>
+                                <tns:geburtsdatum>1960-09-10</tns:geburtsdatum>
                             </tns:geburt>
                             <tns:geschlecht listVersionID="2.1"
                                 listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
@@ -255,7 +276,7 @@
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:ort>München</tns:ort>
+                                <tns:ort>Hoya</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -273,7 +294,7 @@
                 <tns:rolle>
                     <tns:rollennummer>6</tns:rollennummer>
                     <tns:rollenID>
-                        <tns:id>21806609</tns:id>
+                        <tns:id>837293719</tns:id>
                         <tns:ref.instanznummer>0</tns:ref.instanznummer>
                     </tns:rollenID>
                     <tns:rollenbezeichnung listVersionID="3.3"
@@ -286,22 +307,22 @@
                     <tns:auswahl_beteiligter>
                         <tns:natuerlichePerson>
                             <tns:vollerName>
-                                <tns:vorname>Marcus</tns:vorname>
-                                <tns:nachname>Bischoff</tns:nachname>
+                                <tns:vorname>Hans-Dietrich</tns:vorname>
+                                <tns:nachname>Kühl</tns:nachname>
                             </tns:vollerName>
                             <tns:geburt>
-                                <tns:geburtsdatum>1991-03-07</tns:geburtsdatum>
+                                <tns:geburtsdatum>1964-05-10</tns:geburtsdatum>
                             </tns:geburt>
                             <tns:geschlecht listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--unbekannt-->
-                                <code>0</code>
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
                             </tns:geschlecht>
                             <tns:anschrift>
                                 <tns:anschriftstyp listVersionID="3.0"
                                     listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                                     <code>003</code>
                                 </tns:anschriftstyp>
-                                <tns:ort>München</tns:ort>
+                                <tns:ort>Seevetal</tns:ort>
                                 <tns:staat>
                                     <tns:auswahl_staat>
                                         <tns:staat listVersionID="6"
@@ -312,60 +333,6 @@
                                 </tns:staat>
                             </tns:anschrift>
                         </tns:natuerlichePerson>
-                    </tns:auswahl_beteiligter>
-                </tns:beteiligter>
-            </tns:beteiligung>
-            <tns:beteiligung>
-                <tns:rolle>
-                    <tns:rollennummer>7</tns:rollennummer>
-                    <tns:rollenID>
-                        <tns:id>21834982</tns:id>
-                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
-                    </tns:rollenID>
-                    <tns:rollenbezeichnung listVersionID="3.3"
-                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Zweigniederlassung-->
-                        <code>295</code>
-                    </tns:rollenbezeichnung>
-                </tns:rolle>
-                <tns:beteiligter>
-                    <tns:beteiligtennummer>7</tns:beteiligtennummer>
-                    <tns:auswahl_beteiligter>
-                        <tns:organisation>
-                            <tns:bezeichnung>
-                                <tns:bezeichnung.aktuell>CargoKite GmbH</tns:bezeichnung.aktuell>
-                            </tns:bezeichnung>
-                            <tns:sitz>
-                                <tns:ort>Neubiberg</tns:ort>
-                                <tns:staat>
-                                    <tns:auswahl_staat>
-                                        <tns:staat listVersionID="6"
-                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
-                                            <code>DE</code>
-                                        </tns:staat>
-                                    </tns:auswahl_staat>
-                                </tns:staat>
-                            </tns:sitz>
-                            <tns:anschrift>
-                                <tns:anschriftstyp listVersionID="3.0"
-                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
-                                    <code>003</code>
-                                </tns:anschriftstyp>
-                                <tns:strasse>Werner-Heisenberg-Weg 39, c/o Universität der
-                                    Bundeswehr München, FOUNDERS - CargoKite, Fakultät für
-                                    Betriebswirtschaft Gebäude 36 Dekanat ZE</tns:strasse>
-                                <tns:hausnummer>BW</tns:hausnummer>
-                                <tns:postleitzahl>85577</tns:postleitzahl>
-                                <tns:ort>Neubiberg</tns:ort>
-                                <tns:staat>
-                                    <tns:auswahl_staat>
-                                        <tns:staat listVersionID="6"
-                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
-                                            <code>DE</code>
-                                        </tns:staat>
-                                    </tns:auswahl_staat>
-                                </tns:staat>
-                            </tns:anschrift>
-                        </tns:organisation>
                     </tns:auswahl_beteiligter>
                 </tns:beteiligter>
             </tns:beteiligung>
@@ -381,6 +348,29 @@
         </tns:betroffenerRechtstraeger>
         <tns:auszug>
             <tns:eintragungstext>
+                <tns:spalte>4</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat einen oder mehrere Geschäftsführer.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>4</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>3</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Den Geschäftsführern kann jeweils Einzelvertretungsbefugnis erteilt
+                    werden. Den Geschäftsführern kann jeweils die Befugnis erteilt werden, im Namen
+                    der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten
+                    Rechtsgeschäfte abzuschließen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
                 <tns:spalte>6</tns:spalte>
                 <tns:position>1</tns:position>
                 <tns:laufendeNummer>2</tns:laufendeNummer>
@@ -388,20 +378,132 @@
                     listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
                     <code>009</code>
                 </tns:eintragungsart>
-                <tns:text>Gesellschaftsvertrag vom 10.01.2022.</tns:text>
+                <tns:text>Gesellschaftsvertrag vom 02.03.1981</tns:text>
             </tns:eintragungstext>
-            <tns:abrufuhrzeit>21:45:41</tns:abrufuhrzeit>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>4</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft ist entstanden durch Umwandlung der seit dem 11.04.1899
+                    bestehenden Offenen Handelsgesellschaft "Bad Pyrmonter Mineral- und Heilquellen
+                    Gebr. Vietmeyer" in Bad Pyrmont durch Beschluss der Gesellschafter vom 2.03.1981
+                    nach den Bestimmungen des Umwandlungsgesetzes.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>3</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Tag der ersten Eintragung: 30.03.1981 Dieses Blatt ist zur Fortführung auf
+                    EDV umgeschrieben worden und dabei an die Stelle des bisherigen Registerblattes
+                    getreten. Freigegeben am 29.05.2006.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>4</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Beteiligung: AG Hannover HRA 100346</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 15.07.2014 hat eine Änderung des
+                    Gesellschaftsvertrages durch die Streichung des § 5 sowie die daraus
+                    resultierende geänderte Nummerierung der folgenden Paragraphen beschlossen.
+                    Weiter hat die Gesellschafterversammlung vom 04.08.2014 eine Änderung des
+                    Gesellschaftsvertrages in § 4 (Geschäftsführung und Vertretung), § 5
+                    (Gesellschafterbeschlüsse, Gesellschafterversammlung) und § 6 (Geschäftsjahr,
+                    Jahresabschluss) beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 29.03.2017 hat die vollständige
+                    Neufassung des Gesellschaftsvertrages beschlossen, insbesondere in § 1 (Firma
+                    und Sitz) und in § 2 (Gegenstand des Unternehmens) und mit ihr die Änderung der
+                    Firma, des Unternehmensgegenstandes sowie die Sitzverlegung nach Hannover.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 17.05.2017 hat zum Zwecke der Übernahme
+                    von Vermögensteilen der Bremer Schweiz Mineralbrunnen GmbH in Bremen
+                    (Amtsgericht Bremen HRB 12343) im Wege der Ausgliederung die Erhöhung des
+                    Stammkapitals um 5.000,00 EUR auf 110.000,00 EUR und die entsprechende Änderung
+                    der Satzung in 3 (Stammkapital und Geschäftsjahr) sowie die Änderung von § 2
+                    (Gegenstand des Unternehmens) und § 4 (Geschäftsführung und Vertretung) und mit
+                    ihr die Änderung des Unternehmensgegenstandes beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat nach Maßgabe des Ausgliederungs- und
+                    Übernahmevertrages vom 17.05.2017 sowie der Zustimmungsbeschlüsse ihrer
+                    Gesellschafterversammlung vom 17.05.2017 und der Gesellschafterversammlung des
+                    übertragenden Rechtsträgers vom 17.05.2017 Teile des Vermögens (Betrieb) der
+                    "Bremer Schweiz" Mineralbrunnen GmbH mit Sitz in Bremen (Amtsgericht Bremen HRB
+                    12343) als Gesamtheit im Wege der Umwandlung durch Ausgliederung übernommen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Ausgliederung ist mit der Eintragung auf dem Registerblatt des
+                    übertragenden Rechtsträgers am 02.06.2017 wirksam geworden.</tns:text>
+            </tns:eintragungstext>
+            <tns:abrufuhrzeit>22:17:25</tns:abrufuhrzeit>
             <tns:abrufdatum>2023-08-12</tns:abrufdatum>
-            <tns:letzteEintragung>2023-01-27</tns:letzteEintragung>
-            <tns:anzahlEintragungen>4</tns:anzahlEintragungen>
+            <tns:letzteEintragung>2023-08-03</tns:letzteEintragung>
+            <tns:anzahlEintragungen>20</tns:anzahlEintragungen>
+            <tns:letzteAenderung>
+                <tns:aenderungsdatum>2017-05-17</tns:aenderungsdatum>
+            </tns:letzteAenderung>
         </tns:auszug>
         <tns:basisdatenRegister>
             <tns:satzungsdatum>
-                <tns:aktuellesSatzungsdatum>2022-01-10</tns:aktuellesSatzungsdatum>
+                <tns:aktuellesSatzungsdatum>1981-03-02</tns:aktuellesSatzungsdatum>
             </tns:satzungsdatum>
             <tns:rechtstraeger>
                 <tns:bezeichnung>
-                    <tns:bezeichnung.aktuell>CargoKite GmbH</tns:bezeichnung.aktuell>
+                    <tns:bezeichnung.aktuell>Anna Zimmermann GmbH</tns:bezeichnung.aktuell>
                 </tns:bezeichnung>
                 <tns:angabenZurRechtsform>
                     <tns:rechtsform listVersionID="3.4"
@@ -411,17 +513,17 @@
                     </tns:rechtsform>
                 </tns:angabenZurRechtsform>
                 <tns:sitz>
-                    <tns:ort>München</tns:ort>
+                    <tns:ort>Hannover</tns:ort>
                 </tns:sitz>
                 <tns:anschrift>
                     <tns:anschriftstyp listVersionID="3.0"
                         listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
                         <code>003</code>
                     </tns:anschriftstyp>
-                    <tns:strasse>Liebherrstraße</tns:strasse>
-                    <tns:hausnummer>20</tns:hausnummer>
-                    <tns:postleitzahl>80538</tns:postleitzahl>
-                    <tns:ort>München</tns:ort>
+                    <tns:strasse>Seelhorststraße</tns:strasse>
+                    <tns:hausnummer>60</tns:hausnummer>
+                    <tns:postleitzahl>30175</tns:postleitzahl>
+                    <tns:ort>Hannover</tns:ort>
                     <tns:staat>
                         <tns:auswahl_staat>
                             <tns:staat listVersionID="6"
@@ -457,9 +559,9 @@
                         <tns:auswahl_befreiungVon181BGB>
                             <tns:befreiungVon181BGB listVersionID="2.0"
                                 listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
-                                der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines
-                                Dritten Rechtsgeschäfte abzuschließen-->
-                                <code>010</code>
+                                der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen
+                                oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen-->
+                                <code>011</code>
                             </tns:befreiungVon181BGB>
                         </tns:auswahl_befreiungVon181BGB>
                     </tns:besondereVertretungsregelung>
@@ -468,54 +570,82 @@
                     <tns:ref.rollennummer>5</tns:ref.rollennummer>
                     <tns:besondereVertretungsregelung>
                         <tns:auswahl_vertretungsbefugnis>
-                            <tns:vertretungsbefugnis listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
-                                <code>003</code>
-                            </tns:vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext>vertretungsberechtigt gemeinsam mit
+                                einem anderen Geschäftsführer oder einem Prokuristen; für
+                                Rechtsgeschäfte mit der Vilsa-Brunnen Otto Rodekohr GmbH &amp; Co.
+                                KG, der Bad Pyromter Mineral- und Heilquellen GmbH &amp; Co. OHG und
+                                der E &amp; L Einkaufs- und Logistik-KG befugt, im Namen der
+                                Gesellschaft mit sich im eigenen Namen oder als Vertreter eines
+                                Dritten Rechtsgeschäfte abzuschließen; befugt, im Namen der
+                                Gesellschaft Rechtsgeschäfte mit der VILSA-BRUNNEN Otto Rodekohr
+                                GmbH und der VILSA-Brunnen Management GmbH als deren Vertreter
+                                abzuschließen. Er ist auch befugt, im Namen der Gesellschaft
+                                Rechtsgeschäfte mit a. der im Handelsregister des Amtsgerichts
+                                Hamburg unter HRA 125531 eingetragenen Wasserhelden GmbH &amp; Co.
+                                KG mit Sitz in Hamburg, b. der im Handelsregister des Amtsgerichts
+                                Hamburg unter HRB 161148 eingetragenen Wasserhelden
+                                Geschäftsführungs GmbH mit Sitz in Hamburg, c. der im
+                                Handelsregister des Amtsgerichts Walsrode unter HRA 203559
+                                eingetragenen Grete Becker Dienstleistungs KG mit Sitz in
+                                Bruchhausen-Vilsen, d. der im Handelsregister des Amtsgerichts
+                                Bremen unter HRB 34923 eingetragenen Liquid Innovation GmbH mit Sitz
+                                in Bremen und e. der im Handelsregister des Amtsgerichts Walsrode
+                                unter HRB 110303 eingetragenen VILSA-BRUNNEN Otto Rodekohr
+                                Verwaltungsgesellschaft mbH mit Sitz in Bruchhausen-Vilsen als deren
+                                Vertreter abzuschließen. Ferner ist er befugt, im Namen der
+                                Gesellschaft Rechtsgeschäfte mit der im Handelsregister des
+                                Amtsgerichts Aschaffenburg unter HRB 16159 eingetragenen Sodenthaler
+                                Mineralbrunnen GmbH mit Sitz in Sulzbach am Main - Soden als deren
+                                Vertreter abzuschließen.</tns:vertretungsbefugnisFreitext>
                         </tns:auswahl_vertretungsbefugnis>
-                        <tns:auswahl_befreiungVon181BGB>
-                            <tns:befreiungVon181BGB listVersionID="2.0"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
-                                der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines
-                                Dritten Rechtsgeschäfte abzuschließen-->
-                                <code>010</code>
-                            </tns:befreiungVon181BGB>
-                        </tns:auswahl_befreiungVon181BGB>
                     </tns:besondereVertretungsregelung>
                 </tns:vertretungsberechtigte>
                 <tns:vertretungsberechtigte>
                     <tns:ref.rollennummer>6</tns:ref.rollennummer>
                     <tns:besondereVertretungsregelung>
                         <tns:auswahl_vertretungsbefugnis>
-                            <tns:vertretungsbefugnis listVersionID="2.1"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
-                                <code>003</code>
-                            </tns:vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext>Er ist befugt, im Namen der
+                                Gesellschaft Rechtsgeschäfte mit a. der im Handelsregister des
+                                Amtsgerichts Walsrode unter HRA 110167 eingetragenen VILSA-BRUNNEN
+                                GmbH &amp; Co. KG mit Sitz in Bruchhausen-Vilsen, b. der im
+                                Handelsregister des Amtsgerichts Walsrode unter HRB 206723
+                                eingetragenen VILSA-BRUNNEN Otto Rodekohr GmbH mit Sitz in
+                                Bruchhausen-Vilsen, c. der im Handelsregister des Amtsgerichts
+                                Walsrode unter HRB 206329 eingetragenen VILSA-BRUNNEN Management
+                                GmbH mit Sitz in Bruchhausen-Vilsen, d. der im Handelsregister des
+                                Amtsgerichts Hannover unter HRA 100346 eingetragenen Bad Pyrmonter
+                                Mineral- und Heilquellen GmbH &amp; Co. OHG mit Sitz in Bad Pyrmont,
+                                e. der im Handelsregister des Amtsgerichts Walsrode unter HRA 110566
+                                eingetragenen E &amp; L Einkaufs- und Logistik- KG mit Sitz in
+                                Bruchhausen-Vilsen, f. der im Handelsregister des Amtsgerichts
+                                Hamburg unter HRA 125531 eingetragenen Wasserhelden GmbH &amp; Co.
+                                KG mit Sitz in Hamburg, g. der im Handelsregister des Amtsgerichts
+                                Hamburg unter HRB 161148 eingetragenen Wasserhelden
+                                Geschäftsführungs GmbH mit Sitz in Hamburg, h. der im
+                                Handelsregister des Amtsgerichts Walsrode unter HRA 203559
+                                eingetragenen Grete Becker Dienstleistungs KG mit Sitz in
+                                Bruchhausen-Vilsen, i. der im Handelsregister des Amtsgerichts
+                                Bremen unter HRB 34923 eingetragenen Liquid Innovation GmbH mit Sitz
+                                in Bremen und j. der im Handelsregister des Amtsgerichts Walsrode
+                                unter HRB 110303 eingetragenen VILSA-BRUNNEN Otto Rodekohr
+                                Ver-waltungsgesellschaft mbH mit Sitz in Bruchhausen-Vilsen als
+                                deren Vertreter vorzunehmen und insoweit vom
+                                Mehrfachvertretungsverbot des § 181 Alt. 2 BGB befreit. Ferner ist
+                                er befugt, im Namen der Gesellschaft Rechtsgeschäfte mit der im
+                                Handelsregister des Amtsgerichtes Aschaffenburg unter HRB 16159
+                                eingetragenen Sodenthaler Mineralbrunnen GmbH mit Sitz in Sulzbach
+                                am Main - Soden als deren Vertreter abzuschließen.</tns:vertretungsbefugnisFreitext>
                         </tns:auswahl_vertretungsbefugnis>
-                        <tns:auswahl_befreiungVon181BGB>
-                            <tns:befreiungVon181BGB listVersionID="2.0"
-                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
-                                der Befugnis, im Namen der Gesellschaft mit sich als Vertreter eines
-                                Dritten Rechtsgeschäfte abzuschließen-->
-                                <code>010</code>
-                            </tns:befreiungVon181BGB>
-                        </tns:auswahl_befreiungVon181BGB>
                     </tns:besondereVertretungsregelung>
                 </tns:vertretungsberechtigte>
             </tns:vertretung>
-            <tns:gegenstand>Die Forschung, Entwicklung, Herstellung und der Vertrieb von Produkten
-                und Dienstleistungen im Bereich maritimer Logistik, insbesondere
-                schiffbautechnischen Systemintegration, und alle damit im Zusammenhang stehenden
-                Dienstleistungen, die Erbringung von Webdienstleistungen und alle damit im
-                Zusammenhang stehenden Dienstleistungen und Beratungsleistungen sowie alle damit im
-                Zusammenhang stehenden Geschäfte und soweit keine gesetzlich vorgeschriebenen
-                Genehmigungen erforderlich sind.</tns:gegenstand>
+            <tns:gegenstand>Die Herstellung und der Vertrieb von Getränken jeder Art.</tns:gegenstand>
         </tns:basisdatenRegister>
         <tns:auswahl_zusatzangaben>
             <tns:kapitalgesellschaft>
                 <tns:zusatzGmbH>
                     <tns:stammkapital>
-                        <tns:zahl>25000.00</tns:zahl>
+                        <tns:zahl>110000.00</tns:zahl>
                         <tns:waehrung listVersionID="1.0"
                             listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro-->
                             <code>EUR</code>
