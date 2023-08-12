@@ -11,7 +11,7 @@ import {
   postDocumentsDK,
   postErgebnisse,
 } from './requests'
-import { DkDocumentTypes } from './types'
+import { DkDocumentType } from './types'
 import * as cheerio from 'cheerio'
 
 export const download = async ({
@@ -23,7 +23,7 @@ export const download = async ({
   cookie: string
   viewState: string
   documentLink: string
-  dkDocumentType?: DkDocumentTypes
+  dkDocumentType?: DkDocumentType
 }) => {
   // Select document link
   await postErgebnisse({
@@ -131,10 +131,15 @@ export const download = async ({
   })
 
   // Save file
-  const fileName = extractFileName(response.headers.get('content-disposition'))
+  const fileNameAndExtension = extractFileName(
+    response.headers.get('content-disposition')
+  )
+  if (!fileNameAndExtension[1]) {
+    console.error('File extension not found!')
+  }
   return {
-    fileName: fileName[0],
-    fileExtension: fileName[1] || 'unknown',
+    fileName: fileNameAndExtension[0],
+    fileExtension: fileNameAndExtension[1] || 'unknown',
     content: Buffer.from(await response.arrayBuffer()),
     viewState,
   }

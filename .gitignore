@@ -2,9 +2,3 @@
 .vscode
 node_modules/*
 .DS_Store
-
-documents/*
-intermediates/*
-cookie
-viewState
-results.json

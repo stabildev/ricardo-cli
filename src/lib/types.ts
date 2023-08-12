@@ -31,7 +31,11 @@ export enum RegisterDocumentType {
   SI = 'SI',
 }
 
-export enum DkDocumentTypes {
+export enum DkDocumentType {
   LdG = 'Liste der Gesellschafter',
   // to be continued
 }
+
+export type CacheDocumentType =
+  | Omit<RegisterDocumentType, 'DK'>
+  | DkDocumentType

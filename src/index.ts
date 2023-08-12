@@ -1,13 +1,8 @@
 import prompts from 'prompts'
 import { search } from './lib/search'
-import { download } from './lib/download'
-import {
-  DkDocumentTypes,
-  RegisterDocumentType,
-  SearchResult,
-} from './lib/types'
-import { saveInDocuments } from './lib/save'
+import { DkDocumentType, RegisterDocumentType, SearchResult } from './lib/types'
 import { parseSI } from './lib/parse-utils'
+import { requestDocument } from './lib/requestDocument'
 
 const displayDetails = async (
   selectedResult: SearchResult,
@@ -31,18 +26,26 @@ const displayDetails = async (
 
   switch (action) {
     case 'SI':
-      download({
+      requestDocument({
         cookie,
         viewState,
+        documentType: RegisterDocumentType.SI,
+        registerType: selectedResult.registerType,
+        registerNumber: selectedResult.registerNumber,
         documentLink: selectedResult.documentLinks.get(
           RegisterDocumentType.SI
         )!,
       }).then((result) => {
         viewState = result?.viewState!
-        saveInDocuments(
-          result!.content,
-          `SI_${selectedResult.name}.${result!.fileExtension}`
-        )
+        if (!result?.content) {
+          console.log('No content found')
+          displayDetails(selectedResult, {
+            cookie,
+            viewState,
+            results,
+          })
+          return
+        }
         const { name, hq, address } = parseSI(result!.content.toString())
         console.log({ name, hq, address })
         displayDetails(selectedResult, {
@@ -53,19 +56,27 @@ const displayDetails = async (
       })
       break
     case 'LdG':
-      download({
+      requestDocument({
         cookie,
         viewState,
+        documentType: RegisterDocumentType.DK,
+        registerType: selectedResult.registerType,
+        registerNumber: selectedResult.registerNumber,
         documentLink: selectedResult.documentLinks.get(
           RegisterDocumentType.DK
         )!,
-        dkDocumentType: DkDocumentTypes.LdG,
+        dkDocumentType: DkDocumentType.LdG,
       }).then((result) => {
         viewState = result?.viewState!
-        saveInDocuments(
-          result!.content,
-          `LdG_${selectedResult.name}.${result!.fileExtension}`
-        )
+        if (!result?.content) {
+          console.log('No content found')
+          displayDetails(selectedResult, {
+            cookie,
+            viewState,
+            results,
+          })
+          return
+        }
         displayDetails(selectedResult, {
           cookie,
           viewState,
