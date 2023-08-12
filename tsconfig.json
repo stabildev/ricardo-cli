@@ -2,6 +2,9 @@
   "compilerOptions": {
     "target": "es2016",
     "strict": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "esModuleInterop": true
   }
 }

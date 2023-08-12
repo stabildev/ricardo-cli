@@ -1,7 +1,7 @@
 import { extractCookie, parseResults } from '../lib/parse-utils'
 import { getErgebnisse, postNormaleSuche } from '../lib/requests'
 
-const queryString = 'amazon'
+const queryString = 'gonnermann'
 console.log(`Searching for "${queryString}"...`)
 
 console.time('search')

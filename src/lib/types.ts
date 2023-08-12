@@ -30,3 +30,8 @@ export enum RegisterDocumentType {
   VÖ = 'VÖ',
   SI = 'SI',
 }
+
+export enum DkDocumentTypes {
+  LdG = 'Liste der Gesellschafter',
+  // to be continued
+}
