@@ -141,23 +141,6 @@ export const extractAvailableDkDocuments = ($: cheerio.Root) => {
   return result
 }
 
-export const extractSelectionCode = ($: cheerio.Root, topLevelCode: string) => {
-  // Find first leaf under specified top level
-  const documentNode = $(
-    `#dk_form\\:dktree\\:${topLevelCode} li.ui-treenode-leaf`
-  ).first()
-
-  if (!documentNode.length) {
-    return null
-  }
-
-  const selectionCode = documentNode.attr('data-rowkey')
-  if (!selectionCode) {
-    throw new Error('Failed to extract selection code')
-  }
-  return selectionCode
-}
-
 export const extractRegisterNumberAndType = (
   registerCourtAndNumber?: string
 ): {
