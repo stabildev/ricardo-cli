@@ -1,8 +1,8 @@
 // Extract available dk types for a sizable sample of results
 
-import { getDocumentsDK, postDocumentsDK } from './utils/requests'
+import { getDocumentsDK, postDocumentsDK } from './lib/requests'
 import * as cheerio from 'cheerio'
-import { extractViewState } from './utils/parse-utils'
+import { extractViewState } from './lib/parse-utils'
 
 // This function looks only in the top level for a document with the specified name
 // and returns the first document node under it. Otherwise returns null

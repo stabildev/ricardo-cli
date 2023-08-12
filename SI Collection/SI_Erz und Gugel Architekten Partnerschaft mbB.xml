@@ -1,0 +1,349 @@
+<?xml version="1.0"?>
+<tns:nachricht.reg.0400003 xmlns:tns="http://www.xjustiz.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd">
+    <tns:nachrichtenkopf xjustizVersion="3.3.1">
+        <tns:aktenzeichen.absender />
+        <tns:erstellungszeitpunkt>2023-08-12T16:15:08Z</tns:erstellungszeitpunkt>
+        <tns:auswahl_absender>
+            <tns:absender.gericht listVersionID="3.5"
+                listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
+                Amtsgericht Stuttgart-->
+                <code>B8534</code>
+            </tns:absender.gericht>
+        </tns:auswahl_absender>
+        <tns:auswahl_empfaenger>
+            <tns:empfaenger.sonstige />
+        </tns:auswahl_empfaenger>
+        <tns:eigeneNachrichtenID>e60f56f3-6fdd-41c7-bf9f-113f4d30668a</tns:eigeneNachrichtenID>
+        <tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
+            <code>002</code>
+        </tns:ereignis>
+        <tns:herstellerinformation>
+            <tns:nameDesProdukts>RegisSTAR</tns:nameDesProdukts>
+            <tns:herstellerDesProdukts>Eviden Germany GmbH</tns:herstellerDesProdukts>
+            <tns:version> / RSADO: 2.18.0</tns:version>
+        </tns:herstellerinformation>
+    </tns:nachrichtenkopf>
+    <tns:grunddaten>
+        <tns:verfahrensdaten>
+            <tns:instanzdaten>
+                <tns:instanznummer>0</tns:instanznummer>
+                <tns:sachgebiet listVersionID="2.2"
+                    listURI="urn:xoev-de:xjustiz:codeliste:gds.sachgebiet"><!--Partnerschaftsregister-->
+                    <code>028</code>
+                </tns:sachgebiet>
+                <tns:auswahl_instanzbehoerde>
+                    <tns:gericht listVersionID="3.5"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
+                        Amtsgericht Stuttgart-->
+                        <code>B8534</code>
+                    </tns:gericht>
+                </tns:auswahl_instanzbehoerde>
+                <tns:aktenzeichen>
+                    <tns:auswahl_aktenzeichen>
+                        <tns:aktenzeichen.strukturiert>
+                            <tns:register listVersionID="3.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.registerzeichen"><!--Partnerschaftsregistersachen
+                                (AG)-->
+                                <code>PR</code>
+                            </tns:register>
+                            <tns:laufendeNummer>720676</tns:laufendeNummer>
+                            <tns:jahr />
+                        </tns:aktenzeichen.strukturiert>
+                    </tns:auswahl_aktenzeichen>
+                </tns:aktenzeichen>
+                <tns:verfahrensgegenstand>
+                    <tns:gegenstand>Strukturierter Registerinhalt</tns:gegenstand>
+                </tns:verfahrensgegenstand>
+            </tns:instanzdaten>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>1</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>854831581</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Rechtsträger(in)-->
+                        <code>287</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>1</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Erz und Gugel Architekten Partnerschaft mbB</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:angabenZurRechtsform>
+                                <tns:rechtsform listVersionID="3.4"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Partnerschaftsgesellschaft-->
+                                    <code>PartG</code>
+                                </tns:rechtsform>
+                            </tns:angabenZurRechtsform>
+                            <tns:sitz>
+                                <tns:ort>Ostfildern</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:strasse>Riegelstraße</tns:strasse>
+                                <tns:hausnummer>16</tns:hausnummer>
+                                <tns:postleitzahl>73760</tns:postleitzahl>
+                                <tns:ort>Ostfildern</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>2</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>854000000</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Registergericht-->
+                        <code>288</code>
+                    </tns:rollenbezeichnung>
+                    <tns:geschaeftszeichen />
+                </tns:rolle>
+                <tns:rolle>
+                    <tns:rollennummer>3</tns:rollennummer>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Einreicher(in)-->
+                        <code>215</code>
+                    </tns:rollenbezeichnung>
+                    <tns:geschaeftszeichen />
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>2</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Amtsgericht Stuttgart</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Stuttgart</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:strasse>Hauffstr.</tns:strasse>
+                                <tns:hausnummer>5</tns:hausnummer>
+                                <tns:postleitzahl>70049</tns:postleitzahl>
+                                <tns:ort>Stuttgart</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>4</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>854831584</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Partner(in)-->
+                        <code>251</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>4</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Markus</tns:vorname>
+                                <tns:nachname>Erz</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1970-06-22</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Lenningen</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                            <tns:beruf>Architekt</tns:beruf>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>5</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>854831585</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Partner(in)-->
+                        <code>251</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>5</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Udo</tns:vorname>
+                                <tns:nachname>Gugel</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1970-09-28</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Esslingen am Neckar</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                            <tns:beruf>Architekt</tns:beruf>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+        </tns:verfahrensdaten>
+    </tns:grunddaten>
+    <tns:schriftgutobjekte />
+    <tns:fachdatenRegister fachdatenRegisterVersion="3.2">
+        <tns:mitteilungsart listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
+            <code>002</code>
+        </tns:mitteilungsart>
+        <tns:betroffenerRechtstraeger>
+            <tns:ref.rollennummer>1</tns:ref.rollennummer>
+        </tns:betroffenerRechtstraeger>
+        <tns:auszug>
+            <tns:abrufuhrzeit>16:15:08</tns:abrufuhrzeit>
+            <tns:abrufdatum>2023-08-12</tns:abrufdatum>
+            <tns:letzteEintragung>2017-02-21</tns:letzteEintragung>
+            <tns:anzahlEintragungen>1</tns:anzahlEintragungen>
+        </tns:auszug>
+        <tns:basisdatenRegister>
+            <tns:rechtstraeger>
+                <tns:bezeichnung>
+                    <tns:bezeichnung.aktuell>Erz und Gugel Architekten Partnerschaft mbB</tns:bezeichnung.aktuell>
+                </tns:bezeichnung>
+                <tns:angabenZurRechtsform>
+                    <tns:rechtsform listVersionID="3.4"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Partnerschaftsgesellschaft-->
+                        <code>PartG</code>
+                    </tns:rechtsform>
+                </tns:angabenZurRechtsform>
+                <tns:sitz>
+                    <tns:ort>Ostfildern</tns:ort>
+                </tns:sitz>
+            </tns:rechtstraeger>
+            <tns:vertretung>
+                <tns:allgemeineVertretungsregelung>
+                    <tns:auswahl_vertretungsbefugnis>
+                        <tns:vertretungsbefugnisFreitext>Die Partner vertreten einzeln.</tns:vertretungsbefugnisFreitext>
+                    </tns:auswahl_vertretungsbefugnis>
+                </tns:allgemeineVertretungsregelung>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>4</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext />
+                        </tns:auswahl_vertretungsbefugnis>
+                        <tns:auswahl_befreiungVon181BGB>
+                            <tns:befreiungVon181BGB listVersionID="2.0"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
+                                der Befugnis, im Namen der Partnerschaft mit sich im eigenen Namen
+                                oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen-->
+                                <code>017</code>
+                            </tns:befreiungVon181BGB>
+                        </tns:auswahl_befreiungVon181BGB>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>5</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext />
+                        </tns:auswahl_vertretungsbefugnis>
+                        <tns:auswahl_befreiungVon181BGB>
+                            <tns:befreiungVon181BGB listVersionID="2.0"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
+                                der Befugnis, im Namen der Partnerschaft mit sich im eigenen Namen
+                                oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen-->
+                                <code>017</code>
+                            </tns:befreiungVon181BGB>
+                        </tns:auswahl_befreiungVon181BGB>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+            </tns:vertretung>
+            <tns:gegenstand>gemeinschaftliche Berufsausübung der Partner in ihrer jeweiligen
+                Eigenschaft als Architekt; hierbei die Erbringung von freiberuflichen Leistungen aus
+                den Bereichen Architektur. Tätigkeiten, die mit dem Beruf des Architekten nicht
+                vereinbar sind, sind ausgeschlossen.</tns:gegenstand>
+        </tns:basisdatenRegister>
+    </tns:fachdatenRegister>
+</tns:nachricht.reg.0400003>

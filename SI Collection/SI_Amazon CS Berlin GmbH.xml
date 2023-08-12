@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:nachricht.reg.0400003 xmlns:tns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd">
+   <tns:nachrichtenkopf xjustizVersion="3.3.1">
+      <tns:erstellungszeitpunkt>2023-08-01T19:56:56Z</tns:erstellungszeitpunkt>
+      <tns:auswahl_absender>
+         <tns:absender.gericht listVersionID="3.5">
+            <code>F1103R</code>
+         </tns:absender.gericht>
+      </tns:auswahl_absender>
+      <tns:auswahl_empfaenger>
+         <tns:empfaenger.sonstige/>
+      </tns:auswahl_empfaenger>
+      <tns:eigeneNachrichtenID>9C45FA5C-B635-4E56-BC14-B46803E25925</tns:eigeneNachrichtenID>
+      <tns:ereignis listVersionID="1.9">
+         <code>002</code>
+      </tns:ereignis>
+      <tns:herstellerinformation>
+         <tns:nameDesProdukts>AUREG</tns:nameDesProdukts>
+         <tns:herstellerDesProdukts>Datagroup Consulting Services GmbH</tns:herstellerDesProdukts>
+         <tns:version>5.6.0</tns:version>
+      </tns:herstellerinformation>
+   </tns:nachrichtenkopf>
+   <tns:grunddaten>
+      <tns:verfahrensdaten>
+         <tns:verfahrensnummer>0</tns:verfahrensnummer>
+         <tns:instanzdaten>
+            <tns:instanznummer>1</tns:instanznummer>
+            <tns:sachgebiet>
+               <code>015</code>
+            </tns:sachgebiet>
+            <tns:auswahl_instanzbehoerde>
+               <tns:gericht listVersionID="3.5">
+                  <code>F1103R</code>
+               </tns:gericht>
+            </tns:auswahl_instanzbehoerde>
+            <tns:aktenzeichen>
+               <tns:auswahl_aktenzeichen>
+                  <tns:aktenzeichen.freitext>HRB 135559 B</tns:aktenzeichen.freitext>
+               </tns:auswahl_aktenzeichen>
+            </tns:aktenzeichen>
+            <tns:verfahrensgegenstand>
+               <tns:gegenstand>Handelsregister Amtsgericht Charlottenburg</tns:gegenstand>
+            </tns:verfahrensgegenstand>
+         </tns:instanzdaten>
+         <tns:beteiligung>
+            <tns:rolle>
+               <tns:rollennummer>1</tns:rollennummer>
+               <tns:rollenbezeichnung>
+                  <code>287</code>
+               </tns:rollenbezeichnung>
+               <tns:nr>1</tns:nr>
+            </tns:rolle>
+            <tns:beteiligter>
+               <tns:beteiligtennummer>1</tns:beteiligtennummer>
+               <tns:auswahl_beteiligter>
+                  <tns:organisation>
+                     <tns:bezeichnung>
+                        <tns:bezeichnung.aktuell>Amazon CS Berlin GmbH</tns:bezeichnung.aktuell>
+                     </tns:bezeichnung>
+                     <tns:kurzbezeichnung>Amazon CS Berlin GmbH</tns:kurzbezeichnung>
+                     <tns:angabenZurRechtsform>
+                        <tns:rechtsform listVersionID="3.4">
+                           <code>GmbH</code>
+                        </tns:rechtsform>
+                     </tns:angabenZurRechtsform>
+                     <tns:sitz>
+                        <tns:ort>Berlin</tns:ort>
+                        <tns:postleitzahl/>
+                        <tns:staat>
+                           <tns:auswahl_staat>
+                              <tns:staat listVersionID="8">
+                                 <code>DE</code>
+                              </tns:staat>
+                           </tns:auswahl_staat>
+                        </tns:staat>
+                     </tns:sitz>
+                     <tns:registereintragung>
+                        <tns:auswahl_registerbehoerde>
+                           <tns:inlaendischesRegistergericht>
+                              <tns:gericht listVersionID="3.5">
+                                 <code>F1103R</code>
+                              </tns:gericht>
+                           </tns:inlaendischesRegistergericht>
+                        </tns:auswahl_registerbehoerde>
+                        <tns:registernummer>HRB 135559 B</tns:registernummer>
+                        <tns:euid>DEF1103R.HRB135559B</tns:euid>
+                     </tns:registereintragung>
+                     <tns:anschrift>
+                        <tns:anschriftstyp>
+                           <code>003</code>
+                        </tns:anschriftstyp>
+                        <tns:anschriftenzusatz/>
+                        <tns:strasse>Karl-Liebknecht-Str.</tns:strasse>
+                        <tns:hausnummer>5</tns:hausnummer>
+                        <tns:postfachnummer/>
+                        <tns:postleitzahl>10178</tns:postleitzahl>
+                        <tns:ort>Berlin</tns:ort>
+                        <tns:ortsteil/>
+                     </tns:anschrift>
+                  </tns:organisation>
+               </tns:auswahl_beteiligter>
+            </tns:beteiligter>
+         </tns:beteiligung>
+         <tns:beteiligung>
+            <tns:rolle>
+               <tns:rollennummer>2</tns:rollennummer>
+               <tns:rollenbezeichnung>
+                  <code>288</code>
+               </tns:rollenbezeichnung>
+               <tns:nr>1</tns:nr>
+            </tns:rolle>
+            <tns:beteiligter>
+               <tns:beteiligtennummer>2</tns:beteiligtennummer>
+               <tns:auswahl_beteiligter>
+                  <tns:organisation>
+                     <tns:bezeichnung>
+                        <tns:bezeichnung.aktuell>Amtsgericht Charlottenburg</tns:bezeichnung.aktuell>
+                     </tns:bezeichnung>
+                     <tns:kurzbezeichnung>Amtsgericht Charlottenburg</tns:kurzbezeichnung>
+                     <tns:sitz>
+                        <tns:ort/>
+                        <tns:postleitzahl/>
+                        <tns:staat>
+                           <tns:auswahl_staat>
+                              <tns:staat listVersionID="8">
+                                 <code/>
+                              </tns:staat>
+                           </tns:auswahl_staat>
+                        </tns:staat>
+                     </tns:sitz>
+                     <tns:anschrift>
+                        <tns:anschriftstyp>
+                           <code>003</code>
+                        </tns:anschriftstyp>
+                        <tns:anschriftenzusatz>Dienstgebäude Hardenbergstraße</tns:anschriftenzusatz>
+                        <tns:strasse>Hardenbergstraße</tns:strasse>
+                        <tns:hausnummer>31</tns:hausnummer>
+                        <tns:postfachnummer/>
+                        <tns:postleitzahl>10623</tns:postleitzahl>
+                        <tns:ort>Berlin</tns:ort>
+                        <tns:ortsteil>Charlottenburg</tns:ortsteil>
+                        <tns:staat>
+                           <tns:auswahl_staat>
+                              <tns:staat listVersionID="8">
+                                 <code>DE</code>
+                              </tns:staat>
+                           </tns:auswahl_staat>
+                        </tns:staat>
+                     </tns:anschrift>
+                     <tns:telekommunikation>
+                        <tns:telekommunikationsart>
+                           <code>007</code>
+                        </tns:telekommunikationsart>
+                        <tns:telekommunikationszusatz>
+                           <code>001</code>
+                        </tns:telekommunikationszusatz>
+                        <tns:verbindung>+49 (0)30 90149 80</tns:verbindung>
+                     </tns:telekommunikation>
+                     <tns:telekommunikation>
+                        <tns:telekommunikationsart>
+                           <code>002</code>
+                        </tns:telekommunikationsart>
+                        <tns:telekommunikationszusatz>
+                           <code>001</code>
+                        </tns:telekommunikationszusatz>
+                        <tns:verbindung>+49 (0)30 9028 3298</tns:verbindung>
+                     </tns:telekommunikation>
+                     <tns:telekommunikation>
+                        <tns:telekommunikationsart>
+                           <code>001</code>
+                        </tns:telekommunikationsart>
+                        <tns:telekommunikationszusatz>
+                           <code>001</code>
+                        </tns:telekommunikationszusatz>
+                        <tns:verbindung/>
+                     </tns:telekommunikation>
+                  </tns:organisation>
+               </tns:auswahl_beteiligter>
+            </tns:beteiligter>
+         </tns:beteiligung>
+         <tns:beteiligung>
+            <tns:rolle>
+               <tns:rollennummer>3</tns:rollennummer>
+               <tns:rollenID>
+                  <tns:id>7</tns:id>
+                  <tns:ref.instanznummer>1</tns:ref.instanznummer>
+               </tns:rollenID>
+               <tns:rollenbezeichnung>
+                  <code>086</code>
+               </tns:rollenbezeichnung>
+               <tns:nr>1</tns:nr>
+            </tns:rolle>
+            <tns:beteiligter>
+               <tns:beteiligtennummer>3</tns:beteiligtennummer>
+               <tns:auswahl_beteiligter>
+                  <tns:natuerlichePerson>
+                     <tns:vollerName>
+                        <tns:vorname>Benjamin David</tns:vorname>
+                        <tns:titel/>
+                        <tns:nachname>Basse</tns:nachname>
+                        <tns:geburtsname/>
+                        <tns:namenszusatz/>
+                     </tns:vollerName>
+                     <tns:geburt>
+                        <tns:geburtsdatum>1982-12-09</tns:geburtsdatum>
+                     </tns:geburt>
+                     <tns:anschrift>
+                        <tns:anschriftstyp>
+                           <code>017</code>
+                        </tns:anschriftstyp>
+                        <tns:ort>Berlin</tns:ort>
+                     </tns:anschrift>
+                     <tns:beruf/>
+                  </tns:natuerlichePerson>
+               </tns:auswahl_beteiligter>
+            </tns:beteiligter>
+         </tns:beteiligung>
+         <tns:beteiligung>
+            <tns:rolle>
+               <tns:rollennummer>4</tns:rollennummer>
+               <tns:rollenID>
+                  <tns:id>10</tns:id>
+                  <tns:ref.instanznummer>1</tns:ref.instanznummer>
+               </tns:rollenID>
+               <tns:rollenbezeichnung>
+                  <code>086</code>
+               </tns:rollenbezeichnung>
+               <tns:nr>2</tns:nr>
+            </tns:rolle>
+            <tns:beteiligter>
+               <tns:beteiligtennummer>4</tns:beteiligtennummer>
+               <tns:auswahl_beteiligter>
+                  <tns:natuerlichePerson>
+                     <tns:vollerName>
+                        <tns:vorname>Torsten</tns:vorname>
+                        <tns:titel/>
+                        <tns:nachname>Sander</tns:nachname>
+                        <tns:geburtsname/>
+                        <tns:namenszusatz/>
+                     </tns:vollerName>
+                     <tns:geburt>
+                        <tns:geburtsdatum>1970-03-17</tns:geburtsdatum>
+                     </tns:geburt>
+                     <tns:anschrift>
+                        <tns:anschriftstyp>
+                           <code>017</code>
+                        </tns:anschriftstyp>
+                        <tns:ort>Trent</tns:ort>
+                     </tns:anschrift>
+                     <tns:beruf/>
+                  </tns:natuerlichePerson>
+               </tns:auswahl_beteiligter>
+            </tns:beteiligter>
+         </tns:beteiligung>
+      </tns:verfahrensdaten>
+   </tns:grunddaten>
+   <tns:fachdatenRegister fachdatenRegisterVersion="3.2">
+      <tns:mitteilungsart listVersionID="1.9">
+         <code>185</code>
+      </tns:mitteilungsart>
+      <tns:betroffenerRechtstraeger>
+         <tns:ref.rollennummer>1</tns:ref.rollennummer>
+      </tns:betroffenerRechtstraeger>
+      <tns:auszug>
+         <tns:abrufuhrzeit>19:56:56</tns:abrufuhrzeit>
+         <tns:abrufdatum>2023-08-01</tns:abrufdatum>
+         <tns:letzteEintragung>2023-05-23</tns:letzteEintragung>
+         <tns:anzahlEintragungen>14</tns:anzahlEintragungen>
+         <tns:letzteAenderung>
+            <tns:aenderungsdatum>2013-11-26</tns:aenderungsdatum>
+         </tns:letzteAenderung>
+      </tns:auszug>
+      <tns:basisdatenRegister>
+         <tns:gruendungsmetadaten>
+            <tns:gruendungsdatum>2011-05-05</tns:gruendungsdatum>
+         </tns:gruendungsmetadaten>
+         <tns:satzungsdatum>
+            <tns:aktuellesSatzungsdatum>2013-11-26</tns:aktuellesSatzungsdatum>
+         </tns:satzungsdatum>
+         <tns:vertretung>
+            <tns:allgemeineVertretungsregelung>
+               <tns:auswahl_vertretungsbefugnis>
+                  <tns:vertretungsbefugnisFreitext>Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.
+Alleinvertretungsbefugnis kann erteilt werden.</tns:vertretungsbefugnisFreitext>
+               </tns:auswahl_vertretungsbefugnis>
+            </tns:allgemeineVertretungsregelung>
+            <tns:vertretungsberechtigte>
+               <tns:ref.rollennummer>3</tns:ref.rollennummer>
+               <tns:besondereVertretungsregelung>
+                  <tns:auswahl_vertretungsbefugnis>
+                     <tns:vertretungsbefugnisFreitext>mit der Befugnis die Gesellschaft allein zu vertreten
+mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen</tns:vertretungsbefugnisFreitext>
+                  </tns:auswahl_vertretungsbefugnis>
+               </tns:besondereVertretungsregelung>
+            </tns:vertretungsberechtigte>
+            <tns:vertretungsberechtigte>
+               <tns:ref.rollennummer>4</tns:ref.rollennummer>
+               <tns:besondereVertretungsregelung>
+                  <tns:auswahl_vertretungsbefugnis>
+                     <tns:vertretungsbefugnisFreitext>mit der Befugnis die Gesellschaft allein zu vertreten
+mit der Befugnis Rechtsgeschäfte als Vertreter Dritter abzuschließen</tns:vertretungsbefugnisFreitext>
+                  </tns:auswahl_vertretungsbefugnis>
+               </tns:besondereVertretungsregelung>
+            </tns:vertretungsberechtigte>
+         </tns:vertretung>
+         <tns:gegenstand>Die Erbringung von Kundendienstleistungen wie Beantwortung von Kundenanfragen und Kundenkommentaren oder und damit verbundene Dienstleistungen soweit diese nicht erlaubnispflichtig sind.</tns:gegenstand>
+         <tns:statusRechtstraeger listVersionID="2.0">
+            <code>001</code>
+         </tns:statusRechtstraeger>
+      </tns:basisdatenRegister>
+      <tns:auswahl_zusatzangaben>
+         <tns:kapitalgesellschaft>
+            <tns:zusatzGmbH>
+               <tns:stammkapital>
+                  <tns:zahl>25000.00</tns:zahl>
+                  <tns:waehrung listVersionID="1.0">
+                     <code>EUR</code>
+                  </tns:waehrung>
+               </tns:stammkapital>
+            </tns:zusatzGmbH>
+            <tns:dauerDerGesellschaft>unbestimmt</tns:dauerDerGesellschaft>
+         </tns:kapitalgesellschaft>
+      </tns:auswahl_zusatzangaben>
+   </tns:fachdatenRegister>
+</tns:nachricht.reg.0400003>
