@@ -1,6 +1,6 @@
 import { getFromCache, saveInCache } from './cache'
 import { download } from './download'
-import { DkDocumentType, RegisterDocumentType, RegisterType } from './types'
+import { DkDocument, RegisterDocument, RegisterType } from './types'
 
 export const requestDocument = async ({
   documentType,
@@ -11,13 +11,13 @@ export const requestDocument = async ({
   documentLink,
   dkDocumentType,
 }: {
-  documentType: RegisterDocumentType
+  documentType: RegisterDocument
   registerType: RegisterType
   registerNumber: string
   cookie: string
   viewState: string
   documentLink: string
-  dkDocumentType?: DkDocumentType
+  dkDocumentType?: DkDocument
 }) => {
   const cachedDocument = getFromCache({
     documentType: dkDocumentType || documentType,

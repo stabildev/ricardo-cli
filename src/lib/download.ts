@@ -11,7 +11,7 @@ import {
   postDocumentsDK,
   postErgebnisse,
 } from './requests'
-import { DkDocumentType } from './types'
+import { DkDocument } from './types'
 import * as cheerio from 'cheerio'
 
 export const download = async ({
@@ -23,7 +23,7 @@ export const download = async ({
   cookie: string
   viewState: string
   documentLink: string
-  dkDocumentType?: DkDocumentType
+  dkDocumentType?: DkDocument
 }) => {
   // Select document link
   await postErgebnisse({

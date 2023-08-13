@@ -1,6 +1,6 @@
 import prompts from 'prompts'
 import { search } from './lib/search'
-import { DkDocumentType, RegisterDocumentType, SearchResult } from './lib/types'
+import { DkDocument, RegisterDocument, SearchResult } from './lib/types'
 import { parseSI } from './lib/parse-utils'
 import { requestDocument } from './lib/requestDocument'
 
@@ -26,7 +26,7 @@ const displayDetails = async (
 
   switch (action) {
     case 'SI':
-      if (!selectedResult.documentLinks.get(RegisterDocumentType.SI)) {
+      if (!selectedResult.documentLinks.get(RegisterDocument.SI)) {
         console.log('No SI document link found')
         displayDetails(selectedResult, {
           cookie,
@@ -38,12 +38,10 @@ const displayDetails = async (
       requestDocument({
         cookie,
         viewState,
-        documentType: RegisterDocumentType.SI,
+        documentType: RegisterDocument.SI,
         registerType: selectedResult.registerType,
         registerNumber: selectedResult.registerNumber,
-        documentLink: selectedResult.documentLinks.get(
-          RegisterDocumentType.SI
-        )!,
+        documentLink: selectedResult.documentLinks.get(RegisterDocument.SI)!,
       }).then((result) => {
         viewState = result?.viewState!
         if (!result?.content) {
@@ -65,7 +63,7 @@ const displayDetails = async (
       })
       break
     case 'LdG':
-      if (!selectedResult.documentLinks.get(RegisterDocumentType.DK)) {
+      if (!selectedResult.documentLinks.get(RegisterDocument.DK)) {
         console.log('No DK document link found')
         displayDetails(selectedResult, {
           cookie,
@@ -77,13 +75,11 @@ const displayDetails = async (
       requestDocument({
         cookie,
         viewState,
-        documentType: RegisterDocumentType.DK,
+        documentType: RegisterDocument.DK,
         registerType: selectedResult.registerType,
         registerNumber: selectedResult.registerNumber,
-        documentLink: selectedResult.documentLinks.get(
-          RegisterDocumentType.DK
-        )!,
-        dkDocumentType: DkDocumentType.LdG,
+        documentLink: selectedResult.documentLinks.get(RegisterDocument.DK)!,
+        dkDocumentType: DkDocument.LdG,
       }).then((result) => {
         viewState = result?.viewState!
         if (!result?.content) {

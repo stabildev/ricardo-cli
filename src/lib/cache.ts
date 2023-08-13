@@ -1,5 +1,5 @@
 import * as fs from 'fs'
-import { CacheDocumentType, RegisterType } from './types'
+import { CacheDocument, RegisterType } from './types'
 
 export const saveInCache = ({
   content,
@@ -9,7 +9,7 @@ export const saveInCache = ({
   fileExtension,
 }: {
   content: Buffer
-  documentType: CacheDocumentType
+  documentType: CacheDocument
   registerType: RegisterType
   registerNumber: string
   fileExtension: string
@@ -25,7 +25,7 @@ export const getFromCache = ({
   registerType,
   registerNumber,
 }: {
-  documentType: CacheDocumentType
+  documentType: CacheDocument
   registerType: RegisterType
   registerNumber: string
 }) => {

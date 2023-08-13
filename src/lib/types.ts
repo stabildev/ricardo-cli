@@ -10,7 +10,7 @@ export type SearchResult = {
     name: string
     city: string
   }[]
-  documentLinks: Map<RegisterDocumentType, string | null>
+  documentLinks: Map<RegisterDocument, string | null>
 }
 
 export enum RegisterType {
@@ -21,7 +21,7 @@ export enum RegisterType {
   VR = 'VR',
 }
 
-export enum RegisterDocumentType {
+export enum RegisterDocument {
   AD = 'AD',
   CD = 'CD',
   HD = 'HD',
@@ -31,11 +31,9 @@ export enum RegisterDocumentType {
   SI = 'SI',
 }
 
-export enum DkDocumentType {
+export enum DkDocument {
   LdG = 'Liste der Gesellschafter',
   // to be continued
 }
 
-export type CacheDocumentType =
-  | Omit<RegisterDocumentType, 'DK'>
-  | DkDocumentType
+export type CacheDocument = Omit<RegisterDocument, 'DK'> | DkDocument

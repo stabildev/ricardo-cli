@@ -1,4 +1,4 @@
-import { SearchResult, RegisterType, RegisterDocumentType } from './types'
+import { SearchResult, RegisterType, RegisterDocument } from './types'
 import * as cheerio from 'cheerio'
 
 export const parseResults = ({
@@ -47,14 +47,14 @@ export const parseResults = ({
       // The fourth cell of the second row contains the document links with the idt value
       // The children of the cell are either links with nested spans or just spans if no link is available
       // Use spans instead of links because not all links are available
-      const documentLinks = new Map<RegisterDocumentType, string | null>()
+      const documentLinks = new Map<RegisterDocument, string | null>()
       secondRowCells
         .eq(3)
         .find('span')
         .each((_, el) => {
           const span = $(el)
           documentLinks.set(
-            span.text().trim() as RegisterDocumentType,
+            span.text().trim() as RegisterDocument,
             (span.parent().is('a') && span.parent().attr('id')) || null
           )
         })
