@@ -4,124 +4,51 @@ import { DkDocument, RegisterDocument, SearchResult } from './lib/types'
 import { parseSI } from './lib/parse-utils'
 import { requestDocument } from './lib/requestDocument'
 
-const displayDetails = async (
-  selectedResult: SearchResult,
-  {
-    cookie,
-    viewState,
-    results,
-  }: { cookie: string; viewState: string; results: SearchResult[] }
-) => {
-  const { action } = await prompts({
-    type: 'select',
-    name: 'action',
-    message: 'What would you like to do next?',
-    choices: [
-      { title: 'Download and parse SI document', value: 'SI' },
-      { title: 'Download LdG document', value: 'LdG' },
-      { title: 'Go back to search results', value: 'back' },
-      { title: 'Exit', value: 'exit' },
-    ],
-  })
-
-  switch (action) {
-    case 'SI':
-      if (!selectedResult.documentLinks.get(RegisterDocument.SI)) {
-        console.log('No SI document link found')
-        displayDetails(selectedResult, {
-          cookie,
-          viewState,
-          results,
-        })
-        break
-      }
-      requestDocument({
-        cookie,
-        viewState,
-        documentType: RegisterDocument.SI,
-        registerType: selectedResult.registerType,
-        registerNumber: selectedResult.registerNumber,
-        documentLink: selectedResult.documentLinks.get(RegisterDocument.SI)!,
-      }).then((result) => {
-        viewState = result?.viewState!
-        if (!result?.content) {
-          console.log('No content found')
-          displayDetails(selectedResult, {
-            cookie,
-            viewState,
-            results,
-          })
-          return
-        }
-        const { name, hq, address } = parseSI(result!.content.toString())
-        console.log({ name, hq, address })
-        displayDetails(selectedResult, {
-          cookie,
-          viewState,
-          results,
-        })
-      })
-      break
-    case 'LdG':
-      if (!selectedResult.documentLinks.get(RegisterDocument.DK)) {
-        console.log('No DK document link found')
-        displayDetails(selectedResult, {
-          cookie,
-          viewState,
-          results,
-        })
-        break
-      }
-      requestDocument({
-        cookie,
-        viewState,
-        documentType: RegisterDocument.DK,
-        registerType: selectedResult.registerType,
-        registerNumber: selectedResult.registerNumber,
-        documentLink: selectedResult.documentLinks.get(RegisterDocument.DK)!,
-        dkDocumentType: DkDocument.LdG,
-      }).then((result) => {
-        viewState = result?.viewState!
-        if (!result?.content) {
-          console.log('No content found')
-          displayDetails(selectedResult, {
-            cookie,
-            viewState,
-            results,
-          })
-          return
-        }
-        displayDetails(selectedResult, {
-          cookie,
-          viewState,
-          results,
-        })
-      })
-      break
-    case 'back':
-      displaySearchResults(results, {
-        cookie,
-        viewState,
-      })
-      break
-    case 'exit':
-      console.log('Goodbye!')
-      break
-  }
+type Context = {
+  cookie: string | null
+  viewState: string | null
+  results: SearchResult[]
+  selectedResult: SearchResult | null
 }
 
-const displaySearchResults = async (
-  results: SearchResult[],
-  {
-    cookie,
-    viewState,
-  }: {
-    cookie: string
-    viewState: string
-  }
-) => {
+const context: Context = {
+  cookie: null,
+  viewState: null,
+  results: [],
+  selectedResult: null,
+}
+
+async function main() {
+  context.results = []
+  context.selectedResult = null
+
+  const { searchQuery } = await prompts(
+    {
+      type: 'text',
+      name: 'searchQuery',
+      message: 'Enter your search query:',
+    },
+    {
+      onCancel: () => {
+        console.log('Goodbye!')
+        process.exit(0) // exit the process immediately
+      },
+    }
+  )
+
+  // Perform the search
+  const { results, cookie, viewState } = await search(searchQuery)
+
+  context.results = results
+  context.cookie = cookie
+  context.viewState = viewState
+
+  displaySearchResults()
+}
+
+const displaySearchResults = async () => {
   const choices = [
-    ...results.map((result, index) => ({
+    ...context.results.map((result, index) => ({
       title: `${result.name}, ${result.city} (${result.registerType} ${result.registerNumber})`,
       value: index,
     })),
@@ -146,42 +73,103 @@ const displaySearchResults = async (
     return
   }
 
-  const selectedResult = results[selectedResultOrAction]
+  context.selectedResult = context.results[selectedResultOrAction]
 
-  // filter out documentLinks
-  const { documentLinks, ...rest } = selectedResult
-  // Display more details for the selected search result
-  console.dir(rest, { depth: null })
-
-  // Provide more options to the user
-  displayDetails(selectedResult, {
-    cookie,
-    viewState,
-    results,
-  })
+  displayDetails(true)
 }
 
-async function main() {
-  const { searchQuery } = await prompts(
-    {
-      type: 'text',
-      name: 'searchQuery',
-      message: 'Enter your search query:',
-    },
-    {
-      onCancel: () => {
-        console.log('Goodbye!')
-        process.exit(0) // exit the process immediately
-      },
-    }
-  )
+const displayDetails = async (print = false) => {
+  if (!context.selectedResult) {
+    return
+  }
 
-  const { results, cookie, viewState } = await search(searchQuery)
+  if (print) {
+    // filter out documentLinks
+    const { documentLinks, ...rest } = context.selectedResult
 
-  displaySearchResults(results, {
-    cookie,
-    viewState,
+    // Display more details for the selected search result
+    console.dir(rest, { depth: null })
+  }
+
+  // Provide more options to the user
+  const { action } = await prompts({
+    type: 'select',
+    name: 'action',
+    message: 'What would you like to do next?',
+    choices: [
+      { title: 'Download and parse SI document', value: 'SI' },
+      { title: 'Download LdG document', value: 'LdG' },
+      { title: 'Go back to search results', value: 'back' },
+      { title: 'Exit', value: 'exit' },
+    ],
   })
+
+  switch (action) {
+    case 'SI': {
+      const SIdocumentLink = context.selectedResult.documentLinks.get(
+        RegisterDocument.SI
+      )
+      if (!SIdocumentLink) {
+        console.log('No SI document link found')
+        displayDetails()
+        break
+      }
+      const result = await requestDocument({
+        cookie: context.cookie!,
+        viewState: context.viewState!,
+        documentType: RegisterDocument.SI,
+        registerType: context.selectedResult.registerType,
+        registerNumber: context.selectedResult.registerNumber,
+        documentLink: SIdocumentLink,
+      })
+      // Update viewState
+      context.viewState = result.viewState
+      if (!result.file) {
+        console.log('File not found')
+        displayDetails()
+        break
+      }
+      const { name, hq, address } = parseSI(result.file.content.toString())
+      console.log({ name, hq, address })
+      displayDetails()
+      break
+    }
+    case 'LdG': {
+      const DKDocumentLink = context.selectedResult.documentLinks.get(
+        RegisterDocument.DK
+      )
+      if (!DKDocumentLink) {
+        console.log('No DK document link found')
+        displayDetails()
+        break
+      }
+      const result = await requestDocument({
+        cookie: context.cookie!,
+        viewState: context.viewState!,
+        documentType: RegisterDocument.DK,
+        registerType: context.selectedResult.registerType,
+        registerNumber: context.selectedResult.registerNumber,
+        documentLink: DKDocumentLink,
+        dkDocumentType: DkDocument.LdG,
+      })
+      // Update viewState
+      context.viewState = result.viewState
+      if (!result.file) {
+        console.log('File not found')
+        displayDetails()
+        break
+      }
+      displayDetails()
+      break
+    }
+    case 'back':
+      context.selectedResult = null
+      displaySearchResults()
+      return
+    case 'exit':
+      console.log('Goodbye!')
+      return
+  }
 }
 
 // Kick off the process

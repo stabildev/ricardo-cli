@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdo="http://www.xdomea.de" xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd"><!-- AUREG Version 5.6.0 -->
+   <Grunddaten XJustizVersion="1.18.1">
+      <Verfahrensdaten>
+         <Verfahrensnummer>0</Verfahrensnummer>
+         <Instanzdaten>
+            <Instanznummer>1</Instanznummer>
+            <Sachgebiet xsi:type="WL_Sachgebiet" wl_version="1.6">
+               <content>Handelsregister</content>
+            </Sachgebiet>
+            <Instanzbehoerde>
+               <Gericht xsi:type="WL_Gerichte" wl_version="1.19">
+                  <content>H1101</content>
+               </Gericht>
+            </Instanzbehoerde>
+            <Abteilung/>
+            <Aktenzeichen>HRB 18117 HB</Aktenzeichen>
+            <Kurzrubrum/>
+            <Verfahrensgegenstand>
+               <Gegenstand>
+                  <content>Handelsregister Amtsgericht Bremen</content>
+               </Gegenstand>
+            </Verfahrensgegenstand>
+         </Instanzdaten>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>1</Rollennummer>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Rechtsträger</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>1</Beteiligtennummer>
+               <Organisation>
+                  <Bezeichnung>
+                     <Bezeichnung_Aktuell>Constructor University Bremen gGmbH</Bezeichnung_Aktuell>
+                  </Bezeichnung>
+                  <Kurzbezeichnung>Constructor University Bremen gGmbH</Kurzbezeichnung>
+                  <Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4">
+                     <content>Gesellschaft mit beschränkter Haftung</content>
+                  </Rechtsform>
+                  <Sitz>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Sitz>
+                  <Registereintragung>
+                     <Gericht xsi:type="WL_Gerichte" wl_version="1.19">
+                        <content>H1101</content>
+                     </Gericht>
+                     <Registernummer>HRB 18117 HB</Registernummer>
+                     <EUID>DEH1101.HRB18117HB</EUID>
+                  </Registereintragung>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Anschriftenzusatz/>
+                     <Strasse>Campus Ring</Strasse>
+                     <Hausnummer>1</Hausnummer>
+                     <Postfachnummer/>
+                     <Postleitzahl>28759</Postleitzahl>
+                     <Ort>Bremen</Ort>
+                     <Ortsteil/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+               </Organisation>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>2</Rollennummer>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Registergericht</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>2</Beteiligtennummer>
+               <Organisation>
+                  <Bezeichnung>
+                     <Bezeichnung_Aktuell>Amtsgericht Bremen</Bezeichnung_Aktuell>
+                  </Bezeichnung>
+                  <Kurzbezeichnung>Amtsgericht Bremen</Kurzbezeichnung>
+                  <Rechtsform xsi:nil="true"/>
+                  <Sitz>
+                     <Ort/>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Sitz>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Anschriftenzusatz/>
+                     <Strasse>Ostertorstaße</Strasse>
+                     <Hausnummer>25-31</Hausnummer>
+                     <Postfachnummer/>
+                     <Postleitzahl>28195</Postleitzahl>
+                     <Ort>Bremen</Ort>
+                     <Ortsteil/>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Anschrift>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>Telefon</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>0421 361-4290</Verbindung>
+                  </Telekommunikation>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>Fax</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>0421 361-16266</Verbindung>
+                  </Telekommunikation>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>E-Mail</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>registergericht@amtsgericht-bremen.de</Verbindung>
+                  </Telekommunikation>
+               </Organisation>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>3</Rollennummer>
+               <Rollen_ID>
+                  <ID>8</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Herr</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>3</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Thomas</Vorname>
+                     <Titel>Prof.</Titel>
+                     <Nachname>Auf der Heyde</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1958-08-20</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>männlich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>4</Rollennummer>
+               <Rollen_ID>
+                  <ID>11</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>2</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Frau</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>4</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Maja Laetitia</Vorname>
+                     <Titel/>
+                     <Nachname>Feldt</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1968-07-04</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>weiblich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>5</Rollennummer>
+               <Rollen_ID>
+                  <ID>13</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>3</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Frau</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>5</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Öznur</Vorname>
+                     <Titel/>
+                     <Nachname>Zer</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1982-07-30</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>weiblich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Neuhausen am Rheinfall/Schweiz</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>6</Rollennummer>
+               <Rollen_ID>
+                  <ID>14</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>4</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Frau</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>6</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Katya Rayevsky</Vorname>
+                     <Titel/>
+                     <Nachname>Fisher</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1983-10-08</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>weiblich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Miami / Vereinigte Staaten von Amerika</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>7</Rollennummer>
+               <Rollen_ID>
+                  <ID>15</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>5</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Herr</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>7</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Stanislav</Vorname>
+                     <Titel/>
+                     <Nachname>Protasov</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1970-03-12</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>männlich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Singapur</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>8</Rollennummer>
+               <Rollen_ID>
+                  <ID>8</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Prokurist(in)</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Herr</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>8</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Ronald</Vorname>
+                     <Titel/>
+                     <Nachname>Kieschnik</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1966-02-27</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>männlich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>9</Rollennummer>
+               <Rollen_ID>
+                  <ID>14</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Prokurist(in)</content>
+               </Rollenbezeichnung>
+               <Nr>2</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Herr</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>9</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Jens V.</Vorname>
+                     <Titel/>
+                     <Nachname>Dünnbier</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1970-05-26</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>männlich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Herstellerinformation>
+            <Name_des_Produkts>Aureg</Name_des_Produkts>
+            <Hersteller_des_Produkts>Datagroup Consulting Services GmbH</Hersteller_des_Produkts>
+            <Version>5.6.0</Version>
+         </Herstellerinformation>
+      </Verfahrensdaten>
+      <Sendungsdaten>
+         <Absenderkennung/>
+         <Empfaengerkennung/>
+         <Papiervorgang>false</Papiervorgang>
+      </Sendungsdaten>
+   </Grunddaten>
+   <Fachdaten_Register Fachdaten_Register_Version="1.2">
+      <Mitteilungsart xsi:type="WL_Mitteilungsart" wl_version="1.6">
+         <content>Sonstige Anmeldung/Mitteilung</content>
+      </Mitteilungsart>
+      <Betroffener_Rechtstraeger>
+         <Ref_Rollennummer>1</Ref_Rollennummer>
+      </Betroffener_Rechtstraeger>
+      <Auszug>
+         <Abrufuhrzeit>14:40:30</Abrufuhrzeit>
+         <Abrufdatum>2023-08-13</Abrufdatum>
+         <letzte_Eintragung>2023-02-06</letzte_Eintragung>
+         <Anzahl_Eintragungen>31</Anzahl_Eintragungen>
+         <letzte_Aenderung>2022-11-24</letzte_Aenderung>
+      </Auszug>
+      <Basisdaten_Register>
+         <Gruendungsmetadaten>
+            <Gruendungsdatum>2005-06-27</Gruendungsdatum>
+         </Gruendungsmetadaten>
+         <Aktuelles_Satzungsdatum>2022-11-24</Aktuelles_Satzungsdatum>
+         <Vertretung>
+            <Vertretungsberechtigte>
+               <Ref_Rollennummer>3</Ref_Rollennummer>
+               <Besondere_Vertretungsregelung>
+                  <Vertretungsbefugnis>
+                     <content>mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten</content>
+                  </Vertretungsbefugnis>
+               </Besondere_Vertretungsregelung>
+            </Vertretungsberechtigte>
+            <Vertretungsberechtigte>
+               <Ref_Rollennummer>8</Ref_Rollennummer>
+               <Besondere_Vertretungsregelung>
+                  <Vertretungsbefugnis>
+                     <content>Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen</content>
+                  </Vertretungsbefugnis>
+                  <Prokura/>
+               </Besondere_Vertretungsregelung>
+            </Vertretungsberechtigte>
+            <Vertretungsberechtigte>
+               <Ref_Rollennummer>9</Ref_Rollennummer>
+               <Besondere_Vertretungsregelung>
+                  <Vertretungsbefugnis>
+                     <content>Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen</content>
+                  </Vertretungsbefugnis>
+                  <Prokura/>
+               </Besondere_Vertretungsregelung>
+            </Vertretungsberechtigte>
+            <Allgemeine_Vertretungsregelung>
+               <Vertretungsbefugnis>
+                  <content>Die Gesellschaft hat einen oder mehrere Geschäftsführer.
+Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.
+Alleinvertretungsbefugnis kann erteilt werden.
+Jeder Geschäftsführer kann von dem Verbot, Rechtsgeschäfte mit sich im eigenen Namen oder als Vertreter eines Dritten abzuschließen, befreit werden.</content>
+               </Vertretungsbefugnis>
+            </Allgemeine_Vertretungsregelung>
+         </Vertretung>
+         <Gegenstand_oder_Geschaeftszweck>Die Förderung von Wissenschaft und Forschung. Der Satzungszweck wird verwirklicht insbesondere durch den Betrieb einer staatlich anerkannten privaten Universität.</Gegenstand_oder_Geschaeftszweck>
+         <Status_Rechtstraeger wl_version="1.1">
+            <content>aktiv</content>
+         </Status_Rechtstraeger>
+      </Basisdaten_Register>
+      <Zusatzangaben>
+         <Kapitalgesellschaft>
+            <Zusatz_GmbH>
+               <Stammkapital>
+                  <Zahl>33000</Zahl>
+                  <Waehrung>EUR</Waehrung>
+               </Stammkapital>
+            </Zusatz_GmbH>
+            <Dauer_der_Gesellschaft>unbestimmt</Dauer_der_Gesellschaft>
+         </Kapitalgesellschaft>
+      </Zusatzangaben>
+   </Fachdaten_Register>
+</XJustiz_Daten>

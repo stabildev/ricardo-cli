@@ -6,12 +6,14 @@ export const postNormaleSuche = async ({
   registerNumber,
   cookie,
   exactMatch = false,
+  pageSize = 10,
 }: {
   queryString?: string
   registerType?: RegisterType
   registerNumber?: string
   cookie?: string
   exactMatch?: boolean
+  pageSize?: 10 | 25 | 50 | 100
 }) => {
   if (!queryString && !(!!registryType && !!registerNumber)) {
     throw new Error('No search string or no register type and number provided!')
@@ -54,7 +56,7 @@ export const postNormaleSuche = async ({
     'form:registergericht_focus': '',
     'form:registergericht_input': '',
     'form:ergebnisseProSeite_focus': '',
-    'form:ergebnisseProSeite_input': '10',
+    'form:ergebnisseProSeite_input': pageSize.toString(),
   })
 
   const response = await fetch(

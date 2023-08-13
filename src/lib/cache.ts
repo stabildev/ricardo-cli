@@ -37,7 +37,7 @@ export const getFromCache = ({
     console.log('Found in cache: ', matchingFile)
     return {
       fileName: matchingFile,
-      fileExtension: matchingFile.split('.').pop(),
+      fileExtension: matchingFile.split('.').pop()!,
       content: fs.readFileSync(`./cache/${matchingFile}`),
     }
   }

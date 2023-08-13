@@ -24,7 +24,14 @@ export const download = async ({
   viewState: string
   documentLink: string
   dkDocumentType?: DkDocument
-}) => {
+}): Promise<{
+  file: {
+    content: Buffer
+    fileName: string | null
+    fileExtension: string | null
+  } | null
+  viewState: string
+}> => {
   // Select document link
   await postErgebnisse({
     viewState,
@@ -53,11 +60,14 @@ export const download = async ({
     })
     $ = cheerio.load(await response.text())
     const availableDocs = extractAvailableDkDocuments($)
-    const topLevelCode = availableDocs.get('Liste der Gesellschafter') // e.g. 0_0_1
+    const topLevelCode = availableDocs.get(dkDocumentType) // e.g. 0_0_1
 
     if (!topLevelCode) {
-      console.error('No LdG document selection code found!')
-      return
+      console.error(`No ${dkDocumentType} document selection code found!`)
+      return {
+        file: null,
+        viewState,
+      }
     }
 
     // Iteratively expand treenodes until we encounter a leaf
@@ -91,7 +101,10 @@ export const download = async ({
         const nextRowKey = nextNode.attr('data-rowkey')
         if (!nextRowKey) {
           console.error('Row key not found!')
-          return
+          return {
+            file: null,
+            viewState,
+          }
         }
         currentRowKey = nextRowKey
       }
@@ -134,13 +147,18 @@ export const download = async ({
   const fileNameAndExtension = extractFileName(
     response.headers.get('content-disposition')
   )
+  if (!fileNameAndExtension[0]) {
+    console.error('File name not found!')
+  }
   if (!fileNameAndExtension[1]) {
     console.error('File extension not found!')
   }
   return {
-    fileName: fileNameAndExtension[0],
-    fileExtension: fileNameAndExtension[1] || 'unknown',
-    content: Buffer.from(await response.arrayBuffer()),
+    file: {
+      fileName: fileNameAndExtension[0],
+      fileExtension: fileNameAndExtension[1],
+      content: Buffer.from(await response.arrayBuffer()),
+    },
     viewState,
   }
 }
