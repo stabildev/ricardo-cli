@@ -1,1 +1,1217 @@
-<?xml version="1.0"?><tns:nachricht.reg.0400003 xmlns:tns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd"><tns:nachrichtenkopf xjustizVersion="3.3.1"><tns:aktenzeichen.absender/><tns:erstellungszeitpunkt>2023-08-13T12:44:44Z</tns:erstellungszeitpunkt><tns:auswahl_absender><tns:absender.gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht Amtsgericht Amberg--><code>D3101V</code></tns:absender.gericht></tns:auswahl_absender><tns:auswahl_empfaenger><tns:empfaenger.sonstige/></tns:auswahl_empfaenger><tns:eigeneNachrichtenID>c0604054-e294-4577-bbea-05e657c1c4f7</tns:eigeneNachrichtenID><tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug--><code>002</code></tns:ereignis><tns:herstellerinformation><tns:nameDesProdukts>RegisSTAR</tns:nameDesProdukts><tns:herstellerDesProdukts>Eviden Germany GmbH</tns:herstellerDesProdukts><tns:version> / RSADO: 2.18.0</tns:version></tns:herstellerinformation></tns:nachrichtenkopf><tns:grunddaten><tns:verfahrensdaten><tns:instanzdaten><tns:instanznummer>0</tns:instanznummer><tns:sachgebiet listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.sachgebiet"><!--Handelsregister--><code>015</code></tns:sachgebiet><tns:auswahl_instanzbehoerde><tns:gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht Amtsgericht Amberg--><code>D3101V</code></tns:gericht></tns:auswahl_instanzbehoerde><tns:aktenzeichen><tns:auswahl_aktenzeichen><tns:aktenzeichen.strukturiert><tns:register listVersionID="3.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.registerzeichen"><!--Handelsregister (Einzelkaufleute, Personengesellschaften) (AG)--><code>HRA</code></tns:register><tns:laufendeNummer>1747</tns:laufendeNummer><tns:jahr/></tns:aktenzeichen.strukturiert></tns:auswahl_aktenzeichen></tns:aktenzeichen><tns:verfahrensgegenstand><tns:gegenstand>Strukturierter Registerinhalt</tns:gegenstand></tns:verfahrensgegenstand></tns:instanzdaten><tns:beteiligung><tns:rolle><tns:rollennummer>1</tns:rollennummer><tns:rollenID><tns:id>25000532</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Rechtsträger(in)--><code>287</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>1</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>Netto Marken-Discount Stiftung &amp; Co. KG</tns:bezeichnung.aktuell></tns:bezeichnung><tns:angabenZurRechtsform><tns:rechtsform listVersionID="3.4" listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Kommanditgesellschaft--><code>KG</code></tns:rechtsform></tns:angabenZurRechtsform><tns:sitz><tns:ort>Maxhütte-Haidhof</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:strasse>Industriepark Ponholz</tns:strasse><tns:hausnummer>1</tns:hausnummer><tns:postleitzahl>93142</tns:postleitzahl><tns:ort>Maxhütte-Haidhof</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>2</tns:rollennummer><tns:rollenID><tns:id>25000000</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Registergericht--><code>288</code></tns:rollenbezeichnung><tns:geschaeftszeichen/></tns:rolle><tns:rolle><tns:rollennummer>3</tns:rollennummer><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Einreicher(in)--><code>215</code></tns:rollenbezeichnung><tns:geschaeftszeichen/></tns:rolle><tns:beteiligter><tns:beteiligtennummer>2</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>Amtsgericht Amberg</tns:bezeichnung.aktuell></tns:bezeichnung><tns:sitz><tns:ort>Amberg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:strasse>Paulanerplatz</tns:strasse><tns:hausnummer>4</tns:hausnummer><tns:postleitzahl>92224</tns:postleitzahl><tns:ort>Amberg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift><tns:telekommunikation><tns:telekommunikationsart listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Telefon--><code>007</code></tns:telekommunikationsart><tns:verbindung>09621-305-0</tns:verbindung></tns:telekommunikation><tns:telekommunikation><tns:telekommunikationsart listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Fax--><code>002</code></tns:telekommunikationsart><tns:verbindung>09621-305-105</tns:verbindung></tns:telekommunikation></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>4</tns:rollennummer><tns:rollenID><tns:id>25017677</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>4</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Claus</tns:vorname><tns:nachname>Leitl</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1966-09-18</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Lappersdorf</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>5</tns:rollennummer><tns:rollenID><tns:id>25013992</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>5</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Martin</tns:vorname><tns:nachname>Schnellinger</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1968-10-16</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Schmidmühlen</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>6</tns:rollennummer><tns:rollenID><tns:id>25021379</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>6</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Johann</tns:vorname><tns:nachname>Elsperger</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1960-11-19</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Schwandorf</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>7</tns:rollennummer><tns:rollenID><tns:id>25036149</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>7</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Ralf Peter</tns:vorname><tns:nachname>Ritter</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1962-01-04</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Neckarsulm</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>8</tns:rollennummer><tns:rollenID><tns:id>25039549</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>8</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Volker</tns:vorname><tns:nachname>Wolframm</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1965-10-26</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Berlin</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>9</tns:rollennummer><tns:rollenID><tns:id>25043451</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>9</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Heiko</tns:vorname><tns:nachname>Kordmann</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1971-05-31</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Rödelsee</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>10</tns:rollennummer><tns:rollenID><tns:id>25044552</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>10</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Christian</tns:vorname><tns:nachname>Bernhardt</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1977-06-11</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Regensburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>11</tns:rollennummer><tns:rollenID><tns:id>25044553</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>11</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Tino</tns:vorname><tns:nachname>Bummel</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1980-03-13</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Berlin</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>12</tns:rollennummer><tns:rollenID><tns:id>25044554</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>12</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Ingo</tns:vorname><tns:nachname>Elbs</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1969-07-26</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Regensburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>13</tns:rollennummer><tns:rollenID><tns:id>25046586</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Persönlich haftende(r) Gesellschafter(in)--><code>252</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>13</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>EDEKA ZENTRALE Handels Stiftung</tns:bezeichnung.aktuell></tns:bezeichnung><tns:sitz><tns:ort>Hamburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:registereintragung><tns:auswahl_registerbehoerde><tns:inlaendischesRegistergericht><tns:gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht Hamburg, Zentralisierter Bereich Handelsregister--><code>K1101R</code></tns:gericht></tns:inlaendischesRegistergericht></tns:auswahl_registerbehoerde><tns:registernummer>HRA 126741</tns:registernummer></tns:registereintragung><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Hamburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>14</tns:rollennummer><tns:rollenID><tns:id>25018456</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Persönlich haftende(r) Gesellschafter(in)--><code>252</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>14</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>EDEKA ZENTRALE Stiftung &amp; Co. KG</tns:bezeichnung.aktuell></tns:bezeichnung><tns:sitz><tns:ort>Hamburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:registereintragung><tns:auswahl_registerbehoerde><tns:inlaendischesRegistergericht><tns:gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht Hamburg, Zentralisierter Bereich Handelsregister--><code>K1101R</code></tns:gericht></tns:inlaendischesRegistergericht></tns:auswahl_registerbehoerde><tns:registernummer>HRA 96305</tns:registernummer></tns:registereintragung><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Hamburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>15</tns:rollennummer><tns:rollenID><tns:id>25036965</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Kommanditist(in)--><code>275</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>15</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>EDEKA ZENTRALE Handel und Produktion GmbH</tns:bezeichnung.aktuell></tns:bezeichnung><tns:sitz><tns:ort>Hamburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:registereintragung><tns:auswahl_registerbehoerde><tns:inlaendischesRegistergericht><tns:gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht Hamburg, Zentralisierter Bereich Handelsregister--><code>K1101R</code></tns:gericht></tns:inlaendischesRegistergericht></tns:auswahl_registerbehoerde><tns:registernummer>HRB 121449</tns:registernummer></tns:registereintragung><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Hamburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>16</tns:rollennummer><tns:rollenID><tns:id>25027644</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Kommanditist(in)--><code>275</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>16</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>Netto Beteiligungs GmbH</tns:bezeichnung.aktuell></tns:bezeichnung><tns:sitz><tns:ort>Maxhütte-Haidhof</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:registereintragung><tns:auswahl_registerbehoerde><tns:inlaendischesRegistergericht><tns:gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht Amtsgericht Amberg--><code>D3101V</code></tns:gericht></tns:inlaendischesRegistergericht></tns:auswahl_registerbehoerde><tns:registernummer>HRB 4782</tns:registernummer></tns:registereintragung><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Maxhütte-Haidhof</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>17</tns:rollennummer><tns:rollenID><tns:id>25048562</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)--><code>285</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>17</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Martin</tns:vorname><tns:nachname>Helm</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1969-12-31</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Vilshofen</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung></tns:verfahrensdaten></tns:grunddaten><tns:schriftgutobjekte/><tns:fachdatenRegister fachdatenRegisterVersion="3.2"><tns:mitteilungsart listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug--><code>002</code></tns:mitteilungsart><tns:betroffenerRechtstraeger><tns:ref.rollennummer>1</tns:ref.rollennummer></tns:betroffenerRechtstraeger><tns:auszug><tns:eintragungstext><tns:spalte>6</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext--><code>004</code></tns:eintragungsart><tns:text>Tag der ersten Eintragung: 27.01.1993. Dieses Blatt ist zur Fortführung auf EDV umgeschrieben worden und dabei an die Stelle des bisherigen Registerblattes getreten.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>5</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>3</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige Rechtsverhältnisse--><code>011</code></tns:eintragungsart><tns:text>Die Firma ist geändert.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>5</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige Rechtsverhältnisse--><code>011</code></tns:eintragungsart><tns:text>Die Gesellschaft hat im Wege der Ausgliederung gemäß Ausgliederungsvertrag vom 07.04.2009 sowie Beschluss ihrer Gesellschafterversammlung und Beschluss der Gesellschafterversammlung der übertragenden Gesellschaft, jeweils vom 07.04.2009, das Vermögens der Plus Warenhandelsgesellschaft mbH mit Sitz in Mülheim an der Ruhr (Amtsgericht Duisburg HRB 15701), mit Ausnahme des Tarifvertrags gem. § 3 BetrVG vom 19.02.2001, übernommen.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>5</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige Rechtsverhältnisse--><code>011</code></tns:eintragungsart><tns:text>Die Gesellschaft hat im Wege der Abspaltung nach Maßgabe des Spaltungsvertrags vom 29.07.2015 sowie Beschluss ihrer Gesellschafterversammlung vom 20.08.2015 und Beschluss der Gesellschafterversammlung der übertragenden Gesellschaft vom 29.07.2015 Teile des Vermögens (Lager- und Logistikbetrieb am Standort Oberster Kamp 16, 59069 Hamm) von der P-LOG Plus Logistik- und Dienstleistungsgesellschaft mbH mit dem Sitz in Maxhütte-Haidhof (Amtsgericht Amberg HRB 4461) übernommen.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>5</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige Rechtsverhältnisse--><code>011</code></tns:eintragungsart><tns:text>Die N-LOG Netto Logistik- und Dienstleistungsgesellschaft mbH mit dem Sitz in Maxhütte-Haidhof (Amtsgericht Amberg HRB 4490) ist auf Grund des Verschmelzungsvertrages vom 23.08.2017 und der Beschlüsse der Gesellschafterversammlungen vom selben Tag mit der Gesellschaft verschmolzen.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>5</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige Rechtsverhältnisse--><code>011</code></tns:eintragungsart><tns:text>Die Gesellschaft hat im Wege der Aufspaltung gemäß Spaltungsvertrag vom 15.12.2021 mit Nachtrag vom 20.12.2021 sowie Beschluss ihrer Gesellschafterversammlung vom 15.12.2021 und Beschluss der Gesellschafterversammlung der übertragenden Gesellschaft vom 15.12.2021 Teile des Vermögens (LEH-Geschäft mit allen Aktiven und Passiven) von der EKN Betriebs Stiftung &amp; Co. oHG mit dem Sitz in Hamburg (Amtsgericht Hamburg HRA 121404) übernommen.</tns:text></tns:eintragungstext><tns:abrufuhrzeit>12:44:44</tns:abrufuhrzeit><tns:abrufdatum>2023-08-13</tns:abrufdatum><tns:letzteEintragung>2022-04-25</tns:letzteEintragung><tns:anzahlEintragungen>33</tns:anzahlEintragungen></tns:auszug><tns:basisdatenRegister><tns:rechtstraeger><tns:bezeichnung><tns:bezeichnung.aktuell>Netto Marken-Discount Stiftung &amp; Co. KG</tns:bezeichnung.aktuell></tns:bezeichnung><tns:angabenZurRechtsform><tns:rechtsform listVersionID="3.4" listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Kommanditgesellschaft--><code>KG</code></tns:rechtsform></tns:angabenZurRechtsform><tns:sitz><tns:ort>Maxhütte-Haidhof</tns:ort></tns:sitz><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:strasse>Industriepark Ponholz</tns:strasse><tns:hausnummer>1</tns:hausnummer><tns:postleitzahl>93142</tns:postleitzahl><tns:ort>Maxhütte-Haidhof</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:rechtstraeger><tns:vertretung><tns:allgemeineVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.allgemeine-vertretungsregelung"><!--Jeder persönlich haftende Gesellschafter vertritt einzeln.--><code>089</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:allgemeineVertretungsregelung><tns:vertretungsberechtigte><tns:ref.rollennummer>4</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>5</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>6</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>7</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>8</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>9</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>10</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>11</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>12</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>13</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnisFreitext>mit der Befugnis - auch für die jeweiligen Vorstandsmitglieder -, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.</tns:vertretungsbefugnisFreitext></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>14</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnisFreitext>mit der Befugnis - auch für die Komplementärin der persönlich haftenden Gesellschafterin, die EDEKA ZENTRALE Handels Stiftung, Hamburg, und deren jeweilige Vorstandsmitglieder -, im Namen der Gesellschaft mit sich als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.</tns:vertretungsbefugnisFreitext></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>17</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura gemeinsam mit einem anderen Prokuristen--><code>007</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte></tns:vertretung><tns:gegenstand/></tns:basisdatenRegister><tns:auswahl_zusatzangaben><tns:personengesellschaft><tns:zusatzKG><tns:datenKommanditist><tns:ref.rollennummer>15</tns:ref.rollennummer><tns:hafteinlage><tns:zahl>58822222.00</tns:zahl><tns:waehrung listVersionID="1.0" listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro--><code>EUR</code></tns:waehrung></tns:hafteinlage></tns:datenKommanditist><tns:datenKommanditist><tns:ref.rollennummer>16</tns:ref.rollennummer><tns:hafteinlage><tns:zahl>41177778.00</tns:zahl><tns:waehrung listVersionID="1.0" listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro--><code>EUR</code></tns:waehrung></tns:hafteinlage></tns:datenKommanditist></tns:zusatzKG></tns:personengesellschaft></tns:auswahl_zusatzangaben></tns:fachdatenRegister></tns:nachricht.reg.0400003>
+<?xml version="1.0"?>
+<tns:nachricht.reg.0400003 xmlns:tns="http://www.xjustiz.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd">
+    <tns:nachrichtenkopf xjustizVersion="3.3.1">
+        <tns:aktenzeichen.absender />
+        <tns:erstellungszeitpunkt>2023-08-13T12:44:44Z</tns:erstellungszeitpunkt>
+        <tns:auswahl_absender>
+            <tns:absender.gericht listVersionID="3.5"
+                listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
+                Amtsgericht Amberg-->
+                <code>D3101V</code>
+            </tns:absender.gericht>
+        </tns:auswahl_absender>
+        <tns:auswahl_empfaenger>
+            <tns:empfaenger.sonstige />
+        </tns:auswahl_empfaenger>
+        <tns:eigeneNachrichtenID>c0604054-e294-4577-bbea-05e657c1c4f7</tns:eigeneNachrichtenID>
+        <tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
+            <code>002</code>
+        </tns:ereignis>
+        <tns:herstellerinformation>
+            <tns:nameDesProdukts>RegisSTAR</tns:nameDesProdukts>
+            <tns:herstellerDesProdukts>Eviden Germany GmbH</tns:herstellerDesProdukts>
+            <tns:version> / RSADO: 2.18.0</tns:version>
+        </tns:herstellerinformation>
+    </tns:nachrichtenkopf>
+    <tns:grunddaten>
+        <tns:verfahrensdaten>
+            <tns:instanzdaten>
+                <tns:instanznummer>0</tns:instanznummer>
+                <tns:sachgebiet listVersionID="2.2"
+                    listURI="urn:xoev-de:xjustiz:codeliste:gds.sachgebiet"><!--Handelsregister-->
+                    <code>015</code>
+                </tns:sachgebiet>
+                <tns:auswahl_instanzbehoerde>
+                    <tns:gericht listVersionID="3.5"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
+                        Amtsgericht Amberg-->
+                        <code>D3101V</code>
+                    </tns:gericht>
+                </tns:auswahl_instanzbehoerde>
+                <tns:aktenzeichen>
+                    <tns:auswahl_aktenzeichen>
+                        <tns:aktenzeichen.strukturiert>
+                            <tns:register listVersionID="3.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.registerzeichen"><!--Handelsregister
+                                (Einzelkaufleute, Personengesellschaften) (AG)-->
+                                <code>HRA</code>
+                            </tns:register>
+                            <tns:laufendeNummer>1747</tns:laufendeNummer>
+                            <tns:jahr />
+                        </tns:aktenzeichen.strukturiert>
+                    </tns:auswahl_aktenzeichen>
+                </tns:aktenzeichen>
+                <tns:verfahrensgegenstand>
+                    <tns:gegenstand>Strukturierter Registerinhalt</tns:gegenstand>
+                </tns:verfahrensgegenstand>
+            </tns:instanzdaten>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>1</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25000532</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Rechtsträger(in)-->
+                        <code>287</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>1</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Netto Marken-Discount Stiftung &amp; Co. KG</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:angabenZurRechtsform>
+                                <tns:rechtsform listVersionID="3.4"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Kommanditgesellschaft-->
+                                    <code>KG</code>
+                                </tns:rechtsform>
+                            </tns:angabenZurRechtsform>
+                            <tns:sitz>
+                                <tns:ort>Maxhütte-Haidhof</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:strasse>Industriepark Ponholz</tns:strasse>
+                                <tns:hausnummer>1</tns:hausnummer>
+                                <tns:postleitzahl>93142</tns:postleitzahl>
+                                <tns:ort>Maxhütte-Haidhof</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>2</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25000000</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Registergericht-->
+                        <code>288</code>
+                    </tns:rollenbezeichnung>
+                    <tns:geschaeftszeichen />
+                </tns:rolle>
+                <tns:rolle>
+                    <tns:rollennummer>3</tns:rollennummer>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Einreicher(in)-->
+                        <code>215</code>
+                    </tns:rollenbezeichnung>
+                    <tns:geschaeftszeichen />
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>2</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Amtsgericht Amberg</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Amberg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:strasse>Paulanerplatz</tns:strasse>
+                                <tns:hausnummer>4</tns:hausnummer>
+                                <tns:postleitzahl>92224</tns:postleitzahl>
+                                <tns:ort>Amberg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Telefon-->
+                                    <code>007</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>09621-305-0</tns:verbindung>
+                            </tns:telekommunikation>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Fax-->
+                                    <code>002</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>09621-305-105</tns:verbindung>
+                            </tns:telekommunikation>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>4</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25017677</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>4</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Claus</tns:vorname>
+                                <tns:nachname>Leitl</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1966-09-18</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Lappersdorf</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>5</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25013992</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>5</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Martin</tns:vorname>
+                                <tns:nachname>Schnellinger</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1968-10-16</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Schmidmühlen</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>6</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25021379</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>6</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Johann</tns:vorname>
+                                <tns:nachname>Elsperger</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1960-11-19</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Schwandorf</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>7</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25036149</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>7</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Ralf Peter</tns:vorname>
+                                <tns:nachname>Ritter</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1962-01-04</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Neckarsulm</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>8</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25039549</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>8</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Volker</tns:vorname>
+                                <tns:nachname>Wolframm</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1965-10-26</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Berlin</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>9</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25043451</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>9</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Heiko</tns:vorname>
+                                <tns:nachname>Kordmann</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1971-05-31</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Rödelsee</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>10</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25044552</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>10</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Christian</tns:vorname>
+                                <tns:nachname>Bernhardt</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1977-06-11</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Regensburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>11</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25044553</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>11</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Tino</tns:vorname>
+                                <tns:nachname>Bummel</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1980-03-13</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Berlin</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>12</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25044554</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>12</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Ingo</tns:vorname>
+                                <tns:nachname>Elbs</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1969-07-26</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Regensburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>13</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25046586</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Persönlich
+                        haftende(r) Gesellschafter(in)-->
+                        <code>252</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>13</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>EDEKA ZENTRALE Handels Stiftung</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Hamburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:registereintragung>
+                                <tns:auswahl_registerbehoerde>
+                                    <tns:inlaendischesRegistergericht>
+                                        <tns:gericht listVersionID="3.5"
+                                            listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                                            Hamburg, Zentralisierter Bereich Handelsregister-->
+                                            <code>K1101R</code>
+                                        </tns:gericht>
+                                    </tns:inlaendischesRegistergericht>
+                                </tns:auswahl_registerbehoerde>
+                                <tns:registernummer>HRA 126741</tns:registernummer>
+                            </tns:registereintragung>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Hamburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>14</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25018456</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Persönlich
+                        haftende(r) Gesellschafter(in)-->
+                        <code>252</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>14</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>EDEKA ZENTRALE Stiftung &amp; Co. KG</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Hamburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:registereintragung>
+                                <tns:auswahl_registerbehoerde>
+                                    <tns:inlaendischesRegistergericht>
+                                        <tns:gericht listVersionID="3.5"
+                                            listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                                            Hamburg, Zentralisierter Bereich Handelsregister-->
+                                            <code>K1101R</code>
+                                        </tns:gericht>
+                                    </tns:inlaendischesRegistergericht>
+                                </tns:auswahl_registerbehoerde>
+                                <tns:registernummer>HRA 96305</tns:registernummer>
+                            </tns:registereintragung>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Hamburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>15</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25036965</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Kommanditist(in)-->
+                        <code>275</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>15</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>EDEKA ZENTRALE Handel und Produktion GmbH</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Hamburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:registereintragung>
+                                <tns:auswahl_registerbehoerde>
+                                    <tns:inlaendischesRegistergericht>
+                                        <tns:gericht listVersionID="3.5"
+                                            listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                                            Hamburg, Zentralisierter Bereich Handelsregister-->
+                                            <code>K1101R</code>
+                                        </tns:gericht>
+                                    </tns:inlaendischesRegistergericht>
+                                </tns:auswahl_registerbehoerde>
+                                <tns:registernummer>HRB 121449</tns:registernummer>
+                            </tns:registereintragung>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Hamburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>16</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25027644</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Kommanditist(in)-->
+                        <code>275</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>16</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Netto Beteiligungs GmbH</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Maxhütte-Haidhof</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:registereintragung>
+                                <tns:auswahl_registerbehoerde>
+                                    <tns:inlaendischesRegistergericht>
+                                        <tns:gericht listVersionID="3.5"
+                                            listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Registergericht
+                                            Amtsgericht Amberg-->
+                                            <code>D3101V</code>
+                                        </tns:gericht>
+                                    </tns:inlaendischesRegistergericht>
+                                </tns:auswahl_registerbehoerde>
+                                <tns:registernummer>HRB 4782</tns:registernummer>
+                            </tns:registereintragung>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Maxhütte-Haidhof</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>17</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>25048562</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Prokurist(in)-->
+                        <code>285</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>17</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Martin</tns:vorname>
+                                <tns:nachname>Helm</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1969-12-31</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Vilshofen</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+        </tns:verfahrensdaten>
+    </tns:grunddaten>
+    <tns:schriftgutobjekte />
+    <tns:fachdatenRegister fachdatenRegisterVersion="3.2">
+        <tns:mitteilungsart listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
+            <code>002</code>
+        </tns:mitteilungsart>
+        <tns:betroffenerRechtstraeger>
+            <tns:ref.rollennummer>1</tns:ref.rollennummer>
+        </tns:betroffenerRechtstraeger>
+        <tns:auszug>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Tag der ersten Eintragung: 27.01.1993. Dieses Blatt ist zur Fortführung
+                    auf EDV umgeschrieben worden und dabei an die Stelle des bisherigen
+                    Registerblattes getreten.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>5</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>3</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Firma ist geändert.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>5</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat im Wege der Ausgliederung gemäß Ausgliederungsvertrag
+                    vom 07.04.2009 sowie Beschluss ihrer Gesellschafterversammlung und Beschluss der
+                    Gesellschafterversammlung der übertragenden Gesellschaft, jeweils vom
+                    07.04.2009, das Vermögens der Plus Warenhandelsgesellschaft mbH mit Sitz in
+                    Mülheim an der Ruhr (Amtsgericht Duisburg HRB 15701), mit Ausnahme des
+                    Tarifvertrags gem. § 3 BetrVG vom 19.02.2001, übernommen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>5</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat im Wege der Abspaltung nach Maßgabe des
+                    Spaltungsvertrags vom 29.07.2015 sowie Beschluss ihrer Gesellschafterversammlung
+                    vom 20.08.2015 und Beschluss der Gesellschafterversammlung der übertragenden
+                    Gesellschaft vom 29.07.2015 Teile des Vermögens (Lager- und Logistikbetrieb am
+                    Standort Oberster Kamp 16, 59069 Hamm) von der P-LOG Plus Logistik- und
+                    Dienstleistungsgesellschaft mbH mit dem Sitz in Maxhütte-Haidhof (Amtsgericht
+                    Amberg HRB 4461) übernommen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>5</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die N-LOG Netto Logistik- und Dienstleistungsgesellschaft mbH mit dem Sitz
+                    in Maxhütte-Haidhof (Amtsgericht Amberg HRB 4490) ist auf Grund des
+                    Verschmelzungsvertrages vom 23.08.2017 und der Beschlüsse der
+                    Gesellschafterversammlungen vom selben Tag mit der Gesellschaft verschmolzen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>5</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Sonstige
+                    Rechtsverhältnisse-->
+                    <code>011</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat im Wege der Aufspaltung gemäß Spaltungsvertrag vom
+                    15.12.2021 mit Nachtrag vom 20.12.2021 sowie Beschluss ihrer
+                    Gesellschafterversammlung vom 15.12.2021 und Beschluss der
+                    Gesellschafterversammlung der übertragenden Gesellschaft vom 15.12.2021 Teile
+                    des Vermögens (LEH-Geschäft mit allen Aktiven und Passiven) von der EKN Betriebs
+                    Stiftung &amp; Co. oHG mit dem Sitz in Hamburg (Amtsgericht Hamburg HRA 121404)
+                    übernommen.</tns:text>
+            </tns:eintragungstext>
+            <tns:abrufuhrzeit>12:44:44</tns:abrufuhrzeit>
+            <tns:abrufdatum>2023-08-13</tns:abrufdatum>
+            <tns:letzteEintragung>2022-04-25</tns:letzteEintragung>
+            <tns:anzahlEintragungen>33</tns:anzahlEintragungen>
+        </tns:auszug>
+        <tns:basisdatenRegister>
+            <tns:rechtstraeger>
+                <tns:bezeichnung>
+                    <tns:bezeichnung.aktuell>Netto Marken-Discount Stiftung &amp; Co. KG</tns:bezeichnung.aktuell>
+                </tns:bezeichnung>
+                <tns:angabenZurRechtsform>
+                    <tns:rechtsform listVersionID="3.4"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Kommanditgesellschaft-->
+                        <code>KG</code>
+                    </tns:rechtsform>
+                </tns:angabenZurRechtsform>
+                <tns:sitz>
+                    <tns:ort>Maxhütte-Haidhof</tns:ort>
+                </tns:sitz>
+                <tns:anschrift>
+                    <tns:anschriftstyp listVersionID="3.0"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                        <code>003</code>
+                    </tns:anschriftstyp>
+                    <tns:strasse>Industriepark Ponholz</tns:strasse>
+                    <tns:hausnummer>1</tns:hausnummer>
+                    <tns:postleitzahl>93142</tns:postleitzahl>
+                    <tns:ort>Maxhütte-Haidhof</tns:ort>
+                    <tns:staat>
+                        <tns:auswahl_staat>
+                            <tns:staat listVersionID="6"
+                                listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                <code>DE</code>
+                            </tns:staat>
+                        </tns:auswahl_staat>
+                    </tns:staat>
+                </tns:anschrift>
+            </tns:rechtstraeger>
+            <tns:vertretung>
+                <tns:allgemeineVertretungsregelung>
+                    <tns:auswahl_vertretungsbefugnis>
+                        <tns:vertretungsbefugnis listVersionID="2.1"
+                            listURI="urn:xoev-de:xjustiz:codeliste:reg.allgemeine-vertretungsregelung"><!--Jeder
+                            persönlich haftende Gesellschafter vertritt einzeln.-->
+                            <code>089</code>
+                        </tns:vertretungsbefugnis>
+                    </tns:auswahl_vertretungsbefugnis>
+                </tns:allgemeineVertretungsregelung>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>4</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>5</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>6</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>7</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>8</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>9</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>10</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>11</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>12</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>13</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext>mit der Befugnis - auch für die
+                                jeweiligen Vorstandsmitglieder -, im Namen der Gesellschaft mit sich
+                                als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.</tns:vertretungsbefugnisFreitext>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>14</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnisFreitext>mit der Befugnis - auch für die
+                                Komplementärin der persönlich haftenden Gesellschafterin, die EDEKA
+                                ZENTRALE Handels Stiftung, Hamburg, und deren jeweilige
+                                Vorstandsmitglieder -, im Namen der Gesellschaft mit sich als
+                                Vertreter eines Dritten Rechtsgeschäfte abzuschließen.</tns:vertretungsbefugnisFreitext>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>17</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--Gesamtprokura
+                                gemeinsam mit einem anderen Prokuristen-->
+                                <code>007</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+            </tns:vertretung>
+            <tns:gegenstand />
+        </tns:basisdatenRegister>
+        <tns:auswahl_zusatzangaben>
+            <tns:personengesellschaft>
+                <tns:zusatzKG>
+                    <tns:datenKommanditist>
+                        <tns:ref.rollennummer>15</tns:ref.rollennummer>
+                        <tns:hafteinlage>
+                            <tns:zahl>58822222.00</tns:zahl>
+                            <tns:waehrung listVersionID="1.0"
+                                listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro-->
+                                <code>EUR</code>
+                            </tns:waehrung>
+                        </tns:hafteinlage>
+                    </tns:datenKommanditist>
+                    <tns:datenKommanditist>
+                        <tns:ref.rollennummer>16</tns:ref.rollennummer>
+                        <tns:hafteinlage>
+                            <tns:zahl>41177778.00</tns:zahl>
+                            <tns:waehrung listVersionID="1.0"
+                                listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro-->
+                                <code>EUR</code>
+                            </tns:waehrung>
+                        </tns:hafteinlage>
+                    </tns:datenKommanditist>
+                </tns:zusatzKG>
+            </tns:personengesellschaft>
+        </tns:auswahl_zusatzangaben>
+    </tns:fachdatenRegister>
+</tns:nachricht.reg.0400003>

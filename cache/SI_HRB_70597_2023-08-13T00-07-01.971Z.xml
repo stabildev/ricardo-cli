@@ -1,1 +1,491 @@
-<?xml version="1.0"?><tns:nachricht.reg.0400003 xmlns:tns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd"><tns:nachrichtenkopf xjustizVersion="3.3.1"><tns:aktenzeichen.absender/><tns:erstellungszeitpunkt>2023-08-13T02:07:01Z</tns:erstellungszeitpunkt><tns:auswahl_absender><tns:absender.gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht Walsrode--><code>P2716</code></tns:absender.gericht></tns:auswahl_absender><tns:auswahl_empfaenger><tns:empfaenger.sonstige/></tns:auswahl_empfaenger><tns:eigeneNachrichtenID>e5314210-a314-4838-a806-d80998275e2f</tns:eigeneNachrichtenID><tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug--><code>002</code></tns:ereignis><tns:herstellerinformation><tns:nameDesProdukts>RegisSTAR</tns:nameDesProdukts><tns:herstellerDesProdukts>Eviden Germany GmbH</tns:herstellerDesProdukts><tns:version> / RSADO: 2.18.0</tns:version></tns:herstellerinformation></tns:nachrichtenkopf><tns:grunddaten><tns:verfahrensdaten><tns:instanzdaten><tns:instanznummer>0</tns:instanznummer><tns:sachgebiet listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.sachgebiet"><!--Handelsregister--><code>015</code></tns:sachgebiet><tns:auswahl_instanzbehoerde><tns:gericht listVersionID="3.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht Walsrode--><code>P2716</code></tns:gericht></tns:auswahl_instanzbehoerde><tns:aktenzeichen><tns:auswahl_aktenzeichen><tns:aktenzeichen.strukturiert><tns:register listVersionID="3.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.registerzeichen"><!--Handelsregister (Kapitalgesellschaften) (AG)--><code>HRB</code></tns:register><tns:laufendeNummer>70597</tns:laufendeNummer><tns:jahr/></tns:aktenzeichen.strukturiert></tns:auswahl_aktenzeichen></tns:aktenzeichen><tns:verfahrensgegenstand><tns:gegenstand>Strukturierter Registerinhalt</tns:gegenstand></tns:verfahrensgegenstand></tns:instanzdaten><tns:beteiligung><tns:rolle><tns:rollennummer>1</tns:rollennummer><tns:rollenID><tns:id>852002121</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Rechtsträger(in)--><code>287</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>1</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>Thermoland Kröger GmbH</tns:bezeichnung.aktuell></tns:bezeichnung><tns:angabenZurRechtsform><tns:rechtsform listVersionID="3.4" listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Gesellschaft mit beschränkter Haftung--><code>GmbH</code></tns:rechtsform></tns:angabenZurRechtsform><tns:sitz><tns:ort>Rotenburg (Wümme)</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:strasse>Knickchaussee</tns:strasse><tns:hausnummer>1</tns:hausnummer><tns:postleitzahl>27356</tns:postleitzahl><tns:ort>Rotenburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>2</tns:rollennummer><tns:rollenID><tns:id>852000000</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Registergericht--><code>288</code></tns:rollenbezeichnung><tns:geschaeftszeichen/></tns:rolle><tns:rolle><tns:rollennummer>3</tns:rollennummer><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Notar(in)--><code>208</code></tns:rollenbezeichnung><tns:geschaeftszeichen/></tns:rolle><tns:beteiligter><tns:beteiligtennummer>2</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:organisation><tns:bezeichnung><tns:bezeichnung.aktuell>Amtsgericht Walsrode</tns:bezeichnung.aktuell></tns:bezeichnung><tns:sitz><tns:ort>Walsrode</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:sitz><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:strasse>Lange Str.</tns:strasse><tns:hausnummer>29-33</tns:hausnummer><tns:postleitzahl>29664</tns:postleitzahl><tns:ort>Walsrode</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift><tns:telekommunikation><tns:telekommunikationsart listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Telefon--><code>007</code></tns:telekommunikationsart><tns:verbindung>05161/6007-75</tns:verbindung></tns:telekommunikation><tns:telekommunikation><tns:telekommunikationsart listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Fax--><code>002</code></tns:telekommunikationsart><tns:verbindung>0516176007-85</tns:verbindung></tns:telekommunikation><tns:telekommunikation><tns:telekommunikationsart listVersionID="2.2" listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--E-Mail--><code>001</code></tns:telekommunikationsart><tns:verbindung>Poststelle@ag-wal.niedersachsen.de</tns:verbindung></tns:telekommunikation></tns:organisation></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>4</tns:rollennummer><tns:rollenID><tns:id>852087286</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)--><code>086</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>4</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Brian</tns:vorname><tns:nachname>Kröger</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1975-08-05</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Scheeßel</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung><tns:beteiligung><tns:rolle><tns:rollennummer>5</tns:rollennummer><tns:rollenID><tns:id>852131557</tns:id><tns:ref.instanznummer>0</tns:ref.instanznummer></tns:rollenID><tns:rollenbezeichnung listVersionID="3.3" listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)--><code>086</code></tns:rollenbezeichnung></tns:rolle><tns:beteiligter><tns:beteiligtennummer>5</tns:beteiligtennummer><tns:auswahl_beteiligter><tns:natuerlichePerson><tns:vollerName><tns:vorname>Kevin</tns:vorname><tns:nachname>Weger</tns:nachname></tns:vollerName><tns:geburt><tns:geburtsdatum>1979-06-21</tns:geburtsdatum></tns:geburt><tns:geschlecht listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich--><code>1</code></tns:geschlecht><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:ort>Scheeßel</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:natuerlichePerson></tns:auswahl_beteiligter></tns:beteiligter></tns:beteiligung></tns:verfahrensdaten></tns:grunddaten><tns:schriftgutobjekte/><tns:fachdatenRegister fachdatenRegisterVersion="3.2"><tns:mitteilungsart listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug--><code>002</code></tns:mitteilungsart><tns:betroffenerRechtstraeger><tns:ref.rollennummer>1</tns:ref.rollennummer></tns:betroffenerRechtstraeger><tns:auszug><tns:eintragungstext><tns:spalte>4</tns:spalte><tns:position>1</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext--><code>004</code></tns:eintragungsart><tns:text>Die Gesellschaft hat einen oder mehrere Geschäftsführer.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>4</tns:spalte><tns:position>1</tns:position><tns:laufendeNummer>3</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext--><code>004</code></tns:eintragungsart><tns:text>Den Geschäftsführern kann jeweils - auch wenn mehrere Geschäftsführer bestellt sind - Einzelvertretungsbefugnis erteilt werden. Den Geschäftsführern kann jeweils die Befugnis erteilt werden, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>6</tns:spalte><tns:position>1</tns:position><tns:laufendeNummer>2</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung--><code>009</code></tns:eintragungsart><tns:text>Gesellschaftsvertrag vom 27.03.1987 zuletzt geändert am 29.04.2002</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>7</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>2</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext--><code>004</code></tns:eintragungsart><tns:text>Änderungsvertrag: Blatt 54 des Sonderbandes</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>7</tns:spalte><tns:position>2</tns:position><tns:laufendeNummer>3</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext--><code>004</code></tns:eintragungsart><tns:text>Tag der ersten Eintragung: 19.05.1987 Dieses Blatt ist zur Fortführung auf EDV umgeschrieben worden und dabei an die Stelle des bisherigen Registerblattes getreten. Freigegeben am 12.07.2006.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>6</tns:spalte><tns:position>1</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung--><code>009</code></tns:eintragungsart><tns:text>Die Gesellschafterversammlung vom 24.11.2015 hat eine Änderung des Gesellschaftsvertrages in § 1 (Firma, Sitz, Geschäftsjahr und Dauer) und mit ihr die Änderung der Firma beschlossen.</tns:text></tns:eintragungstext><tns:eintragungstext><tns:spalte>6</tns:spalte><tns:position>1</tns:position><tns:laufendeNummer>1</tns:laufendeNummer><tns:eintragungsart listVersionID="1.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung--><code>009</code></tns:eintragungsart><tns:text>Die Gesellschafterversammlung vom 01.02.2019 hat eine Neufassung des Gesellschaftsvertrages und mit ihr die Erhöhung des Stammkapitals um 1.983,73 EUR auf 48.000,00 EUR sowie die Änderung der Firma und des Unternehmensgegenstands beschlossen.</tns:text></tns:eintragungstext><tns:abrufuhrzeit>02:07:01</tns:abrufuhrzeit><tns:abrufdatum>2023-08-13</tns:abrufdatum><tns:letzteEintragung>2020-07-07</tns:letzteEintragung><tns:anzahlEintragungen>5</tns:anzahlEintragungen><tns:letzteAenderung><tns:aenderungsdatum>2019-02-01</tns:aenderungsdatum></tns:letzteAenderung></tns:auszug><tns:basisdatenRegister><tns:satzungsdatum><tns:aktuellesSatzungsdatum>1987-03-27</tns:aktuellesSatzungsdatum></tns:satzungsdatum><tns:rechtstraeger><tns:bezeichnung><tns:bezeichnung.aktuell>Thermoland Kröger GmbH</tns:bezeichnung.aktuell></tns:bezeichnung><tns:angabenZurRechtsform><tns:rechtsform listVersionID="3.4" listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Gesellschaft mit beschränkter Haftung--><code>GmbH</code></tns:rechtsform></tns:angabenZurRechtsform><tns:sitz><tns:ort>Rotenburg (Wümme)</tns:ort></tns:sitz><tns:anschrift><tns:anschriftstyp listVersionID="3.0" listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift--><code>003</code></tns:anschriftstyp><tns:strasse>Knickchaussee</tns:strasse><tns:hausnummer>1</tns:hausnummer><tns:postleitzahl>27356</tns:postleitzahl><tns:ort>Rotenburg</tns:ort><tns:staat><tns:auswahl_staat><tns:staat listVersionID="6" listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland--><code>DE</code></tns:staat></tns:auswahl_staat></tns:staat></tns:anschrift></tns:rechtstraeger><tns:vertretung><tns:allgemeineVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.allgemeine-vertretungsregelung"><!--Ist nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam mit einem Prokuristen vertreten.--><code>066</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:allgemeineVertretungsregelung><tns:vertretungsberechtigte><tns:ref.rollennummer>4</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt--><code>003</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis><tns:auswahl_befreiungVon181BGB><tns:befreiungVon181BGB listVersionID="2.0" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen--><code>011</code></tns:befreiungVon181BGB></tns:auswahl_befreiungVon181BGB></tns:besondereVertretungsregelung></tns:vertretungsberechtigte><tns:vertretungsberechtigte><tns:ref.rollennummer>5</tns:ref.rollennummer><tns:besondereVertretungsregelung><tns:auswahl_vertretungsbefugnis><tns:vertretungsbefugnis listVersionID="2.1" listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt--><code>003</code></tns:vertretungsbefugnis></tns:auswahl_vertretungsbefugnis></tns:besondereVertretungsregelung></tns:vertretungsberechtigte></tns:vertretung><tns:gegenstand>die Planung, Installation sowie der An- und Verkauf von Heizungs-, Sanitär-, Lüftungs- und Klimaanlagen sowie alle mit vorgenannten Angelegenheiten in wirtschaftlichem Zusammenhang stehende Geschäfte</tns:gegenstand></tns:basisdatenRegister><tns:auswahl_zusatzangaben><tns:kapitalgesellschaft><tns:zusatzGmbH><tns:stammkapital><tns:zahl>48000.00</tns:zahl><tns:waehrung listVersionID="1.0" listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro--><code>EUR</code></tns:waehrung></tns:stammkapital></tns:zusatzGmbH></tns:kapitalgesellschaft></tns:auswahl_zusatzangaben></tns:fachdatenRegister></tns:nachricht.reg.0400003>
+<?xml version="1.0"?>
+<tns:nachricht.reg.0400003 xmlns:tns="http://www.xjustiz.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xjustiz.de xjustiz_0400_register_3_2.xsd">
+    <tns:nachrichtenkopf xjustizVersion="3.3.1">
+        <tns:aktenzeichen.absender />
+        <tns:erstellungszeitpunkt>2023-08-13T02:07:01Z</tns:erstellungszeitpunkt>
+        <tns:auswahl_absender>
+            <tns:absender.gericht listVersionID="3.5"
+                listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                Walsrode-->
+                <code>P2716</code>
+            </tns:absender.gericht>
+        </tns:auswahl_absender>
+        <tns:auswahl_empfaenger>
+            <tns:empfaenger.sonstige />
+        </tns:auswahl_empfaenger>
+        <tns:eigeneNachrichtenID>e5314210-a314-4838-a806-d80998275e2f</tns:eigeneNachrichtenID>
+        <tns:ereignis listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
+            <code>002</code>
+        </tns:ereignis>
+        <tns:herstellerinformation>
+            <tns:nameDesProdukts>RegisSTAR</tns:nameDesProdukts>
+            <tns:herstellerDesProdukts>Eviden Germany GmbH</tns:herstellerDesProdukts>
+            <tns:version> / RSADO: 2.18.0</tns:version>
+        </tns:herstellerinformation>
+    </tns:nachrichtenkopf>
+    <tns:grunddaten>
+        <tns:verfahrensdaten>
+            <tns:instanzdaten>
+                <tns:instanznummer>0</tns:instanznummer>
+                <tns:sachgebiet listVersionID="2.2"
+                    listURI="urn:xoev-de:xjustiz:codeliste:gds.sachgebiet"><!--Handelsregister-->
+                    <code>015</code>
+                </tns:sachgebiet>
+                <tns:auswahl_instanzbehoerde>
+                    <tns:gericht listVersionID="3.5"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.gerichte"><!--Amtsgericht
+                        Walsrode-->
+                        <code>P2716</code>
+                    </tns:gericht>
+                </tns:auswahl_instanzbehoerde>
+                <tns:aktenzeichen>
+                    <tns:auswahl_aktenzeichen>
+                        <tns:aktenzeichen.strukturiert>
+                            <tns:register listVersionID="3.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.registerzeichen"><!--Handelsregister
+                                (Kapitalgesellschaften) (AG)-->
+                                <code>HRB</code>
+                            </tns:register>
+                            <tns:laufendeNummer>70597</tns:laufendeNummer>
+                            <tns:jahr />
+                        </tns:aktenzeichen.strukturiert>
+                    </tns:auswahl_aktenzeichen>
+                </tns:aktenzeichen>
+                <tns:verfahrensgegenstand>
+                    <tns:gegenstand>Strukturierter Registerinhalt</tns:gegenstand>
+                </tns:verfahrensgegenstand>
+            </tns:instanzdaten>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>1</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>852002121</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Rechtsträger(in)-->
+                        <code>287</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>1</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Thermoland Kröger GmbH</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:angabenZurRechtsform>
+                                <tns:rechtsform listVersionID="3.4"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Gesellschaft
+                                    mit beschränkter Haftung-->
+                                    <code>GmbH</code>
+                                </tns:rechtsform>
+                            </tns:angabenZurRechtsform>
+                            <tns:sitz>
+                                <tns:ort>Rotenburg (Wümme)</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:strasse>Knickchaussee</tns:strasse>
+                                <tns:hausnummer>1</tns:hausnummer>
+                                <tns:postleitzahl>27356</tns:postleitzahl>
+                                <tns:ort>Rotenburg</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>2</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>852000000</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Registergericht-->
+                        <code>288</code>
+                    </tns:rollenbezeichnung>
+                    <tns:geschaeftszeichen />
+                </tns:rolle>
+                <tns:rolle>
+                    <tns:rollennummer>3</tns:rollennummer>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Notar(in)-->
+                        <code>208</code>
+                    </tns:rollenbezeichnung>
+                    <tns:geschaeftszeichen />
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>2</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:organisation>
+                            <tns:bezeichnung>
+                                <tns:bezeichnung.aktuell>Amtsgericht Walsrode</tns:bezeichnung.aktuell>
+                            </tns:bezeichnung>
+                            <tns:sitz>
+                                <tns:ort>Walsrode</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:sitz>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:strasse>Lange Str.</tns:strasse>
+                                <tns:hausnummer>29-33</tns:hausnummer>
+                                <tns:postleitzahl>29664</tns:postleitzahl>
+                                <tns:ort>Walsrode</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Telefon-->
+                                    <code>007</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>05161/6007-75</tns:verbindung>
+                            </tns:telekommunikation>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--Fax-->
+                                    <code>002</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>0516176007-85</tns:verbindung>
+                            </tns:telekommunikation>
+                            <tns:telekommunikation>
+                                <tns:telekommunikationsart listVersionID="2.2"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.telekommunikationsart"><!--E-Mail-->
+                                    <code>001</code>
+                                </tns:telekommunikationsart>
+                                <tns:verbindung>Poststelle@ag-wal.niedersachsen.de</tns:verbindung>
+                            </tns:telekommunikation>
+                        </tns:organisation>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>4</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>852087286</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)-->
+                        <code>086</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>4</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Brian</tns:vorname>
+                                <tns:nachname>Kröger</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1975-08-05</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Scheeßel</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+            <tns:beteiligung>
+                <tns:rolle>
+                    <tns:rollennummer>5</tns:rollennummer>
+                    <tns:rollenID>
+                        <tns:id>852131557</tns:id>
+                        <tns:ref.instanznummer>0</tns:ref.instanznummer>
+                    </tns:rollenID>
+                    <tns:rollenbezeichnung listVersionID="3.3"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rollenbezeichnung"><!--Geschäftsführer(in)-->
+                        <code>086</code>
+                    </tns:rollenbezeichnung>
+                </tns:rolle>
+                <tns:beteiligter>
+                    <tns:beteiligtennummer>5</tns:beteiligtennummer>
+                    <tns:auswahl_beteiligter>
+                        <tns:natuerlichePerson>
+                            <tns:vollerName>
+                                <tns:vorname>Kevin</tns:vorname>
+                                <tns:nachname>Weger</tns:nachname>
+                            </tns:vollerName>
+                            <tns:geburt>
+                                <tns:geburtsdatum>1979-06-21</tns:geburtsdatum>
+                            </tns:geburt>
+                            <tns:geschlecht listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:gds.geschlecht"><!--männlich-->
+                                <code>1</code>
+                            </tns:geschlecht>
+                            <tns:anschrift>
+                                <tns:anschriftstyp listVersionID="3.0"
+                                    listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                                    <code>003</code>
+                                </tns:anschriftstyp>
+                                <tns:ort>Scheeßel</tns:ort>
+                                <tns:staat>
+                                    <tns:auswahl_staat>
+                                        <tns:staat listVersionID="6"
+                                            listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                            <code>DE</code>
+                                        </tns:staat>
+                                    </tns:auswahl_staat>
+                                </tns:staat>
+                            </tns:anschrift>
+                        </tns:natuerlichePerson>
+                    </tns:auswahl_beteiligter>
+                </tns:beteiligter>
+            </tns:beteiligung>
+        </tns:verfahrensdaten>
+    </tns:grunddaten>
+    <tns:schriftgutobjekte />
+    <tns:fachdatenRegister fachdatenRegisterVersion="3.2">
+        <tns:mitteilungsart listVersionID="1.5" listURI="urn:xoev-de:xjustiz:codeliste:gds.ereignis"><!--HR-Auszug-->
+            <code>002</code>
+        </tns:mitteilungsart>
+        <tns:betroffenerRechtstraeger>
+            <tns:ref.rollennummer>1</tns:ref.rollennummer>
+        </tns:betroffenerRechtstraeger>
+        <tns:auszug>
+            <tns:eintragungstext>
+                <tns:spalte>4</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschaft hat einen oder mehrere Geschäftsführer.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>4</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>3</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Den Geschäftsführern kann jeweils - auch wenn mehrere Geschäftsführer
+                    bestellt sind - Einzelvertretungsbefugnis erteilt werden. Den Geschäftsführern
+                    kann jeweils die Befugnis erteilt werden, im Namen der Gesellschaft mit sich im
+                    eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Gesellschaftsvertrag vom 27.03.1987 zuletzt geändert am 29.04.2002</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>2</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Änderungsvertrag: Blatt 54 des Sonderbandes</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>7</tns:spalte>
+                <tns:position>2</tns:position>
+                <tns:laufendeNummer>3</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Freitext-->
+                    <code>004</code>
+                </tns:eintragungsart>
+                <tns:text>Tag der ersten Eintragung: 19.05.1987 Dieses Blatt ist zur Fortführung auf
+                    EDV umgeschrieben worden und dabei an die Stelle des bisherigen Registerblattes
+                    getreten. Freigegeben am 12.07.2006.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 24.11.2015 hat eine Änderung des
+                    Gesellschaftsvertrages in § 1 (Firma, Sitz, Geschäftsjahr und Dauer) und mit ihr
+                    die Änderung der Firma beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:eintragungstext>
+                <tns:spalte>6</tns:spalte>
+                <tns:position>1</tns:position>
+                <tns:laufendeNummer>1</tns:laufendeNummer>
+                <tns:eintragungsart listVersionID="1.1"
+                    listURI="urn:xoev-de:xjustiz:codeliste:reg.eintragungstyp"><!--Satzung-->
+                    <code>009</code>
+                </tns:eintragungsart>
+                <tns:text>Die Gesellschafterversammlung vom 01.02.2019 hat eine Neufassung des
+                    Gesellschaftsvertrages und mit ihr die Erhöhung des Stammkapitals um 1.983,73
+                    EUR auf 48.000,00 EUR sowie die Änderung der Firma und des
+                    Unternehmensgegenstands beschlossen.</tns:text>
+            </tns:eintragungstext>
+            <tns:abrufuhrzeit>02:07:01</tns:abrufuhrzeit>
+            <tns:abrufdatum>2023-08-13</tns:abrufdatum>
+            <tns:letzteEintragung>2020-07-07</tns:letzteEintragung>
+            <tns:anzahlEintragungen>5</tns:anzahlEintragungen>
+            <tns:letzteAenderung>
+                <tns:aenderungsdatum>2019-02-01</tns:aenderungsdatum>
+            </tns:letzteAenderung>
+        </tns:auszug>
+        <tns:basisdatenRegister>
+            <tns:satzungsdatum>
+                <tns:aktuellesSatzungsdatum>1987-03-27</tns:aktuellesSatzungsdatum>
+            </tns:satzungsdatum>
+            <tns:rechtstraeger>
+                <tns:bezeichnung>
+                    <tns:bezeichnung.aktuell>Thermoland Kröger GmbH</tns:bezeichnung.aktuell>
+                </tns:bezeichnung>
+                <tns:angabenZurRechtsform>
+                    <tns:rechtsform listVersionID="3.4"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.rechtsform"><!--Gesellschaft
+                        mit beschränkter Haftung-->
+                        <code>GmbH</code>
+                    </tns:rechtsform>
+                </tns:angabenZurRechtsform>
+                <tns:sitz>
+                    <tns:ort>Rotenburg (Wümme)</tns:ort>
+                </tns:sitz>
+                <tns:anschrift>
+                    <tns:anschriftstyp listVersionID="3.0"
+                        listURI="urn:xoev-de:xjustiz:codeliste:gds.anschriftstyp"><!--Dienst-/Geschäftsanschrift-->
+                        <code>003</code>
+                    </tns:anschriftstyp>
+                    <tns:strasse>Knickchaussee</tns:strasse>
+                    <tns:hausnummer>1</tns:hausnummer>
+                    <tns:postleitzahl>27356</tns:postleitzahl>
+                    <tns:ort>Rotenburg</tns:ort>
+                    <tns:staat>
+                        <tns:auswahl_staat>
+                            <tns:staat listVersionID="6"
+                                listURI="urn:xoev-de:kosit:codeliste:country-codes"><!--Deutschland-->
+                                <code>DE</code>
+                            </tns:staat>
+                        </tns:auswahl_staat>
+                    </tns:staat>
+                </tns:anschrift>
+            </tns:rechtstraeger>
+            <tns:vertretung>
+                <tns:allgemeineVertretungsregelung>
+                    <tns:auswahl_vertretungsbefugnis>
+                        <tns:vertretungsbefugnis listVersionID="2.1"
+                            listURI="urn:xoev-de:xjustiz:codeliste:reg.allgemeine-vertretungsregelung"><!--Ist
+                            nur ein Geschäftsführer bestellt, so vertritt er die Gesellschaft
+                            allein. Sind mehrere Geschäftsführer bestellt, so wird die Gesellschaft
+                            durch zwei Geschäftsführer oder durch einen Geschäftsführer gemeinsam
+                            mit einem Prokuristen vertreten.-->
+                            <code>066</code>
+                        </tns:vertretungsbefugnis>
+                    </tns:auswahl_vertretungsbefugnis>
+                </tns:allgemeineVertretungsregelung>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>4</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
+                                <code>003</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                        <tns:auswahl_befreiungVon181BGB>
+                            <tns:befreiungVon181BGB listVersionID="2.0"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-befreiung"><!--mit
+                                der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen
+                                oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen-->
+                                <code>011</code>
+                            </tns:befreiungVon181BGB>
+                        </tns:auswahl_befreiungVon181BGB>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+                <tns:vertretungsberechtigte>
+                    <tns:ref.rollennummer>5</tns:ref.rollennummer>
+                    <tns:besondereVertretungsregelung>
+                        <tns:auswahl_vertretungsbefugnis>
+                            <tns:vertretungsbefugnis listVersionID="2.1"
+                                listURI="urn:xoev-de:xjustiz:codeliste:reg.besondere-vertretungsregelung"><!--einzelvertretungsberechtigt-->
+                                <code>003</code>
+                            </tns:vertretungsbefugnis>
+                        </tns:auswahl_vertretungsbefugnis>
+                    </tns:besondereVertretungsregelung>
+                </tns:vertretungsberechtigte>
+            </tns:vertretung>
+            <tns:gegenstand>die Planung, Installation sowie der An- und Verkauf von Heizungs-,
+                Sanitär-, Lüftungs- und Klimaanlagen sowie alle mit vorgenannten Angelegenheiten in
+                wirtschaftlichem Zusammenhang stehende Geschäfte</tns:gegenstand>
+        </tns:basisdatenRegister>
+        <tns:auswahl_zusatzangaben>
+            <tns:kapitalgesellschaft>
+                <tns:zusatzGmbH>
+                    <tns:stammkapital>
+                        <tns:zahl>48000.00</tns:zahl>
+                        <tns:waehrung listVersionID="1.0"
+                            listURI="urn:xoev-de:bund:kba:codeliste:waehrung"><!--Euro-->
+                            <code>EUR</code>
+                        </tns:waehrung>
+                    </tns:stammkapital>
+                </tns:zusatzGmbH>
+            </tns:kapitalgesellschaft>
+        </tns:auswahl_zusatzangaben>
+    </tns:fachdatenRegister>
+</tns:nachricht.reg.0400003>

@@ -237,10 +237,20 @@ export const parseSI = (xml: string) => {
       null,
   }
 
+  // Extract purpose, remove extra whitespaces and new lines and capitalize first letter
+  const purpose =
+    $('fachdatenregister > basisdatenregister')
+      .find('gegenstand, gegenstandodergeschaeftszweck')
+      .text()
+      .replace(/\s+/g, ' ')
+      .trim()
+      .replace(/^./, (char) => char.toUpperCase()) || null
+
   return {
     name,
     hq,
     address,
+    purpose,
   }
 }
 

@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdo="http://www.xdomea.de" xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd"><!-- AUREG Version 5.6.0 -->
+<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:xdo="http://www.xdomea.de"
+   xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd"><!--
+   AUREG Version 5.6.0 -->
    <Grunddaten XJustizVersion="1.18.1">
       <Verfahrensdaten>
          <Verfahrensnummer>0</Verfahrensnummer>
@@ -13,9 +16,9 @@
                   <content>H1101</content>
                </Gericht>
             </Instanzbehoerde>
-            <Abteilung/>
+            <Abteilung />
             <Aktenzeichen>HRB 18117 HB</Aktenzeichen>
-            <Kurzrubrum/>
+            <Kurzrubrum />
             <Verfahrensgegenstand>
                <Gegenstand>
                   <content>Handelsregister Amtsgericht Bremen</content>
@@ -29,7 +32,7 @@
                   <content>Rechtsträger</content>
                </Rollenbezeichnung>
                <Nr>1</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
             </Rolle>
             <Beteiligter>
                <Beteiligtennummer>1</Beteiligtennummer>
@@ -58,14 +61,14 @@
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Anschriftenzusatz/>
+                     <Anschriftenzusatz />
                      <Strasse>Campus Ring</Strasse>
                      <Hausnummer>1</Hausnummer>
-                     <Postfachnummer/>
+                     <Postfachnummer />
                      <Postleitzahl>28759</Postleitzahl>
                      <Ort>Bremen</Ort>
-                     <Ortsteil/>
-                     <Staat xsi:nil="true"/>
+                     <Ortsteil />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                </Organisation>
             </Beteiligter>
@@ -77,7 +80,7 @@
                   <content>Registergericht</content>
                </Rollenbezeichnung>
                <Nr>1</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
             </Rolle>
             <Beteiligter>
                <Beteiligtennummer>2</Beteiligtennummer>
@@ -86,9 +89,9 @@
                      <Bezeichnung_Aktuell>Amtsgericht Bremen</Bezeichnung_Aktuell>
                   </Bezeichnung>
                   <Kurzbezeichnung>Amtsgericht Bremen</Kurzbezeichnung>
-                  <Rechtsform xsi:nil="true"/>
+                  <Rechtsform xsi:nil="true" />
                   <Sitz>
-                     <Ort/>
+                     <Ort />
                      <Staat xsi:type="WL_Staaten" wl_version="1.5">
                         <content>DE</content>
                      </Staat>
@@ -97,13 +100,13 @@
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Anschriftenzusatz/>
+                     <Anschriftenzusatz />
                      <Strasse>Ostertorstaße</Strasse>
                      <Hausnummer>25-31</Hausnummer>
-                     <Postfachnummer/>
+                     <Postfachnummer />
                      <Postleitzahl>28195</Postleitzahl>
                      <Ort>Bremen</Ort>
-                     <Ortsteil/>
+                     <Ortsteil />
                      <Staat xsi:type="WL_Staaten" wl_version="1.5">
                         <content>DE</content>
                      </Staat>
@@ -112,7 +115,8 @@
                      <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
                         <content>Telefon</content>
                      </Telekommunikationsart>
-                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz"
+                        wl_version="1.2">
                         <content>dienstlich</content>
                      </Telekommunikationszusatz>
                      <Verbindung>0421 361-4290</Verbindung>
@@ -121,7 +125,8 @@
                      <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
                         <content>Fax</content>
                      </Telekommunikationsart>
-                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz"
+                        wl_version="1.2">
                         <content>dienstlich</content>
                      </Telekommunikationszusatz>
                      <Verbindung>0421 361-16266</Verbindung>
@@ -130,7 +135,8 @@
                      <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
                         <content>E-Mail</content>
                      </Telekommunikationsart>
-                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz"
+                        wl_version="1.2">
                         <content>dienstlich</content>
                      </Telekommunikationszusatz>
                      <Verbindung>registergericht@amtsgericht-bremen.de</Verbindung>
@@ -149,7 +155,7 @@
                   <content>Geschäftsführer(in)</content>
                </Rollenbezeichnung>
                <Nr>1</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Herr</Anrede>
             </Rolle>
             <Beteiligter>
@@ -159,8 +165,8 @@
                      <Vorname>Thomas</Vorname>
                      <Titel>Prof.</Titel>
                      <Nachname>Auf der Heyde</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1958-08-20</Geburtsdatum>
@@ -168,24 +174,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>männlich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Bremen</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -200,7 +206,7 @@
                   <content>Geschäftsführer(in)</content>
                </Rollenbezeichnung>
                <Nr>2</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Frau</Anrede>
             </Rolle>
             <Beteiligter>
@@ -208,10 +214,10 @@
                <Natuerliche_Person>
                   <Voller_Name>
                      <Vorname>Maja Laetitia</Vorname>
-                     <Titel/>
+                     <Titel />
                      <Nachname>Feldt</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1968-07-04</Geburtsdatum>
@@ -219,24 +225,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>weiblich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Bremen</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -251,7 +257,7 @@
                   <content>Geschäftsführer(in)</content>
                </Rollenbezeichnung>
                <Nr>3</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Frau</Anrede>
             </Rolle>
             <Beteiligter>
@@ -259,10 +265,10 @@
                <Natuerliche_Person>
                   <Voller_Name>
                      <Vorname>Öznur</Vorname>
-                     <Titel/>
+                     <Titel />
                      <Nachname>Zer</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1982-07-30</Geburtsdatum>
@@ -270,24 +276,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>weiblich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Neuhausen am Rheinfall/Schweiz</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -302,7 +308,7 @@
                   <content>Geschäftsführer(in)</content>
                </Rollenbezeichnung>
                <Nr>4</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Frau</Anrede>
             </Rolle>
             <Beteiligter>
@@ -310,10 +316,10 @@
                <Natuerliche_Person>
                   <Voller_Name>
                      <Vorname>Katya Rayevsky</Vorname>
-                     <Titel/>
+                     <Titel />
                      <Nachname>Fisher</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1983-10-08</Geburtsdatum>
@@ -321,24 +327,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>weiblich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Miami / Vereinigte Staaten von Amerika</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -353,7 +359,7 @@
                   <content>Geschäftsführer(in)</content>
                </Rollenbezeichnung>
                <Nr>5</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Herr</Anrede>
             </Rolle>
             <Beteiligter>
@@ -361,10 +367,10 @@
                <Natuerliche_Person>
                   <Voller_Name>
                      <Vorname>Stanislav</Vorname>
-                     <Titel/>
+                     <Titel />
                      <Nachname>Protasov</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1970-03-12</Geburtsdatum>
@@ -372,24 +378,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>männlich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Singapur</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -404,7 +410,7 @@
                   <content>Prokurist(in)</content>
                </Rollenbezeichnung>
                <Nr>1</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Herr</Anrede>
             </Rolle>
             <Beteiligter>
@@ -412,10 +418,10 @@
                <Natuerliche_Person>
                   <Voller_Name>
                      <Vorname>Ronald</Vorname>
-                     <Titel/>
+                     <Titel />
                      <Nachname>Kieschnik</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1966-02-27</Geburtsdatum>
@@ -423,24 +429,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>männlich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Bremen</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -455,7 +461,7 @@
                   <content>Prokurist(in)</content>
                </Rollenbezeichnung>
                <Nr>2</Nr>
-               <Geschaeftszeichen/>
+               <Geschaeftszeichen />
                <Anrede>Herr</Anrede>
             </Rolle>
             <Beteiligter>
@@ -463,10 +469,10 @@
                <Natuerliche_Person>
                   <Voller_Name>
                      <Vorname>Jens V.</Vorname>
-                     <Titel/>
+                     <Titel />
                      <Nachname>Dünnbier</Nachname>
-                     <Geburtsname/>
-                     <Namenszusatz/>
+                     <Geburtsname />
+                     <Namenszusatz />
                   </Voller_Name>
                   <Geburt>
                      <Geburtsdatum>1970-05-26</Geburtsdatum>
@@ -474,24 +480,24 @@
                   <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
                      <content>männlich</content>
                   </Geschlecht>
-                  <Familienstand xsi:nil="true"/>
+                  <Familienstand xsi:nil="true" />
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Aktuelle Anschrift</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
-                     <Ort/>
-                     <Staat xsi:nil="true"/>
+                     <Postleitzahl />
+                     <Ort />
+                     <Staat xsi:nil="true" />
                   </Anschrift>
                   <Anschrift>
                      <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
                         <content>Wohnort</content>
                      </Anschriftstyp>
-                     <Postleitzahl/>
+                     <Postleitzahl />
                      <Ort>Bremen</Ort>
-                     <Staat xsi:nil="true"/>
+                     <Staat xsi:nil="true" />
                   </Anschrift>
-                  <Beruf/>
+                  <Beruf />
                </Natuerliche_Person>
             </Beteiligter>
          </Beteiligung>
@@ -502,8 +508,8 @@
          </Herstellerinformation>
       </Verfahrensdaten>
       <Sendungsdaten>
-         <Absenderkennung/>
-         <Empfaengerkennung/>
+         <Absenderkennung />
+         <Empfaengerkennung />
          <Papiervorgang>false</Papiervorgang>
       </Sendungsdaten>
    </Grunddaten>
@@ -531,7 +537,8 @@
                <Ref_Rollennummer>3</Ref_Rollennummer>
                <Besondere_Vertretungsregelung>
                   <Vertretungsbefugnis>
-                     <content>mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten</content>
+                     <content>mit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer
+                        oder einem Prokuristen zu vertreten</content>
                   </Vertretungsbefugnis>
                </Besondere_Vertretungsregelung>
             </Vertretungsberechtigte>
@@ -539,30 +546,38 @@
                <Ref_Rollennummer>8</Ref_Rollennummer>
                <Besondere_Vertretungsregelung>
                   <Vertretungsbefugnis>
-                     <content>Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen</content>
+                     <content>Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren
+                        Prokuristen</content>
                   </Vertretungsbefugnis>
-                  <Prokura/>
+                  <Prokura />
                </Besondere_Vertretungsregelung>
             </Vertretungsberechtigte>
             <Vertretungsberechtigte>
                <Ref_Rollennummer>9</Ref_Rollennummer>
                <Besondere_Vertretungsregelung>
                   <Vertretungsbefugnis>
-                     <content>Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen</content>
+                     <content>Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren
+                        Prokuristen</content>
                   </Vertretungsbefugnis>
-                  <Prokura/>
+                  <Prokura />
                </Besondere_Vertretungsregelung>
             </Vertretungsberechtigte>
             <Allgemeine_Vertretungsregelung>
                <Vertretungsbefugnis>
                   <content>Die Gesellschaft hat einen oder mehrere Geschäftsführer.
-Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.
-Alleinvertretungsbefugnis kann erteilt werden.
-Jeder Geschäftsführer kann von dem Verbot, Rechtsgeschäfte mit sich im eigenen Namen oder als Vertreter eines Dritten abzuschließen, befreit werden.</content>
+                     Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind
+                     mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch
+                     zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem
+                     Prokuristen vertreten.
+                     Alleinvertretungsbefugnis kann erteilt werden.
+                     Jeder Geschäftsführer kann von dem Verbot, Rechtsgeschäfte mit sich im eigenen
+                     Namen oder als Vertreter eines Dritten abzuschließen, befreit werden.</content>
                </Vertretungsbefugnis>
             </Allgemeine_Vertretungsregelung>
          </Vertretung>
-         <Gegenstand_oder_Geschaeftszweck>Die Förderung von Wissenschaft und Forschung. Der Satzungszweck wird verwirklicht insbesondere durch den Betrieb einer staatlich anerkannten privaten Universität.</Gegenstand_oder_Geschaeftszweck>
+         <Gegenstand_oder_Geschaeftszweck>Die Förderung von Wissenschaft und Forschung. Der
+            Satzungszweck wird verwirklicht insbesondere durch den Betrieb einer staatlich
+            anerkannten privaten Universität.</Gegenstand_oder_Geschaeftszweck>
          <Status_Rechtstraeger wl_version="1.1">
             <content>aktiv</content>
          </Status_Rechtstraeger>

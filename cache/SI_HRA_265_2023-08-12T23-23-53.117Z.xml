@@ -1,4 +1,547 @@
 <?xml version="1.0"?>
-<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xdo="http://www.xdomea.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd"><Grunddaten  XJustizVersion="1.20.0"><Verfahrensdaten><Instanzdaten><Instanznummer>0</Instanznummer><Sachgebiet xsi:type="WL_Sachgebiet" wl_version="1.6" wl_fassung="0"><content>Handelsregister</content></Sachgebiet><Sachgebietszusatz></Sachgebietszusatz><Instanzbehoerde><Gericht xsi:type="WL_Gerichte" wl_version="1.21" wl_fassung="1"><content>R2307</content></Gericht></Instanzbehoerde><Abteilung>06</Abteilung><Aktenzeichen>HRA 265</Aktenzeichen><Kurzrubrum></Kurzrubrum><Verfahrensgegenstand><Gegenstand><content>Strukturierter Registerinhalt</content></Gegenstand></Verfahrensgegenstand></Instanzdaten><Beteiligung><Rolle><Rollennummer>1</Rollennummer><Rollen_ID><ID>270008838</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Rechtsträger</content></Rollenbezeichnung><Nr>1</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>1</Beteiligtennummer><Organisation><Bezeichnung><Bezeichnung_Aktuell>Coko-Werk GmbH &amp; Co KG</Bezeichnung_Aktuell></Bezeichnung><Kurzbezeichnung></Kurzbezeichnung><Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4" wl_fassung="0"><content>Kommanditgesellschaft</content></Rechtsform><Sitz><Ort>Bad Salzuflen</Ort><Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2"><content>DE</content></Staat></Sitz><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Strasse>Porschestr.</Strasse><Hausnummer>5</Hausnummer><Postleitzahl>32107</Postleitzahl><Ort>Bad Salzuflen</Ort><Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2"><content>DE</content></Staat></Anschrift></Organisation></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>2</Rollennummer><Rollen_ID><ID>270000000</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Registergericht</content></Rollenbezeichnung><Nr>2</Nr><Geschaeftszeichen>HRA 265</Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>2</Beteiligtennummer><Organisation><Bezeichnung><Bezeichnung_Aktuell>Amtsgericht Lemgo</Bezeichnung_Aktuell></Bezeichnung><Kurzbezeichnung></Kurzbezeichnung><Rechtsform><content></content></Rechtsform><Sitz><Ort>Lemgo</Ort><Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2"><content>DE</content></Staat></Sitz><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Strasse>Am Lindenhaus</Strasse><Hausnummer>2</Hausnummer><Postleitzahl>32657</Postleitzahl><Ort>Lemgo</Ort><Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2"><content>DE</content></Staat></Anschrift></Organisation></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>3</Rollennummer><Rollen_ID><ID>270008839</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Persönlich haftende(r) Gesellschafter(in)</content></Rollenbezeichnung><Nr>3</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>3</Beteiligtennummer><Organisation><Bezeichnung><Bezeichnung_Aktuell>Coko-Werk Beteiligungs-GmbH</Bezeichnung_Aktuell></Bezeichnung><Kurzbezeichnung></Kurzbezeichnung><Rechtsform><content></content></Rechtsform><Sitz><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Sitz><Registereintragung><Gericht><content>AG Lemgo,</content></Gericht><Registernummer>HRB 68</Registernummer></Registereintragung><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Postleitzahl> </Postleitzahl><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Anschrift></Organisation></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>4</Rollennummer><Rollen_ID><ID>270008841</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Kommanditist(in)</content></Rollenbezeichnung><Nr>4</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>4</Beteiligtennummer><Natuerliche_Person><Voller_Name><Vorname>Harald Cornelius</Vorname><Nachname>Koch</Nachname></Voller_Name><Geburt><Geburtsdatum>1960-03-03</Geburtsdatum></Geburt><Geschlecht><content></content></Geschlecht><Familienstand><content></content></Familienstand><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Postleitzahl> </Postleitzahl><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Anschrift><Beruf></Beruf></Natuerliche_Person></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>5</Rollennummer><Rollen_ID><ID>270008845</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Kommanditist(in)</content></Rollenbezeichnung><Nr>5</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>5</Beteiligtennummer><Natuerliche_Person><Voller_Name><Vorname>Christel</Vorname><Nachname>Spieker</Nachname></Voller_Name><Geburt><Geburtsdatum>1949-03-24</Geburtsdatum></Geburt><Geschlecht><content></content></Geschlecht><Familienstand><content></content></Familienstand><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Postleitzahl> </Postleitzahl><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Anschrift><Beruf></Beruf></Natuerliche_Person></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>6</Rollennummer><Rollen_ID><ID>270008846</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Kommanditist(in)</content></Rollenbezeichnung><Nr>6</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>6</Beteiligtennummer><Natuerliche_Person><Voller_Name><Vorname>Wilma</Vorname><Nachname>Saarmann</Nachname><Geburtsname>Gerzmann</Geburtsname></Voller_Name><Geburt><Geburtsdatum>1941-12-15</Geburtsdatum></Geburt><Geschlecht><content></content></Geschlecht><Familienstand><content></content></Familienstand><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Postleitzahl> </Postleitzahl><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Anschrift><Beruf></Beruf></Natuerliche_Person></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>7</Rollennummer><Rollen_ID><ID>270071053</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Kommanditist(in)</content></Rollenbezeichnung><Nr>7</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>7</Beteiligtennummer><Natuerliche_Person><Voller_Name><Vorname>Antje</Vorname><Nachname>Saarmann</Nachname></Voller_Name><Geburt><Geburtsdatum>1969-08-25</Geburtsdatum></Geburt><Geschlecht><content></content></Geschlecht><Familienstand><content></content></Familienstand><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Postleitzahl> </Postleitzahl><Ort>Hiddenhausen</Ort><Staat><content></content></Staat></Anschrift><Beruf></Beruf></Natuerliche_Person></Beteiligter></Beteiligung><Beteiligung><Rolle><Rollennummer>8</Rollennummer><Rollen_ID><ID>270035698</ID><Ref_Instanznummer>0</Ref_Instanznummer></Rollen_ID><Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2" wl_fassung="0"><content>Kommanditist(in)</content></Rollenbezeichnung><Nr>8</Nr><Geschaeftszeichen></Geschaeftszeichen></Rolle><Beteiligter><Beteiligtennummer>8</Beteiligtennummer><Natuerliche_Person><Voller_Name><Vorname>Miriam-Nicole</Vorname><Nachname>Flaskämper</Nachname><Geburtsname>Spieker</Geburtsname></Voller_Name><Geburt><Geburtsdatum>1974-07-22</Geburtsdatum></Geburt><Geschlecht><content></content></Geschlecht><Familienstand><content></content></Familienstand><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Postleitzahl> </Postleitzahl><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Anschrift><Beruf></Beruf></Natuerliche_Person></Beteiligter></Beteiligung></Verfahrensdaten><Sendungsdaten><Sendungsinhalt><content></content></Sendungsinhalt><Bemerkung></Bemerkung><Absenderkennung></Absenderkennung><Empfaengerkennung></Empfaengerkennung><Papiervorgang>false</Papiervorgang></Sendungsdaten></Grunddaten><Fachdaten_Register  Fachdaten_Register_Version="1.2"><!--generated by --><Mitteilungsart xsi:type="WL_Mitteilungsart" wl_version="1.6" wl_fassung="0"><content>Sonstige Anmeldung/Mitteilung</content></Mitteilungsart><Betroffener_Rechtstraeger><Ref_Rollennummer>1</Ref_Rollennummer></Betroffener_Rechtstraeger><Auszug><Eintragungstext><Spalte>5</Spalte><Position>1</Position><Laufende_Nummer>1</Laufende_Nummer><Eintragungsart xsi:type="WL_Eintragungsart" wl_version="1.4" wl_fassung="0"><content>Rechtsform</content></Eintragungsart><Text>Kommanditgesellschaft
-Beginn: 01.07.1965</Text></Eintragungstext><Eintragungstext><Spalte>6</Spalte><Position>2</Position><Laufende_Nummer>1</Laufende_Nummer><Eintragungsart xsi:type="WL_Eintragungsart" wl_version="1.4" wl_fassung="0"><content>Freitext</content></Eintragungsart><Text>Tag der ersten Eintragung: 06.03.1945
-Dieses Blatt ist zur Fortführung auf EDV umgeschrieben worden und dabei an die Stelle des bisherigen Registerblattes getreten. Freigegeben am 05.09.2003.</Text></Eintragungstext><Abrufuhrzeit>01:23:49</Abrufuhrzeit><Abrufdatum>2023-08-13</Abrufdatum><letzte_Eintragung>2023-01-27</letzte_Eintragung><Anzahl_Eintragungen>11</Anzahl_Eintragungen></Auszug><Basisdaten_Register><Gruendungsmetadaten><Gruendungsdatum>1965-07-01</Gruendungsdatum></Gruendungsmetadaten><Rechtstraeger><Bezeichnung><Bezeichnung_Aktuell>Coko-Werk GmbH &amp; Co KG</Bezeichnung_Aktuell></Bezeichnung><Kurzbezeichnung></Kurzbezeichnung><Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4" wl_fassung="0"><content>Kommanditgesellschaft</content></Rechtsform><Sitz><Ort>Bad Salzuflen</Ort><Staat><content></content></Staat></Sitz><Anschrift><Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0"><content>Aktuelle Anschrift</content></Anschriftstyp><Strasse>Porschestr.</Strasse><Hausnummer>5</Hausnummer><Postleitzahl>32107</Postleitzahl><Ort>Bad Salzuflen</Ort><Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2"><content>DE</content></Staat></Anschrift></Rechtstraeger><Vertretung><Vertretungsberechtigte><Ref_Rollennummer>3</Ref_Rollennummer><Besondere_Vertretungsregelung><Vertretungsbefugnis><content></content></Vertretungsbefugnis><Befreiung_von_181BGB><Besonderheiten_zu_181BGB><content>mit der Befugnis, im Namen der Gesellschaft mit sich im eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte abzuschließen</content></Besonderheiten_zu_181BGB></Befreiung_von_181BGB><Prokura></Prokura></Besondere_Vertretungsregelung></Vertretungsberechtigte><Allgemeine_Vertretungsregelung><Vertretungsbefugnis xsi:type="WL_Allgemeine_Vertretungsregelung" wl_version="1.2" wl_fassung="0"><content>Jeder persönlich haftende Gesellschafter vertritt einzeln.</content></Vertretungsbefugnis><Befreiung_von_181BGB><Besonderheiten_zu_181BGB><content>(keine Angabe)</content></Besonderheiten_zu_181BGB></Befreiung_von_181BGB></Allgemeine_Vertretungsregelung></Vertretung><Gegenstand_oder_Geschaeftszweck></Gegenstand_oder_Geschaeftszweck></Basisdaten_Register><Zusatzangaben><Personengesellschaft><Zusatz_KG><Daten_Kommanditist><Ref_Rollennummer>4</Ref_Rollennummer><Hafteinlage><Zahl>5052631.00</Zahl><Waehrung>EUR</Waehrung></Hafteinlage></Daten_Kommanditist><Daten_Kommanditist><Ref_Rollennummer>5</Ref_Rollennummer><Hafteinlage><Zahl>789474.00</Zahl><Waehrung>EUR</Waehrung></Hafteinlage></Daten_Kommanditist><Daten_Kommanditist><Ref_Rollennummer>6</Ref_Rollennummer><Hafteinlage><Zahl>1263158.40</Zahl><Waehrung>EUR</Waehrung></Hafteinlage></Daten_Kommanditist><Daten_Kommanditist><Ref_Rollennummer>7</Ref_Rollennummer><Hafteinlage><Zahl>315789.60</Zahl><Waehrung>EUR</Waehrung></Hafteinlage></Daten_Kommanditist><Daten_Kommanditist><Ref_Rollennummer>8</Ref_Rollennummer><Hafteinlage><Zahl>2578947.00</Zahl><Waehrung>EUR</Waehrung></Hafteinlage></Daten_Kommanditist></Zusatz_KG></Personengesellschaft></Zusatzangaben></Fachdaten_Register></XJustiz_Daten>
+<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xdo="http://www.xdomea.de"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd">
+    <Grunddaten XJustizVersion="1.20.0">
+        <Verfahrensdaten>
+            <Instanzdaten>
+                <Instanznummer>0</Instanznummer>
+                <Sachgebiet xsi:type="WL_Sachgebiet" wl_version="1.6" wl_fassung="0">
+                    <content>Handelsregister</content>
+                </Sachgebiet>
+                <Sachgebietszusatz></Sachgebietszusatz>
+                <Instanzbehoerde>
+                    <Gericht xsi:type="WL_Gerichte" wl_version="1.21" wl_fassung="1">
+                        <content>R2307</content>
+                    </Gericht>
+                </Instanzbehoerde>
+                <Abteilung>06</Abteilung>
+                <Aktenzeichen>HRA 265</Aktenzeichen>
+                <Kurzrubrum></Kurzrubrum>
+                <Verfahrensgegenstand>
+                    <Gegenstand>
+                        <content>Strukturierter Registerinhalt</content>
+                    </Gegenstand>
+                </Verfahrensgegenstand>
+            </Instanzdaten>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>1</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270008838</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Rechtsträger</content>
+                    </Rollenbezeichnung>
+                    <Nr>1</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>1</Beteiligtennummer>
+                    <Organisation>
+                        <Bezeichnung>
+                            <Bezeichnung_Aktuell>Coko-Werk GmbH &amp; Co KG</Bezeichnung_Aktuell>
+                        </Bezeichnung>
+                        <Kurzbezeichnung></Kurzbezeichnung>
+                        <Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4"
+                            wl_fassung="0">
+                            <content>Kommanditgesellschaft</content>
+                        </Rechtsform>
+                        <Sitz>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2">
+                                <content>DE</content>
+                            </Staat>
+                        </Sitz>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Strasse>Porschestr.</Strasse>
+                            <Hausnummer>5</Hausnummer>
+                            <Postleitzahl>32107</Postleitzahl>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2">
+                                <content>DE</content>
+                            </Staat>
+                        </Anschrift>
+                    </Organisation>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>2</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270000000</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Registergericht</content>
+                    </Rollenbezeichnung>
+                    <Nr>2</Nr>
+                    <Geschaeftszeichen>HRA 265</Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>2</Beteiligtennummer>
+                    <Organisation>
+                        <Bezeichnung>
+                            <Bezeichnung_Aktuell>Amtsgericht Lemgo</Bezeichnung_Aktuell>
+                        </Bezeichnung>
+                        <Kurzbezeichnung></Kurzbezeichnung>
+                        <Rechtsform>
+                            <content></content>
+                        </Rechtsform>
+                        <Sitz>
+                            <Ort>Lemgo</Ort>
+                            <Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2">
+                                <content>DE</content>
+                            </Staat>
+                        </Sitz>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Strasse>Am Lindenhaus</Strasse>
+                            <Hausnummer>2</Hausnummer>
+                            <Postleitzahl>32657</Postleitzahl>
+                            <Ort>Lemgo</Ort>
+                            <Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2">
+                                <content>DE</content>
+                            </Staat>
+                        </Anschrift>
+                    </Organisation>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>3</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270008839</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Persönlich haftende(r) Gesellschafter(in)</content>
+                    </Rollenbezeichnung>
+                    <Nr>3</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>3</Beteiligtennummer>
+                    <Organisation>
+                        <Bezeichnung>
+                            <Bezeichnung_Aktuell>Coko-Werk Beteiligungs-GmbH</Bezeichnung_Aktuell>
+                        </Bezeichnung>
+                        <Kurzbezeichnung></Kurzbezeichnung>
+                        <Rechtsform>
+                            <content></content>
+                        </Rechtsform>
+                        <Sitz>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Sitz>
+                        <Registereintragung>
+                            <Gericht>
+                                <content>AG Lemgo,</content>
+                            </Gericht>
+                            <Registernummer>HRB 68</Registernummer>
+                        </Registereintragung>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Postleitzahl> </Postleitzahl>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Anschrift>
+                    </Organisation>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>4</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270008841</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Kommanditist(in)</content>
+                    </Rollenbezeichnung>
+                    <Nr>4</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>4</Beteiligtennummer>
+                    <Natuerliche_Person>
+                        <Voller_Name>
+                            <Vorname>Harald Cornelius</Vorname>
+                            <Nachname>Koch</Nachname>
+                        </Voller_Name>
+                        <Geburt>
+                            <Geburtsdatum>1960-03-03</Geburtsdatum>
+                        </Geburt>
+                        <Geschlecht>
+                            <content></content>
+                        </Geschlecht>
+                        <Familienstand>
+                            <content></content>
+                        </Familienstand>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Postleitzahl> </Postleitzahl>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Anschrift>
+                        <Beruf></Beruf>
+                    </Natuerliche_Person>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>5</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270008845</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Kommanditist(in)</content>
+                    </Rollenbezeichnung>
+                    <Nr>5</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>5</Beteiligtennummer>
+                    <Natuerliche_Person>
+                        <Voller_Name>
+                            <Vorname>Christel</Vorname>
+                            <Nachname>Spieker</Nachname>
+                        </Voller_Name>
+                        <Geburt>
+                            <Geburtsdatum>1949-03-24</Geburtsdatum>
+                        </Geburt>
+                        <Geschlecht>
+                            <content></content>
+                        </Geschlecht>
+                        <Familienstand>
+                            <content></content>
+                        </Familienstand>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Postleitzahl> </Postleitzahl>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Anschrift>
+                        <Beruf></Beruf>
+                    </Natuerliche_Person>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>6</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270008846</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Kommanditist(in)</content>
+                    </Rollenbezeichnung>
+                    <Nr>6</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>6</Beteiligtennummer>
+                    <Natuerliche_Person>
+                        <Voller_Name>
+                            <Vorname>Wilma</Vorname>
+                            <Nachname>Saarmann</Nachname>
+                            <Geburtsname>Gerzmann</Geburtsname>
+                        </Voller_Name>
+                        <Geburt>
+                            <Geburtsdatum>1941-12-15</Geburtsdatum>
+                        </Geburt>
+                        <Geschlecht>
+                            <content></content>
+                        </Geschlecht>
+                        <Familienstand>
+                            <content></content>
+                        </Familienstand>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Postleitzahl> </Postleitzahl>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Anschrift>
+                        <Beruf></Beruf>
+                    </Natuerliche_Person>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>7</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270071053</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Kommanditist(in)</content>
+                    </Rollenbezeichnung>
+                    <Nr>7</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>7</Beteiligtennummer>
+                    <Natuerliche_Person>
+                        <Voller_Name>
+                            <Vorname>Antje</Vorname>
+                            <Nachname>Saarmann</Nachname>
+                        </Voller_Name>
+                        <Geburt>
+                            <Geburtsdatum>1969-08-25</Geburtsdatum>
+                        </Geburt>
+                        <Geschlecht>
+                            <content></content>
+                        </Geschlecht>
+                        <Familienstand>
+                            <content></content>
+                        </Familienstand>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Postleitzahl> </Postleitzahl>
+                            <Ort>Hiddenhausen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Anschrift>
+                        <Beruf></Beruf>
+                    </Natuerliche_Person>
+                </Beteiligter>
+            </Beteiligung>
+            <Beteiligung>
+                <Rolle>
+                    <Rollennummer>8</Rollennummer>
+                    <Rollen_ID>
+                        <ID>270035698</ID>
+                        <Ref_Instanznummer>0</Ref_Instanznummer>
+                    </Rollen_ID>
+                    <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2"
+                        wl_fassung="0">
+                        <content>Kommanditist(in)</content>
+                    </Rollenbezeichnung>
+                    <Nr>8</Nr>
+                    <Geschaeftszeichen></Geschaeftszeichen>
+                </Rolle>
+                <Beteiligter>
+                    <Beteiligtennummer>8</Beteiligtennummer>
+                    <Natuerliche_Person>
+                        <Voller_Name>
+                            <Vorname>Miriam-Nicole</Vorname>
+                            <Nachname>Flaskämper</Nachname>
+                            <Geburtsname>Spieker</Geburtsname>
+                        </Voller_Name>
+                        <Geburt>
+                            <Geburtsdatum>1974-07-22</Geburtsdatum>
+                        </Geburt>
+                        <Geschlecht>
+                            <content></content>
+                        </Geschlecht>
+                        <Familienstand>
+                            <content></content>
+                        </Familienstand>
+                        <Anschrift>
+                            <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5"
+                                wl_fassung="0">
+                                <content>Aktuelle Anschrift</content>
+                            </Anschriftstyp>
+                            <Postleitzahl> </Postleitzahl>
+                            <Ort>Bad Salzuflen</Ort>
+                            <Staat>
+                                <content></content>
+                            </Staat>
+                        </Anschrift>
+                        <Beruf></Beruf>
+                    </Natuerliche_Person>
+                </Beteiligter>
+            </Beteiligung>
+        </Verfahrensdaten>
+        <Sendungsdaten>
+            <Sendungsinhalt>
+                <content></content>
+            </Sendungsinhalt>
+            <Bemerkung></Bemerkung>
+            <Absenderkennung></Absenderkennung>
+            <Empfaengerkennung></Empfaengerkennung>
+            <Papiervorgang>false</Papiervorgang>
+        </Sendungsdaten>
+    </Grunddaten>
+    <Fachdaten_Register Fachdaten_Register_Version="1.2"><!--generated
+        by -->
+        <Mitteilungsart xsi:type="WL_Mitteilungsart" wl_version="1.6" wl_fassung="0">
+            <content>Sonstige Anmeldung/Mitteilung</content>
+        </Mitteilungsart>
+        <Betroffener_Rechtstraeger>
+            <Ref_Rollennummer>1</Ref_Rollennummer>
+        </Betroffener_Rechtstraeger>
+        <Auszug>
+            <Eintragungstext>
+                <Spalte>5</Spalte>
+                <Position>1</Position>
+                <Laufende_Nummer>1</Laufende_Nummer>
+                <Eintragungsart xsi:type="WL_Eintragungsart" wl_version="1.4" wl_fassung="0">
+                    <content>Rechtsform</content>
+                </Eintragungsart>
+                <Text>Kommanditgesellschaft
+                    Beginn: 01.07.1965</Text>
+            </Eintragungstext>
+            <Eintragungstext>
+                <Spalte>6</Spalte>
+                <Position>2</Position>
+                <Laufende_Nummer>1</Laufende_Nummer>
+                <Eintragungsart xsi:type="WL_Eintragungsart" wl_version="1.4" wl_fassung="0">
+                    <content>Freitext</content>
+                </Eintragungsart>
+                <Text>Tag der ersten Eintragung: 06.03.1945
+                    Dieses Blatt ist zur Fortführung auf EDV umgeschrieben worden und dabei an die
+                    Stelle des bisherigen Registerblattes getreten. Freigegeben am 05.09.2003.</Text>
+            </Eintragungstext>
+            <Abrufuhrzeit>01:23:49</Abrufuhrzeit>
+            <Abrufdatum>2023-08-13</Abrufdatum>
+            <letzte_Eintragung>2023-01-27</letzte_Eintragung>
+            <Anzahl_Eintragungen>11</Anzahl_Eintragungen>
+        </Auszug>
+        <Basisdaten_Register>
+            <Gruendungsmetadaten>
+                <Gruendungsdatum>1965-07-01</Gruendungsdatum>
+            </Gruendungsmetadaten>
+            <Rechtstraeger>
+                <Bezeichnung>
+                    <Bezeichnung_Aktuell>Coko-Werk GmbH &amp; Co KG</Bezeichnung_Aktuell>
+                </Bezeichnung>
+                <Kurzbezeichnung></Kurzbezeichnung>
+                <Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4" wl_fassung="0">
+                    <content>Kommanditgesellschaft</content>
+                </Rechtsform>
+                <Sitz>
+                    <Ort>Bad Salzuflen</Ort>
+                    <Staat>
+                        <content></content>
+                    </Staat>
+                </Sitz>
+                <Anschrift>
+                    <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5" wl_fassung="0">
+                        <content>Aktuelle Anschrift</content>
+                    </Anschriftstyp>
+                    <Strasse>Porschestr.</Strasse>
+                    <Hausnummer>5</Hausnummer>
+                    <Postleitzahl>32107</Postleitzahl>
+                    <Ort>Bad Salzuflen</Ort>
+                    <Staat xsi:type="WL_Staaten" wl_version="1.5" wl_fassung="2">
+                        <content>DE</content>
+                    </Staat>
+                </Anschrift>
+            </Rechtstraeger>
+            <Vertretung>
+                <Vertretungsberechtigte>
+                    <Ref_Rollennummer>3</Ref_Rollennummer>
+                    <Besondere_Vertretungsregelung>
+                        <Vertretungsbefugnis>
+                            <content></content>
+                        </Vertretungsbefugnis>
+                        <Befreiung_von_181BGB>
+                            <Besonderheiten_zu_181BGB>
+                                <content>mit der Befugnis, im Namen der Gesellschaft mit sich im
+                                    eigenen Namen oder als Vertreter eines Dritten Rechtsgeschäfte
+                                    abzuschließen</content>
+                            </Besonderheiten_zu_181BGB>
+                        </Befreiung_von_181BGB>
+                        <Prokura></Prokura>
+                    </Besondere_Vertretungsregelung>
+                </Vertretungsberechtigte>
+                <Allgemeine_Vertretungsregelung>
+                    <Vertretungsbefugnis xsi:type="WL_Allgemeine_Vertretungsregelung"
+                        wl_version="1.2" wl_fassung="0">
+                        <content>Jeder persönlich haftende Gesellschafter vertritt einzeln.</content>
+                    </Vertretungsbefugnis>
+                    <Befreiung_von_181BGB>
+                        <Besonderheiten_zu_181BGB>
+                            <content>(keine Angabe)</content>
+                        </Besonderheiten_zu_181BGB>
+                    </Befreiung_von_181BGB>
+                </Allgemeine_Vertretungsregelung>
+            </Vertretung>
+            <Gegenstand_oder_Geschaeftszweck></Gegenstand_oder_Geschaeftszweck>
+        </Basisdaten_Register>
+        <Zusatzangaben>
+            <Personengesellschaft>
+                <Zusatz_KG>
+                    <Daten_Kommanditist>
+                        <Ref_Rollennummer>4</Ref_Rollennummer>
+                        <Hafteinlage>
+                            <Zahl>5052631.00</Zahl>
+                            <Waehrung>EUR</Waehrung>
+                        </Hafteinlage>
+                    </Daten_Kommanditist>
+                    <Daten_Kommanditist>
+                        <Ref_Rollennummer>5</Ref_Rollennummer>
+                        <Hafteinlage>
+                            <Zahl>789474.00</Zahl>
+                            <Waehrung>EUR</Waehrung>
+                        </Hafteinlage>
+                    </Daten_Kommanditist>
+                    <Daten_Kommanditist>
+                        <Ref_Rollennummer>6</Ref_Rollennummer>
+                        <Hafteinlage>
+                            <Zahl>1263158.40</Zahl>
+                            <Waehrung>EUR</Waehrung>
+                        </Hafteinlage>
+                    </Daten_Kommanditist>
+                    <Daten_Kommanditist>
+                        <Ref_Rollennummer>7</Ref_Rollennummer>
+                        <Hafteinlage>
+                            <Zahl>315789.60</Zahl>
+                            <Waehrung>EUR</Waehrung>
+                        </Hafteinlage>
+                    </Daten_Kommanditist>
+                    <Daten_Kommanditist>
+                        <Ref_Rollennummer>8</Ref_Rollennummer>
+                        <Hafteinlage>
+                            <Zahl>2578947.00</Zahl>
+                            <Waehrung>EUR</Waehrung>
+                        </Hafteinlage>
+                    </Daten_Kommanditist>
+                </Zusatz_KG>
+            </Personengesellschaft>
+        </Zusatzangaben>
+    </Fachdaten_Register>
+</XJustiz_Daten>

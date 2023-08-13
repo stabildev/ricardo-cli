@@ -129,8 +129,8 @@ const displayDetails = async (print = false) => {
         displayDetails()
         break
       }
-      const { name, hq, address } = parseSI(result.file.content.toString())
-      console.log({ name, hq, address })
+      const siData = parseSI(result.file.content.toString())
+      console.log(siData)
       displayDetails()
       break
     }
