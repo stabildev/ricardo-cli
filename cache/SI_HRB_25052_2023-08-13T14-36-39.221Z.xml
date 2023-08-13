@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XJustiz_Daten xmlns="http://www.xjustiz.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdo="http://www.xdomea.de" xsi:schemaLocation="http://www.xjustiz.de xj_0400_register_1_9.xsd"><!-- AUREG Version 5.6.0 -->
+   <Grunddaten XJustizVersion="1.18.1">
+      <Verfahrensdaten>
+         <Verfahrensnummer>0</Verfahrensnummer>
+         <Instanzdaten>
+            <Instanznummer>1</Instanznummer>
+            <Sachgebiet xsi:type="WL_Sachgebiet" wl_version="1.6">
+               <content>Handelsregister</content>
+            </Sachgebiet>
+            <Instanzbehoerde>
+               <Gericht xsi:type="WL_Gerichte" wl_version="1.19">
+                  <content>H1101</content>
+               </Gericht>
+            </Instanzbehoerde>
+            <Abteilung/>
+            <Aktenzeichen>HRB 25052 HB</Aktenzeichen>
+            <Kurzrubrum/>
+            <Verfahrensgegenstand>
+               <Gegenstand>
+                  <content>Handelsregister Amtsgericht Bremen</content>
+               </Gegenstand>
+            </Verfahrensgegenstand>
+         </Instanzdaten>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>1</Rollennummer>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Rechtsträger</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>1</Beteiligtennummer>
+               <Organisation>
+                  <Bezeichnung>
+                     <Bezeichnung_Aktuell>Jacobs University Bremen Alumni &amp; Friends Stiftung GmbH</Bezeichnung_Aktuell>
+                  </Bezeichnung>
+                  <Kurzbezeichnung>Jacobs University Bremen Alumni &amp; Friends Stiftung GmbH</Kurzbezeichnung>
+                  <Rechtsform xsi:type="WL_Rechtsform_Register" wl_version="1.4">
+                     <content>Gesellschaft mit beschränkter Haftung</content>
+                  </Rechtsform>
+                  <Sitz>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Sitz>
+                  <Registereintragung>
+                     <Gericht xsi:type="WL_Gerichte" wl_version="1.19">
+                        <content>H1101</content>
+                     </Gericht>
+                     <Registernummer>HRB 25052 HB</Registernummer>
+                     <EUID>DEH1101.HRB25052HB</EUID>
+                  </Registereintragung>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Anschriftenzusatz/>
+                     <Strasse>Campus Ring</Strasse>
+                     <Hausnummer>1</Hausnummer>
+                     <Postfachnummer/>
+                     <Postleitzahl>28759</Postleitzahl>
+                     <Ort>Bremen</Ort>
+                     <Ortsteil/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+               </Organisation>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>2</Rollennummer>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Registergericht</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>2</Beteiligtennummer>
+               <Organisation>
+                  <Bezeichnung>
+                     <Bezeichnung_Aktuell>Amtsgericht Bremen</Bezeichnung_Aktuell>
+                  </Bezeichnung>
+                  <Kurzbezeichnung>Amtsgericht Bremen</Kurzbezeichnung>
+                  <Rechtsform xsi:nil="true"/>
+                  <Sitz>
+                     <Ort/>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Sitz>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Anschriftenzusatz/>
+                     <Strasse>Ostertorstaße</Strasse>
+                     <Hausnummer>25-31</Hausnummer>
+                     <Postfachnummer/>
+                     <Postleitzahl>28195</Postleitzahl>
+                     <Ort>Bremen</Ort>
+                     <Ortsteil/>
+                     <Staat xsi:type="WL_Staaten" wl_version="1.5">
+                        <content>DE</content>
+                     </Staat>
+                  </Anschrift>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>Telefon</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>0421 361-4290</Verbindung>
+                  </Telekommunikation>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>Fax</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>0421 361-16266</Verbindung>
+                  </Telekommunikation>
+                  <Telekommunikation>
+                     <Telekommunikationsart xsi:type="WL_Telekommunikationsart" wl_version="1.2">
+                        <content>E-Mail</content>
+                     </Telekommunikationsart>
+                     <Telekommunikationszusatz xsi:type="WL_Telekommunikationszusatz" wl_version="1.2">
+                        <content>dienstlich</content>
+                     </Telekommunikationszusatz>
+                     <Verbindung>registergericht@amtsgericht-bremen.de</Verbindung>
+                  </Telekommunikation>
+               </Organisation>
+            </Beteiligter>
+         </Beteiligung>
+         <Beteiligung>
+            <Rolle>
+               <Rollennummer>3</Rollennummer>
+               <Rollen_ID>
+                  <ID>6</ID>
+                  <Ref_Instanznummer>1</Ref_Instanznummer>
+               </Rollen_ID>
+               <Rollenbezeichnung xsi:type="WL_Rollenbezeichnung_Register" wl_version="1.2">
+                  <content>Geschäftsführer(in)</content>
+               </Rollenbezeichnung>
+               <Nr>1</Nr>
+               <Geschaeftszeichen/>
+               <Anrede>Herr</Anrede>
+            </Rolle>
+            <Beteiligter>
+               <Beteiligtennummer>3</Beteiligtennummer>
+               <Natuerliche_Person>
+                  <Voller_Name>
+                     <Vorname>Thomas</Vorname>
+                     <Titel>Prof. Dr.</Titel>
+                     <Nachname>Auf der Heyde</Nachname>
+                     <Geburtsname/>
+                     <Namenszusatz/>
+                  </Voller_Name>
+                  <Geburt>
+                     <Geburtsdatum>1958-08-20</Geburtsdatum>
+                  </Geburt>
+                  <Geschlecht xsi:type="WL_Geschlecht" wl_version="1.2">
+                     <content>männlich</content>
+                  </Geschlecht>
+                  <Familienstand xsi:nil="true"/>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Aktuelle Anschrift</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort/>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Anschrift>
+                     <Anschriftstyp xsi:type="WL_Anschriftstyp" wl_version="1.5">
+                        <content>Wohnort</content>
+                     </Anschriftstyp>
+                     <Postleitzahl/>
+                     <Ort>Bremen</Ort>
+                     <Staat xsi:nil="true"/>
+                  </Anschrift>
+                  <Beruf/>
+               </Natuerliche_Person>
+            </Beteiligter>
+         </Beteiligung>
+         <Herstellerinformation>
+            <Name_des_Produkts>Aureg</Name_des_Produkts>
+            <Hersteller_des_Produkts>Datagroup Consulting Services GmbH</Hersteller_des_Produkts>
+            <Version>5.6.0</Version>
+         </Herstellerinformation>
+      </Verfahrensdaten>
+      <Sendungsdaten>
+         <Absenderkennung/>
+         <Empfaengerkennung/>
+         <Papiervorgang>false</Papiervorgang>
+      </Sendungsdaten>
+   </Grunddaten>
+   <Fachdaten_Register Fachdaten_Register_Version="1.2">
+      <Mitteilungsart xsi:type="WL_Mitteilungsart" wl_version="1.6">
+         <content>Sonstige Anmeldung/Mitteilung</content>
+      </Mitteilungsart>
+      <Betroffener_Rechtstraeger>
+         <Ref_Rollennummer>1</Ref_Rollennummer>
+      </Betroffener_Rechtstraeger>
+      <Auszug>
+         <Abrufuhrzeit>16:36:39</Abrufuhrzeit>
+         <Abrufdatum>2023-08-13</Abrufdatum>
+         <letzte_Eintragung>2021-12-12</letzte_Eintragung>
+         <Anzahl_Eintragungen>10</Anzahl_Eintragungen>
+         <letzte_Aenderung>2020-07-23</letzte_Aenderung>
+      </Auszug>
+      <Basisdaten_Register>
+         <Gruendungsmetadaten>
+            <Gruendungsdatum>2008-08-13</Gruendungsdatum>
+         </Gruendungsmetadaten>
+         <Aktuelles_Satzungsdatum>2020-07-23</Aktuelles_Satzungsdatum>
+         <Vertretung>
+            <Allgemeine_Vertretungsregelung>
+               <Vertretungsbefugnis>
+                  <content>Die Gesellschaft hat einen Geschäftsführer.
+Der Geschäftsführer kann von dem Verbot, Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen, befreit werden.</content>
+               </Vertretungsbefugnis>
+            </Allgemeine_Vertretungsregelung>
+         </Vertretung>
+         <Gegenstand_oder_Geschaeftszweck>Die Förderung von Wissenschaft und Forschung sowie Bildung einschließlich Studentenhilfe jeweils an der Jacobs University Bremen gGmbH.</Gegenstand_oder_Geschaeftszweck>
+         <Status_Rechtstraeger wl_version="1.1">
+            <content>aktiv</content>
+         </Status_Rechtstraeger>
+      </Basisdaten_Register>
+      <Zusatzangaben>
+         <Kapitalgesellschaft>
+            <Zusatz_GmbH>
+               <Stammkapital>
+                  <Zahl>25000</Zahl>
+                  <Waehrung>EUR</Waehrung>
+               </Stammkapital>
+            </Zusatz_GmbH>
+            <Dauer_der_Gesellschaft>unbestimmt</Dauer_der_Gesellschaft>
+         </Kapitalgesellschaft>
+      </Zusatzangaben>
+   </Fachdaten_Register>
+</XJustiz_Daten>

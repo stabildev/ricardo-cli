@@ -31,7 +31,7 @@ export const getFromCache = ({
 }) => {
   const files = fs.readdirSync('./cache')
   const query = `${documentType}_${registerType}_${registerNumber}`
-  console.log('query', query)
+  console.log('Requesting file', query)
   const matchingFile = files.find((file) => file.startsWith(query))
   if (matchingFile) {
     console.log('Found in cache: ', matchingFile)

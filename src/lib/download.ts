@@ -15,15 +15,15 @@ import { DkDocument } from './types'
 import * as cheerio from 'cheerio'
 
 export const download = async ({
-  cookie,
-  viewState,
   documentLink,
   dkDocumentType,
+  cookie,
+  viewState,
 }: {
-  cookie: string
-  viewState: string
   documentLink: string
   dkDocumentType?: DkDocument
+  cookie: string
+  viewState: string
 }): Promise<{
   file: {
     content: Buffer
@@ -32,6 +32,7 @@ export const download = async ({
   } | null
   viewState: string
 }> => {
+  console.log('Downloading...')
   // Select document link
   await postErgebnisse({
     viewState,
@@ -49,7 +50,6 @@ export const download = async ({
 
     // We need this button id later to submit the form
     const buttonId = extractButtonId($)
-    console.log('buttonId', buttonId)
 
     // Expand top level node to see available documents and selection codes
     response = await postDocumentsDK({
@@ -82,6 +82,13 @@ export const download = async ({
 
       // If the current node is a leaf, its rowkey is our selection code
       if (currentNode.hasClass('ui-treenode-leaf')) {
+        if (currentNode.attr('data-nodetype') !== 'doc') {
+          console.error('Leaf is not a document!')
+          return {
+            file: null,
+            viewState,
+          }
+        }
         selectionCode = currentRowKey
         break
       } else {
@@ -111,7 +118,6 @@ export const download = async ({
     } while (!selectionCode)
 
     // If we arrive here, we have found our selection code
-    console.log('selectionCode', selectionCode)
 
     // Select document using selection code
     await postDocumentsDK({
@@ -143,16 +149,10 @@ export const download = async ({
     cookie,
   })
 
-  // Save file
   const fileNameAndExtension = extractFileName(
     response.headers.get('content-disposition')
   )
-  if (!fileNameAndExtension[0]) {
-    console.error('File name not found!')
-  }
-  if (!fileNameAndExtension[1]) {
-    console.error('File extension not found!')
-  }
+
   return {
     file: {
       fileName: fileNameAndExtension[0],

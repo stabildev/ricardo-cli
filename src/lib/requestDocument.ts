@@ -57,7 +57,7 @@ export const requestDocument = async ({
   // Filter out invalid files
   if (!result.file.fileExtension) {
     if (!result.file.content.length) {
-      console.error('File has no content')
+      console.error('Downloaded file has no content')
       return {
         file: null,
         viewState,
@@ -75,7 +75,7 @@ export const requestDocument = async ({
         }
       }
       console.error(
-        'File has html content but no error message. Saving to error folder.'
+        'Downloaded file has html content but no error message. Saving to error folder.'
       )
       const timestamp = new Date().toISOString().replace(/:/g, '-')
       const fileName = `Error_${documentType}_${registerType}_${registerNumber}_${timestamp}.html`
@@ -85,7 +85,9 @@ export const requestDocument = async ({
         viewState,
       }
     }
-    console.error('File has unknown content. Saving to error folder.')
+    console.error(
+      'Downloaded file has unknown content. Saving to error folder.'
+    )
     const timestamp = new Date().toISOString().replace(/:/g, '-')
     const fileName = `Error_${documentType}_${registerType}_${registerNumber}_${timestamp}.txt`
     fs.writeFileSync('./error/' + fileName, result.file.content)

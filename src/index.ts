@@ -125,7 +125,7 @@ const displayDetails = async (print = false) => {
       // Update viewState
       context.viewState = result.viewState
       if (!result.file) {
-        console.log('File not found')
+        console.log('No file received')
         displayDetails()
         break
       }
@@ -155,10 +155,14 @@ const displayDetails = async (print = false) => {
       // Update viewState
       context.viewState = result.viewState
       if (!result.file) {
-        console.log('File not found')
+        console.log('No file received')
         displayDetails()
         break
       }
+      console.log('Opening file...')
+      const opener = await import('open')
+      opener.default(`./cache/${result.file!.fileName}`)
+
       displayDetails()
       break
     }

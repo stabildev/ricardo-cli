@@ -223,26 +223,24 @@ export const parseSI = (xml: string) => {
   const name = rechtstraeger.find('bezeichnungaktuell').text()
   const hq = rechtstraeger.find('sitz > ort').text()
   const anschrift = rechtstraeger.find('anschrift')
-  const street = anschrift.find('strasse').text()
-  const number = anschrift.find('hausnummer').text()
-  const zip = anschrift.find('postleitzahl').text()
-  const city = anschrift.find('ort').text()
-  const countryCode =
-    anschrift.find('staat code').text() ||
-    anschrift.find('staat content').text() ||
-    rechtstraeger.find('sitz > staat code').text() ||
-    rechtstraeger.find('sitz > staat content').text()
+
+  const address = {
+    street: anschrift.find('strasse').text() || null,
+    number: anschrift.find('hausnummer').text() || null,
+    zip: anschrift.find('postleitzahl').text() || null,
+    city: anschrift.find('ort').text() || null,
+    countryCode:
+      anschrift.find('staat code').text() ||
+      anschrift.find('staat content').text() ||
+      rechtstraeger.find('sitz > staat code').text() ||
+      rechtstraeger.find('sitz > staat content').text() ||
+      null,
+  }
 
   return {
     name,
     hq,
-    address: {
-      street,
-      number,
-      zip,
-      city,
-      countryCode,
-    },
+    address,
   }
 }
 
