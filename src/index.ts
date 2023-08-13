@@ -26,6 +26,15 @@ const displayDetails = async (
 
   switch (action) {
     case 'SI':
+      if (!selectedResult.documentLinks.get(RegisterDocumentType.SI)) {
+        console.log('No SI document link found')
+        displayDetails(selectedResult, {
+          cookie,
+          viewState,
+          results,
+        })
+        break
+      }
       requestDocument({
         cookie,
         viewState,
@@ -56,6 +65,15 @@ const displayDetails = async (
       })
       break
     case 'LdG':
+      if (!selectedResult.documentLinks.get(RegisterDocumentType.DK)) {
+        console.log('No DK document link found')
+        displayDetails(selectedResult, {
+          cookie,
+          viewState,
+          results,
+        })
+        break
+      }
       requestDocument({
         cookie,
         viewState,
