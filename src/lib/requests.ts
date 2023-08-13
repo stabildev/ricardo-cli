@@ -2,7 +2,7 @@ import { RegisterType } from './types'
 
 export const postNormaleSuche = async ({
   queryString,
-  registerType: registryType,
+  registerType,
   registerNumber,
   cookie,
   exactMatch = false,
@@ -15,7 +15,7 @@ export const postNormaleSuche = async ({
   exactMatch?: boolean
   pageSize?: 10 | 25 | 50 | 100
 }) => {
-  if (!queryString && !(!!registryType && !!registerNumber)) {
+  if (!queryString && (!registerType || !registerNumber)) {
     throw new Error('No search string or no register type and number provided!')
   }
   const headers = new Headers({
@@ -50,8 +50,8 @@ export const postNormaleSuche = async ({
     'form:schlagwoerter': queryString ?? '',
     'form:schlagwortOptionen': exactMatch ? '3' : '1', // default is '2' which means only one word has to match. Useless!
     'form:NiederlassungSitz': '',
-    'form:registerArt_focus': registryType ?? '',
-    'form:registerArt_input': '',
+    'form:registerArt_focus': '',
+    'form:registerArt_input': registerType ?? '',
     'form:registerNummer': registerNumber ?? '',
     'form:registergericht_focus': '',
     'form:registergericht_input': '',
