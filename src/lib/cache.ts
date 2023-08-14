@@ -1,46 +1,72 @@
 import * as fs from 'fs'
-import { CacheDocument, RegisterType } from './types'
+
+const constructFileName = (identifier: string, fileExtension: string) => {
+  const timestamp = new Date().toISOString().replace(/:/g, '-')
+  return `${identifier}___${timestamp}.${fileExtension}`
+}
+
+const decontructFileName = (fileName: string) => {
+  const fileExtension = fileName.split('.').pop()!
+  const [identifier, timestamp] = fileName
+    .replace(`.${fileExtension}`, '')
+    .split('___')
+  return { identifier, timestamp, fileExtension }
+}
 
 export const saveInCache = ({
+  dir,
+  identifier,
   content,
-  documentType,
-  registerType,
-  registerNumber,
   fileExtension,
 }: {
+  dir: 'documents' | 'searches' | 'errors'
+  identifier: string
   content: Buffer
-  documentType: CacheDocument
-  registerType: RegisterType
-  registerNumber: string
   fileExtension: string
 }) => {
-  const timestamp = new Date().toISOString().replace(/:/g, '-')
-  const fileName = `${documentType}_${registerType}_${registerNumber}_${timestamp}.${fileExtension}`
-  fs.writeFileSync(`./cache/${fileName}`, content)
+  const path = `./cache/${dir}`
+  const fileName = constructFileName(identifier, fileExtension)
+
+  if (!fs.existsSync(path)) {
+    fs.mkdirSync(path)
+  }
+
+  fs.writeFileSync(`${path}/${fileName}`, content)
   return fileName
 }
 
 export const getFromCache = ({
-  documentType,
-  registerType,
-  registerNumber,
+  dir,
+  identifier,
+  maxAge,
 }: {
-  documentType: CacheDocument
-  registerType: RegisterType
-  registerNumber: string
+  dir: 'documents' | 'searches' | 'errors'
+  identifier: string
+  maxAge?: number
 }) => {
-  const files = fs.readdirSync('./cache')
-  const query = `${documentType}_${registerType}_${registerNumber}`
-  console.log('Requesting file', query)
-  const matchingFile = files.find((file) => file.startsWith(query))
-  if (matchingFile) {
-    console.log('Found in cache: ', matchingFile)
+  const path = `./cache/${dir}`
+  const files = fs.readdirSync(path)
+  const matchingFiles = files.filter((file) => file.startsWith(identifier))
+
+  if (matchingFiles.length) {
+    // Sort by date and return the most recent file
+    const file = matchingFiles
+      .map((fileName) => {
+        const { timestamp, fileExtension } = decontructFileName(fileName)
+        const date = new Date(timestamp)
+        return { fileName, date, fileExtension }
+      })
+      .sort((a, b) => b.date.getTime() - a.date.getTime())
+      .pop()!
+    if (maxAge && file.date.getTime() < Date.now() - maxAge) {
+      // File is too old
+      console.log('File is too old')
+      return null
+    }
     return {
-      fileName: matchingFile,
-      fileExtension: matchingFile.split('.').pop()!,
-      content: fs.readFileSync(`./cache/${matchingFile}`),
+      fileName: file.fileName,
+      fileExtension: file.fileExtension,
+      content: fs.readFileSync(`${path}/${file.fileName}`),
     }
   }
-  console.log('File not found in cache')
-  return null
 }

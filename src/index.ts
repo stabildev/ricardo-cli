@@ -161,7 +161,7 @@ const displayDetails = async (print = false) => {
       }
       console.log('Opening file...')
       const opener = await import('open')
-      opener.default(`./cache/${result.file!.fileName}`)
+      opener.default(`./cache/documents/${result.file!.fileName}`)
 
       displayDetails()
       break

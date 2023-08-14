@@ -30,11 +30,14 @@ export const requestDocument = async ({
   viewState: string
 }> => {
   const cachedDocument = getFromCache({
-    documentType: dkDocumentType || documentType,
-    registerType,
-    registerNumber,
+    dir: 'documents',
+    identifier: `${
+      dkDocumentType || documentType
+    }_${registerType}_${registerNumber}`,
   })
+
   if (cachedDocument) {
+    console.log('Found in cache: ', cachedDocument.fileName)
     return {
       file: cachedDocument,
       viewState,
@@ -79,7 +82,7 @@ export const requestDocument = async ({
       )
       const timestamp = new Date().toISOString().replace(/:/g, '-')
       const fileName = `Error_${documentType}_${registerType}_${registerNumber}_${timestamp}.html`
-      fs.writeFileSync('./error/' + fileName, result.file.content)
+      fs.writeFileSync('./cache/errors/' + fileName, result.file.content)
       return {
         file: null,
         viewState,
@@ -90,7 +93,7 @@ export const requestDocument = async ({
     )
     const timestamp = new Date().toISOString().replace(/:/g, '-')
     const fileName = `Error_${documentType}_${registerType}_${registerNumber}_${timestamp}.txt`
-    fs.writeFileSync('./error/' + fileName, result.file.content)
+    fs.writeFileSync('./cache/errors/' + fileName, result.file.content)
     return {
       file: null,
       viewState,
@@ -98,10 +101,11 @@ export const requestDocument = async ({
   }
 
   const fileName = saveInCache({
+    dir: 'documents',
     content: result.file.content,
-    documentType: dkDocumentType || documentType,
-    registerType: registerType,
-    registerNumber: registerNumber,
+    identifier: `${
+      dkDocumentType || documentType
+    }_${registerType}_${registerNumber}`,
     fileExtension: result.file.fileExtension,
   })
   console.log('Saved in cache:', fileName)
